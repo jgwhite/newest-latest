@@ -1,10 +1,12 @@
 $:.unshift(File.dirname(__FILE__))
-$:.unshift(File.expand_path("../../lib", __FILE__))
+$:.unshift(File.join(File.dirname(__FILE__), "..", "lib"))
 
-require "rspec"
 require "newest_latest"
+require "rspec"
+require "vcr"
 
-Dir[File.join(__FILE__, "..", "support", "**", "*.rb")].each { |f| require f }
+Dir[File.expand_path("../support/**/*.rb", __FILE__)].each { |f| require f }
 
 Rspec.configure do |config|
+  config.extend VCR::RSpec::Macros
 end
