@@ -11,12 +11,9 @@ Gem::Specification.new do |s|
   s.summary          = "newest-latest-#{NewestLatest::Version::STRING}"
   s.description      = "Monitor feeds for project launch announcements."
 
+  s.files            = Dir["lib/**/*"] + %w[LICENSE Rakefile README.md]
+  s.require_path     = "lib"
+
   # s.add_dependency "activemodel", ["~> 3.0"]
   s.add_development_dependency "rspec", ["~> 2.5"]
-
-  s.files            = `git ls-files`.split("\n")
-  s.test_files       = `git ls-files -- {spec}/*`.split("\n")
-  s.extra_rdoc_files = %w[README.md]
-  s.rdoc_options     = %w[--charset=UTF-8]
-  s.require_path     = "lib"
 end
