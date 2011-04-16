@@ -1,4 +1,4 @@
-newest-latest
+Newest Latest
 =============
 
 Using simple keyword matching, newest-latest attempts to auto-discover and
@@ -36,4 +36,4 @@ Contributors
 License
 -------
 
-newest-latest is Copyright &copy; 2011 Jamie White
+Copyright &copy; 2011 Jamie White

@@ -1,6 +1,7 @@
 require "spec_helper"
 
 describe NewestLatest::Maker, "#discover_projects" do
+  use_vcr_cassette
 
   context "when discovering from Poke's Twitter feed" do
     let :maker do

@@ -1,6 +1,5 @@
 require "spec_helper"
 
-
 describe NewestLatest::Maker, "#feeds=" do
 
   let(:twit_url) { "http://twitter.com/pokelondon" }
@@ -10,7 +9,7 @@ describe NewestLatest::Maker, "#feeds=" do
                      NewestLatest::Feed.new(:url => blog_url) ] }
 
   shared_examples_for "an object that can remember feeds" do
-    it "adds feeds to the Maker" do
+    it "should recall the feeds it's been given" do
       subject.feeds[0].should be_a NewestLatest::Feed
       subject.feeds[0].url.should == twit_url
       subject.feeds[1].should be_a NewestLatest::Feed
