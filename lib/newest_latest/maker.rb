@@ -5,6 +5,10 @@ module NewestLatest # :nodoc:
   # project on the web.
   class Maker
     include Mongoid::Document
+    include Mongoid::Timestamps
+
+    field :name
+    field :url
 
     embeds_many :feeds,
                 :class_name => "NewestLatest::Feed",

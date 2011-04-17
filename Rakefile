@@ -1,5 +1,6 @@
 require "bundler"
 Bundler.setup
+Bundler::GemHelper.install_tasks
 
 require "rake"
 require "rake/rdoctask"
@@ -14,3 +15,4 @@ Rspec::Core::RakeTask.new(:spec) do |spec|
 end
 
 task :default => :spec
+

@@ -1,5 +1,5 @@
-// I've manually gone through and marked tweets we should be picking up
-// with DISCOVER! and the reasoning
+// I've gone through and marked tweets we should be picking up
+// with DISCOVER! and the keyword reasoning
 [
   {
     "favorited": false,
