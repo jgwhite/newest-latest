@@ -1,4 +1,6 @@
 require "mongoid"
+require "nokogiri"
+require "open-uri"
 require "twitter"
 
 require "newest_latest/feed"

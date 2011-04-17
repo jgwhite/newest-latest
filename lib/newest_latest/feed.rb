@@ -28,7 +28,9 @@ module NewestLatest # :nodoc:
     # Returns an array of Projects
     def discover_projects
       discover_project_urls.map do |url|
-        NewestLatest::Project.new(:url => url)
+        NewestLatest::Project.new(:url => url).tap do |project|
+          project.profile!
+        end
       end
     end
 

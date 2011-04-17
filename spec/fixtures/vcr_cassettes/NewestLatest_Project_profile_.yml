@@ -1,0 +1,287 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.cutlasercut.com:80/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - text/html; charset=utf-8
+      transfer-encoding: 
+      - chunked
+      connection: 
+      - keep-alive
+      vary: 
+      - Accept-Encoding
+      status: 
+      - "200"
+      x-powered-by: 
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.2
+      etag: 
+      - "\"67a832adde8441e7f2a6ff4a35f2e38a\""
+      cache-control: 
+      - max-age=0, private, must-revalidate
+      x-ua-compatible: 
+      - IE=Edge,chrome=1
+      x-runtime: 
+      - "0.177636"
+      server: 
+      - nginx/0.8.53 + Phusion Passenger 3.0.2 (mod_rails/mod_rack)
+    body: "<!DOCTYPE html>\n\
+      <html>\n\
+      <head>\n\
+      \t<title>Cut laser cut - Laser cutting and engraving for creative individuals and industries in London and the UK - Home</title>\n\n\
+      <link href=\"/stylesheets/reset_html5.css?1301592447\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n\
+      <link href=\"/stylesheets/clc.css?1301592447\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n\
+      <link href=\"/stylesheets/clc_upload.css?1301592447\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n\n\
+      <!--[if lte IE 8]>\n\
+      <script src=\"/javascripts/html5.js?1301592447\" type=\"text/javascript\"></script>\n\
+      <![endif]-->\n\n\
+      <script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js\" type=\"text/javascript\"></script>\n\
+      <script src=\"http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js\" type=\"text/javascript\"></script>\n\
+      <script src=\"/javascripts/cufon-yui.js?1301592447\" type=\"text/javascript\"></script>\n\
+      <script src=\"/javascripts/font.js?1301592447\" type=\"text/javascript\"></script>\n\
+      <script src=\"/javascripts/jquery.cycle.all.min.js?1301592447\" type=\"text/javascript\"></script>\n\
+      <script src=\"/javascripts/application.js?1301592447\" type=\"text/javascript\"></script>\n\
+      <script src=\"/javascripts/plupload.min.js?1301592447\" type=\"text/javascript\"></script>\n\
+      <script src=\"/javascripts/plupload.html5.min.js?1301592447\" type=\"text/javascript\"></script>\n\
+      <script src=\"/javascripts/plupload.flash.min.js?1301592447\" type=\"text/javascript\"></script>\n\
+      <script src=\"/javascripts/uuid.core.js?1301592447\" type=\"text/javascript\"></script>\n\
+      <script src=\"/javascripts/clc_upload.js?1301592447\" type=\"text/javascript\"></script>\n\n\
+      </head>\n\
+      <body class='home'><div id=\"holder\">\n\
+      \t<div id=\"edit-in-cms\"><div class=\"container\"></div></div>\n\
+      \t<header>\n\
+      \t<div class=\"container\">\n\
+      \t\t<a href=\"/\" class=\"logo\"><img alt=\"CLC logo\" height=\"82\" src=\"/images/logo_clc.gif?1301592447\" width=\"122\" /></a>\n\
+      \t\t<img alt=\"We make your ideas\" class=\"strapline\" height=\"25\" src=\"/images/strapline_clc.gif?1301592447\" width=\"214\" />\n\
+      \t</div>\n\
+      </header>\n\
+      <nav class=\"primary\">\n\
+      \t<div class=\"container\">\n\
+      \t\t<ul id=\"primary_navigation\"><li class=\"first active nav-home\"><a href=\"/\">Home</a></li>\n\
+      <li class=\"nav-services\"><a href=\"/services\">Services</a></li>\n\
+      <li class=\"nav-getting-started\"><a href=\"/getting-started/laser-cutting\">Getting Started</a></li>\n\
+      <li class=\"nav-our-materials\"><a href=\"/our-materials/cut-and-engrave\">Materials</a></li>\n\
+      <li class=\"nav-resources\"><a href=\"/resources/drawing-setup\">Resources</a></li>\n\
+      <li class=\"nav-showcase\"><a href=\"/showcase\">Showcase</a></li>\n\
+      <li class=\"nav-get-in-touch\"><a href=\"/get-in-touch\">Visit us</a></li>\n\
+      <li class=\"nav-blog\"><a href=\"http://cutlasercut.tumblr.com/\">Blog</a></li>\n\
+      <li class=\"last nav-upload-your-files\"><a href=\"/upload-your-files\">Upload your files</a></li>\n\
+      </ul>\n\
+      \t</div>\n\
+      </nav>\n\
+      \t<div id=\"main\">\n\
+      \t\t<header>\n\
+      \t\t\t<div class=\"container\">\n\
+      \t\t\t\t\t<div class=\"cols full_width neg_bottom\">\n\
+      \t<div class=\"col col5 first\">\n\
+      \t\t<h1>Laser cutting and engraving for creatives.</h1>\n\
+      \t\t<p>Hello, we&#8217;re &#8216;Cut Laser Cut&#8217;. Nice to meet you! Our award winning laser cutting and engraving service is adapted to suit many needs. We are not your average manufacturer, but were founded by a team of designers.<p> What we do varies greatly, from one off projects to sub contract services, we provide to <strong>large companies</strong> and <strong>individuals</strong> alike though out the UK and Europe. We&#8217;re popular, because we do things with our lasers that many wouldn&#8217;t and we have the<br />\n <a href=\"/resources/our-machines\">best machines in the industry</a>.<p>   <a href=\"/services\">So, let&#8217;s see how we can help you!</a></p>\n\
+      \t</div>\n\
+      \t<div class=\"col col7\">\n\
+      \t\t<div class=\"img_lg\">\n\
+      \t\t\t<ul class=\"ss\" id=\"ss_4d403cfe9070b85b28000001\">\n\
+      \t\t\t\t\t<li>\n\
+      \t\t\t\t\t\t<img alt=\"dzn_Mr-Cube-by-Hector-Serrano-for-Ten-Plan-at-100-Design-London-_CUTLASERCUT_LASER_CUT_PLYWOOD.jpg\" height=\"366\" src=\"/system/files/032011/4d90b62e9070b81bc7000005/img_home/1_dzn_Mr-Cube-by-Hector-Serrano-for-Ten-Plan-at-100-Design-London-_CUTLASERCUT_LASER_CUT_PLYWOOD.jpg?1301329454\" width=\"540\" />\n\
+      \t\t\t\t\t\t<div class=\"caption\"><p>Mr Cube by Hector Serrano</p></div>\n\
+      \t\t\t\t\t</li>\n\
+      \t\t\t\t\t<li>\n\
+      \t\t\t\t\t\t<img alt=\"LASER_ENGRAVED_MELLAMINE_VENEERED_MDF_CUTLASERCUT\" height=\"366\" src=\"/system/files/032011/4d90b4729070b81bd9000006/img_home/LASER_ENGRAVED_VENEERED_MDF_BY ALPHABETICAL_STUDIO_CUTLASERCUT.jpg?1301329008\" width=\"540\" />\n\
+      \t\t\t\t\t\t<div class=\"caption\"><p>Design Museum signage by Alphabetical Studio</p></div>\n\
+      \t\t\t\t\t</li>\n\
+      \t\t\t\t\t<li>\n\
+      \t\t\t\t\t\t<img alt=\"LASER_CUT_FELT_ENSUK_HUR_CUTLASERCUT\" height=\"366\" src=\"/system/files/032011/4d90b4579070b81bd9000004/img_home/LASER_CUT_FELT_ENSUK_HUR_BY CUTLASERCUT.jpg?1301328982\" width=\"540\" />\n\
+      \t\t\t\t\t\t<div class=\"caption\"><p>Nomadic Wonderland by Ensuk hur</p></div>\n\
+      \t\t\t\t\t</li>\n\
+      \t\t\t\t\t<li>\n\
+      \t\t\t\t\t\t<img alt=\"LASER_CUT_PERSPEX_ACRYLIC__MELVIN_ONG_CUTLASERCUT\" height=\"366\" src=\"/system/files/032011/4d91adea9070b85892000002/img_home/LASER_CUT_PERSPEX_ACRYLIC.jpg?1301392873\" width=\"540\" />\n\
+      \t\t\t\t\t\t<div class=\"caption\"><p>Dot Matrix by Melvin Galapon</p></div>\n\
+      \t\t\t\t\t</li>\n\
+      \t\t\t</ul>\n\
+      \t\t\t<div class=\"pager\" id=\"pager_4d403cfe9070b85b28000001\"></div>\n\
+      \t\t\t<script type=\"text/javascript\">\n\
+      \t\t\t\t$(document).ready(function(){\n\
+      \t\t\t\t\t$('#ss_4d403cfe9070b85b28000001').cycle({\n\
+      \t\t\t\t\t\tfx: 'scrollHorz',\n\
+      \t\t\t\t\t\tpager:  '#pager_4d403cfe9070b85b28000001',\n\
+      \t\t\t\t\t\tnext: '.next' \n\
+      \t\t\t\t\t});\n\
+      \t\t\t\t});\n\
+      \t\t\t</script>\n\
+      \t\t</div>\n\
+      \t</div>\n\
+      </div>\n\n\
+      \t\t\t</div>\n\
+      \t\t</header>\n\n\
+      \t\t<div class=\"container cols\" id=\"content\">\n\
+      \t\t\t\t\t<h2>How it works...</h2>\n\
+      <div class=\"cols full_width\"><ul class=\"img_med\">\n\n\
+      \t<li class=' first'>\n\
+      \t\t<img alt=\"TOM_GAULD_CUTLASERCUT_1\" height=\"200\" src=\"/system/files/022011/4d656d5e9070b86429000001/img_med/TOM_GAULD_1.jpg?1298492766\" width=\"300\" />\n\
+      \t\t<h3>You send or bring us your files</h3>\n\
+      \t\t<p>Getting everything together in laser ready files is the key first stage. There is a lot of information in our <a href=\"/resources/drawing-setup\">resources section</a> to help you with this.</p>\n\
+      <p>If you are still struggling, help is at hand. Send us what you can to best\xC2\xA0show\xC2\xA0your idea\xC2\xA0and we can sort it.</p>\n\
+      \t</li>\n\n\n\n\
+      \t<li class=''>\n\
+      \t\t<img alt=\"TOM_GAULD_CUTLASERCUT_2\" height=\"200\" src=\"/system/files/022011/4d656d759070b86429000003/img_med/TOM_GAULD_2.jpg?1298492789\" width=\"300\" />\n\
+      \t\t<h3>We work with you to get it just right</h3>\n\
+      \t\t<p>We&#8217;ll look to see exactly how we can help you. We work to suit your need.\xC2\xA0We will give you a quote based on your job specifics usually on the same day you enquire.</p>\n\
+      \t</li>\n\n\n\n\
+      \t<li class=''>\n\
+      \t\t<img alt=\"TOM_GAULD_CUTLASERCUT_3\" height=\"200\" src=\"/system/files/022011/4d656dfb9070b86533000002/img_med/TOM_GAULD_3.jpg?1298492923\" width=\"300\" />\n\
+      \t\t<h3>We make it!</h3>\n\
+      \t\t<p>If you&#8217;re happy with everything, we&#8217;ll get cracking! Turn-around is fast, you&#8217;ll be surprised.\xC2\xA0Where we can we fit in with when you need\xC2\xA0your job not the other way round.</p>\n\
+      \t</li>\n\
+      </ul></div>\n\
+      <p class=\"centred\">Got more questions? <a href=\"/resources/drawing-setup\">check our resources section</a></p>\n\
+      \t<div class=\"testimonials_title\"><h2>What our clients say...</h2></div>\n\
+      <div class=\"cols full_width\"><ul class=\"img_med testimonials\">\n\n\
+      \t<li class=' first'>\n\
+      \t\t<img alt=\"TEST1\" height=\"63\" src=\"/system/files/022011/4d640e0d9070b87fc3000003/img_med/TEST1.jpg?1298402829\" width=\"62\" />\n\
+      \t\t<blockquote><p>&#8220;Cutlasercut are an extremely efficient and professional company. They turned around a large order in a very short timescale. They were quick to respond to all my queries and gave consistently strong and unbiased advice.&#8221; \xC2\xA0</p></blockquote>\n\
+      \t\t<p><strong>Holly Sommer</strong>, Designer for Diesel</p>\n\
+      \t</li>\n\n\n\
+      \t<li class=''>\n\
+      \t\t<img alt=\"TEST22\" height=\"63\" src=\"/system/files/022011/4d640f039070b80d44000002/img_med/TEST22.jpg?1298403075\" width=\"63\" />\n\
+      \t\t<blockquote><p>\xE2\x80\x9CI\xE2\x80\x99ve had the pleasure of working with Joan and the CLC team last year and i can say without any reservations that my experience and their service was outstanding!&#8230;&quot;</p></blockquote>\n\
+      \t\t<p><strong>Robin</strong>, Senior Designer - IDEO</p>\n\
+      \t</li>\n\n\n\
+      \t<li class=''>\n\
+      \t\t<img alt=\"TEST3\" height=\"63\" src=\"/system/files/022011/4d640e3f9070b87fc3000009/img_med/TEST3.jpg?1298402879\" width=\"62\" />\n\
+      \t\t<blockquote><p>&#8220;CLC were so helpful. I had no clue about how to setup artwork for the laser and they helped me every step of the way! Their knowledge of materials and interest in developing my ideas was very impressive. Thanks guys.&#8221;</p></blockquote>\n\
+      \t\t<p><strong>Jimmy Andrews</strong>, Fashion and textile designer</p>\n\
+      \t</li>\n\
+      </ul></div><p class=\"centred\">We constantly strive to ensure everyone is  happy, <a href=\"/resources/about-clc\">read more about us</a></p>\n\
+      \t<h2>Visit us</h2>\n\
+      <div class=\"cols\">\n\
+      \t<div class=\"col first col8\">\n\
+      \t\t<div class=\"img_lg\">\n\
+      \t\t\t<ul id=\"ss_4d4047dc9070b85ce8000008\" class=\"ss\">\n\
+      \t\t\t\t\t<li>\n\
+      \t\t\t\t\t\t<img alt=\"CUTLASERCUT_STUDIO_3\" class=\"next\" height=\"410\" src=\"/system/files/032011/4d907d469070b803f9000008/img_lg/CUTLASERCUT_STUDIO_3.jpg?1301314883\" width=\"620\" />\n\
+      \t\t\t\t\t\t\n\
+      \t\t\t\t\t</li>\n\
+      \t\t\t\t\t<li>\n\
+      \t\t\t\t\t\t<img alt=\"CUTLASERCUT_STUDIO_8\" class=\"next\" height=\"410\" src=\"/system/files/032011/4d907dc29070b808ea00000a/img_lg/CUTLASERCUT_STUDIO_8.jpg?1301315007\" width=\"620\" />\n\
+      \t\t\t\t\t\t\n\
+      \t\t\t\t\t</li>\n\
+      \t\t\t\t\t<li>\n\
+      \t\t\t\t\t\t<img alt=\"CUTLASERCUT_STUDIO_5\" class=\"next\" height=\"410\" src=\"/system/files/032011/4d907d6c9070b808ea000003/img_lg/CUTLASERCUT_STUDIO_5.jpg?1301314921\" width=\"620\" />\n\
+      \t\t\t\t\t\t\n\
+      \t\t\t\t\t</li>\n\
+      \t\t\t\t\t<li>\n\
+      \t\t\t\t\t\t<img alt=\"CUTLASERCUT_STUDIO_7\" class=\"next\" height=\"410\" src=\"/system/files/032011/4d907d8d9070b808ea000007/img_lg/CUTLASERCUT_STUDIO_7.jpg?1301314954\" width=\"620\" />\n\
+      \t\t\t\t\t\t\n\
+      \t\t\t\t\t</li>\n\
+      \t\t\t</ul>\n\
+      \t\t\t<div class=\"pager\" id=\"pager_4d4047dc9070b85ce8000008\"></div>\n\
+      \t\t\t<script type=\"text/javascript\">\n\
+      \t\t\t\t$(document).ready(function(){\n\
+      \t\t\t\t\t$('#ss_4d4047dc9070b85ce8000008').cycle({\n\
+      \t\t\t\t\t\tfx: 'scrollHorz',\n\
+      \t\t\t\t\t\ttimeout: 0,\n\
+      \t\t\t\t\t\tpager:  '#pager_4d4047dc9070b85ce8000008',\n\
+      \t\t\t\t\t\tnext: '#ss_4d4047dc9070b85ce8000008 .next' \n\
+      \t\t\t\t\t});\n\
+      \t\t\t\t});\n\
+      \t\t\t</script>\n\
+      \t\t</div>\n\
+      \t\t<h3>Come and say hello</h3>\n\
+      \t\t<p>Our studio is open for visits 6 days a week. This is where most of our making happens. Come and visit us to see\xC2\xA0samples and drop off your files. More pictures of our studio are over in <a href=\"http://www.flickr.com/photos/cutlasercut/sets/72157626371905794/\">flickr.</a></p>\n\
+      \t</div>\n\
+      \t<div class=\"col col4\">\n\
+      \t\t<div id=\"gmap\"></div>\n\
+      \t\t\n\
+      \t\t\t<a href=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=51.485051,-0.12241&amp;z=16\" class=\"glink\">View full map</a>\n\
+      \t\t\t<script type=\"text/javascript\" src=\"http://maps.google.com/maps/api/js?sensor=false\">\n\
+      \t\t\t</script>\n\
+      \t\t\t<script type=\"text/javascript\">\n\
+      \t\t\t\t$(document).ready(function(){\n\
+      \t\t\t\t\t$('#gmap').addClass('gmap');\n\
+      \t\t\t\t\tvar latlng = new google.maps.LatLng(51.485051, -0.12241);\n\
+      \t\t\t\t  var myOptions = {\n\
+      \t\t\t\t  \tzoom: 14,\n\
+      \t\t\t\t    center: latlng,\n\
+      \t\t\t\t    mapTypeId: google.maps.MapTypeId.ROADMAP\n\
+      \t\t\t\t  };\n\
+      \t\t\t\t  var map = new google.maps.Map(document.getElementById(\"gmap\"), myOptions);\n\
+      \t\t\t\t\tvar image = '/images/locator.png';\n\
+      \t\t\t\t  var beachMarker = new google.maps.Marker({\n\
+      \t\t\t\t      position: latlng,\n\
+      \t\t\t\t      map: map,\n\
+      \t\t\t\t      icon: image\n\
+      \t\t\t\t  });\n\
+      \t\t\t\t});\n\
+      \t\t\t</script>\n\
+      \t\t<div id=\"gaddress\">\n\
+      \t\t\t<p>Arch 45b <br> South Lambeth Road<br>  London<br> SW8 1SR</p>\n\
+      \t\t</div>\n\
+      \t</div>\n\
+      \t\n\
+      </div>\n\n\
+      \t\t</div>\n\
+      \t</div>\n\
+      \t<footer>\n\
+      \t<div class=\"container\">\n\
+      \t\t<div class=\"col first\"><a href=\"#\"><img alt=\"CLC logo\" height=\"42\" src=\"/images/logo_clc_sm.gif?1301592447\" width=\"61\" /></a></div>\n\
+      \t\t<div class=\"col col2\">\n\
+      \t\t\t<h2>Browse</h2>\n\
+      \t\t\t<ul id=\"footer_navigtion\"><li class=\"first active nav-home\"><a href=\"/\">Home</a></li>\n\
+      <li class=\"nav-services\"><a href=\"/services\">Services</a></li>\n\
+      <li class=\"nav-getting-started\"><a href=\"/getting-started/laser-cutting\">Getting Started</a></li>\n\
+      <li class=\"nav-our-materials\"><a href=\"/our-materials/cut-and-engrave\">Materials</a></li>\n\
+      <li class=\"nav-resources\"><a href=\"/resources/drawing-setup\">Resources</a></li>\n\
+      <li class=\"nav-showcase\"><a href=\"/showcase\">Showcase</a></li>\n\
+      <li class=\"nav-get-in-touch\"><a href=\"/get-in-touch\">Visit us</a></li>\n\
+      <li class=\"nav-blog\"><a href=\"http://cutlasercut.tumblr.com/\">Blog</a></li>\n\
+      <li class=\"last nav-upload-your-files\"><a href=\"/upload-your-files\">Upload your files</a></li>\n\
+      </ul>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"col col2 vcard\">\n\
+      \t\t\t<h2>Get in touch</h2>\n\
+      <ul>\n\
+      \t<li class=\"fn org\">CLC</li>\n\
+      \t<li><a href=\"mailto:mail@cutlasercut.com\" class=\"email\">mail@cutlasercut.com</a></li>\n\
+      \t<li><a href=\"tel:+44 20 3490 9886\" class=\"tel\">+44 (0)20 3490 9886</a></li>\n\
+      \t<li class=\"adr\">\n\
+      \t\t<span class=\"street-address\">Arch 45b</span>\n\
+      \t\t<span class=\"street-address\">South Lambeth Road</span>\n\
+      \t\t<span class=\"locality\">London</span>\n\
+      \t\t<span class=\"postal-code\">SW8 1SR</span>\n\
+      \t</li>\n\
+      </ul>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"col col2\">\n\
+      \t\t\t<h2>Follow us</h2>\n\
+      \t\t\t<ul class=\"with_icons\">\n\
+      \t\t\t\t<li><a href=\"http://cutlasercut.tumblr.com/\" class=\"tumblr icon\">Tumblr</a></li>\n\
+      \t\t\t\t<li><a href=\"http://twitter.com/#!/cutlasercut\" class=\"twitter icon\">Twitter</a></li>\n\
+      \t\t\t\t<li><a href=\"http://www.flickr.com/photos/cutlasercut/\" class=\"flickr icon\">Flickr</a></li>\n\
+      \t\t\t</ul>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"col col3\">\n\
+      \t\t\t<form>\n\
+      \t\t\t\t<h2>Our newsletter</h2>\n\
+      \t\t\t\t<input type=\"text\" name=\"email\" placeholder=\"Email\"/>\n\
+      \t\t\t\t<p><small>We hate spam too and will never share your personal details</small></p>\n\
+      \t\t\t</form>\n\
+      \t\t\t<p><small>&copy; 2011 CLC Creative Ltd. All Rights reserved.<br/>Company registration no: 7461306<br/>VAT no: 104 8752 20</small></p></div>\n\
+      \t</div>\n\
+      </footer>\n\
+      <script type=\"text/javascript\">\n\
+      //<![CDATA[\n\
+      var _gaq = _gaq || [];\n\
+      _gaq.push(['_setAccount', 'UA-20989829-1'], ['_trackPageview']);\n\
+      (function() {\n  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n\
+      })();\n\n\
+      //]]>\n\
+      </script>\n\n\
+      </div></body>\n\
+      </html>\n"
+    http_version: "1.1"

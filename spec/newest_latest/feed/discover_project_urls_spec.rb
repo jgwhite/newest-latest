@@ -14,8 +14,8 @@ describe NewestLatest::Feed, "#discover_project_urls" do
 
     it { should have(6).urls }
     it { should include "http://thefeed.orange.co.uk/" }
-    it { should include "http://www.pokelondon.com/" }
     it { should include "http://bit.ly/gYYoWH" }
+    it { should include "http://www.pokelondon.com/" }
     it { should include "http://bit.ly/ha7w8c" }
     it { should include "http://instaprint.me/" }
     it { should include "http://www.lovieawards.eu/" }
