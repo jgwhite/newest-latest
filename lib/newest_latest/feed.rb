@@ -5,13 +5,13 @@ module NewestLatest # :nodoc:
   class Feed
     include Mongoid::Document
 
-    class UnsupportedSourceError < StandardError; end
-
     field :url
 
     embedded_in :maker,
                 :class_name => "NewestLatest::Maker",
                 :inverse_of => :feeds
+
+    class UnsupportedSourceError < StandardError; end
 
     # Returns an array of likely project urls
     #
@@ -31,6 +31,7 @@ module NewestLatest # :nodoc:
         NewestLatest::Project.new(:url => url)
       end
     end
+
 
     private
 

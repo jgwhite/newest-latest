@@ -26,10 +26,9 @@ describe NewestLatest::Feed, "#discover_project_urls" do
       NewestLatest::Feed.new :url => "rtmp://bad-feed.net/latest"
     end
 
-    it "raises UnsupportedSourceError" do
-      expect {
-        feed.discover_project_urls
-      }.to raise_error(NewestLatest::Feed::UnsupportedSourceError)
+    it "should raise UnsupportedSourceError" do
+      expect { feed.discover_project_urls }.
+        to raise_error NewestLatest::Feed::UnsupportedSourceError
     end
   end
 
