@@ -128,3 +128,985 @@
       t5GHY51jnWPdiVm3LUq//ue/bdalLOqHAAA=
 
     http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://thefeed.orange.co.uk:80/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      server: 
+      - nginx/0.7.62
+      date: 
+      - Sun, 17 Apr 2011 22:21:14 GMT
+      content-type: 
+      - text/html; charset=utf-8
+      transfer-encoding: 
+      - chunked
+      connection: 
+      - keep-alive
+      vary: 
+      - Cookie
+      set-cookie: 
+      - csrftoken=219416d52a7edee63607c1f21c3970c1; Max-Age=31449600; Path=/
+    body: "<!DOCTYPE html>\n\
+      <html class=\"no-js\">\n\
+      \t<head>\n\
+      \t\t<meta charset=\"utf-8\">\n\
+      \t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=9\" >\n\
+      \t\t<title>The Feed | Orange</title>\n\
+      \t\t        <link rel=\"icon\" href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/images/favicon.ico\" type=\"image/x-icon\" />\n        <script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/home/js/modernizr.custom.js\"></script>\n        <script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js\"></script>\n        <link href=\"http://fast.fonts.com/cssapi/3aad38c4-1e0b-47b3-bbb5-b2315834c782.css\" rel=\"stylesheet\" type=\"text/css\" />\n\
+      \t\t<link href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/home/css/style.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t\t<link href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/home/css/desktop.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t\t<script>\n\
+      \t\tvar isRunningIE6OrBelow;\n\
+      \t\t</script>\n\
+      \t\t<!--[if lt IE 9]>\n\
+      \t\t<link href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/home/css/ie.8.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t\t<![endif]-->\n\
+      \t\t<!--[if lt IE 8]>\n\
+      \t\t<link href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/home/css/ie.7.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t\t<![endif]-->\n\
+      \t\t<!--[if lt IE 7]>\n\
+      \t\t<link href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/home/css/ie.6.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t\t<script>\n            isRunningIE6OrBelow = true;\n        </script>\n\
+      \t\t<![endif]-->\n\
+      \t\t<meta property=\"og:title\" content=\"The Feed | Orange\"/>\n\
+      \t\t<meta property=\"og:type\" content=\"website\"/>\n        <meta property=\"og:url\" content=\"http://thefeed.orange.co.uk\"/>\n        <meta property=\"fb:admins\" content=\"61007660\" />\n\
+      \t\t<script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/app/new_home.js\"></script>\n\
+      \t\t<script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/app/init.js\"></script>\n\
+      \t</head>\n\
+      \t<body class=\"new-home\">\n                <div class=\"header panel\" role=\"banner\">\n            <div class=\"inner\">\n                <p id=\"orange\"><a href=\"http://orange.co.uk\" title=\"Orange homepage\">Orange</a></p>\n                <h1><a href=\"/\" title=\"The Feed homepage\">The Feed</a> <span>adventures on the internet</span></h1>\n                <iframe src=\"http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fthefeed.orange.co.uk%2F&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:100px; height:21px;\" allowTransparency=\"true\"></iframe>\n                <div class=\"getmore\">\n                    <p><a href=\"http://twitter.com/#!/OrangeTheFeed\" title=\"Follow us on Twitter\">get more</a> <a href=\"http://twitter.com/#!/OrangeTheFeed\" class=\"twitter\" title=\"Follow us on Twitter\">Twitter</a> <a href=\"/subscribe/\" class=\"email\" title=\"Subscribe to our email\">Email</a></p>\n                </div>\n            </div>\n        </div>\n        <div class=\"splash\">\n            <div class=\"inner\">\n                <div class=\"item\" id=\"feature\" role=\"banner\">\n                    <div class=\"item-inner\">\n                        <a href=\"/2011/4/11/predict-chick/\">\n                        <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/featured/new_hp_image.jpg');\"></div>\n                        <div class=\"item-text\">\n                            <div class=\"number\"><span>#</span>29</div>\n                            <h1>predict-a-chick</h1>\n                            <p>an Easter egg experiment</p>\n                        </div>\n                        </a>\n                    </div>\n                    <div class=\"banner thisweek\"><!-- >:-( --></div>\n                </div>\n                <div class=\"aside\" id=\"splash-panel\" role=\"complementary\">\n                    \n                    <form action=\"/\" method=\"post\" id=\"youridea\">\n                        <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='219416d52a7edee63607c1f21c3970c1' /></div>\n                        <fieldset>\n                            <h4>got an idea for the feed?</h4>\n                            <label for=\"idea\">your idea</label>\n                            <textarea name=\"message\" placeholder=\"tell us about it...\" required></textarea>\n                            <label for=\"email\">your email</label>\n                            <input name=\"email\" type=\"email\" placeholder=\"email address...\" required>\n                            <button type=\"submit\">submit</button>\n                        </fieldset>\n                    </form>\n                </div>\n            </div>\n        </div>\n        <div class=\"body\">\n            <div class=\"inner\">\n                <div class=\"controls\">\n                    <h2>more adventures</h2>\n                    <form action=\"\">\n                        <fieldset>\n                            <label for=\"archivesort\">sort by</label>\n                            <p id=\"archivesort\">date</p>\n                            <ul id=\"sortoptions\">\n                                <li><a href=\"/\">date</a></li>\n                                \n                                    <li><a href=\"/?filter=cheer-your-mate\">cheer your mate up</a></li>\n                                \n                                    <li><a href=\"/?filter=show-off-skills\">show off your skills</a></li>\n                                \n                                    <li><a href=\"/?filter=discover-new-stuff\">discover new stuff</a></li>\n                                \n                                    <li><a href=\"/?filter=get-a-treat\">get a treat</a></li>\n                                \n                                    <li><a href=\"/?filter=other-bits\">other bits</a></li>\n                                \n                            </ul>\n                        </fieldset>\n                    </form>\n                </div>\n                <ul class=\"items\" role=\"article\">\n                    \n                    <li >\n                    <a href=\"/2011/4/1/orange-toy-awards/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/27_toy_awards.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>28</div>\n                                        <h3>orange toy awards</h3>\n                                    </div>\n                                    <p class=\"item-comments\">77</p>\n                                </div>    \n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>28</div>\n                                        <h3>orange toy awards</h3>\n                                    </div>\n                                    <p>We never quite out grow our childhood toys \xE2\x80\x93 Toy Story\xE2\x80\x99s ability to make us misty is proof enough of that. So we\xE2\x80\x99ve decided to honour beloved playthings everywhere with the first-ever Orange Toy Awards. \xE2\x80\xA8\xE2\x80\xA8</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2011/3/25/whos-fool/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/26.whos_the_fool.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>27</div>\n                                        <h3>who&#39;s the fool?</h3>\n                                    </div>\n                                    <p class=\"item-comments\">70</p>\n                                </div>    \n                            \n                        \n                            <div class=\"banner haveaplay\"><!-- >:-( --></div>\n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>27</div>\n                                        <h3>who&#39;s the fool?</h3>\n                                    </div>\n                                    <p>At the end of this week, a few proud people will be able to say \xE2\x80\x9CI wasn\xE2\x80\x99t fooled by the Feed.\xE2\x80\x9D  Will you be among them? It depends.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li  class=\"last\">\n                    <a href=\"/2011/3/14/2020-tweets/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/25_2020_tweets.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>26</div>\n                                        <h3>2020 tweets</h3>\n                                    </div>\n                                    <p class=\"item-comments\">284</p>\n                                </div>    \n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>26</div>\n                                        <h3>2020 tweets</h3>\n                                    </div>\n                                    <p>What would you like to be tweeting come 2020, assuming our robot secretaries aren\xE2\x80\x99t tweeting for us?</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2011/3/7/whose-tweet-it-anyway/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/24.whos_tweet_1.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>25</div>\n                                        <h3>whose tweet is it anyway?</h3>\n                                    </div>\n                                    <p class=\"item-comments\">116</p>\n                                </div>    \n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>25</div>\n                                        <h3>whose tweet is it anyway?</h3>\n                                    </div>\n                                    <p>Can you tell your @stephenfry from your @simonpegg? Your @kanyewest from your @mrskutcher?</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2011/2/25/capture-caption/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/23.capture_the_caption.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>23</div>\n                                        <h3>capture the caption</h3>\n                                    </div>\n                                    <p class=\"item-comments\">96</p>\n                                </div>    \n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>23</div>\n                                        <h3>capture the caption</h3>\n                                    </div>\n                                    <p>We\xE2\x80\x99ve turned the familiar caption competition on its head.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li  class=\"last\">\n                    <a href=\"/2011/2/21/million-questions/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/22.million_qu.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>22</div>\n                                        <h3>the million questions</h3>\n                                    </div>\n                                    <p class=\"item-comments\">23</p>\n                                </div>    \n                            \n                        \n                            <div class=\"banner haveaplay\"><!-- >:-( --></div>\n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>22</div>\n                                        <h3>the million questions</h3>\n                                    </div>\n                                    <p>If you like a spot of quite interesting trivia, this week\xE2\x80\x99s Feed app is right up your street.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2011/2/14/film-quotathon/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/21_film_quotathon.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>21</div>\n                                        <h3>film quotathon</h3>\n                                    </div>\n                                    <p class=\"item-comments\">187</p>\n                                </div>    \n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>21</div>\n                                        <h3>film quotathon</h3>\n                                    </div>\n                                    <p>Find yourself annoying all your mates when you recite the script along with a favourite movie? Well, now\xE2\x80\x99s your time to shine.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2011/2/7/isnt-it-tweet/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/20_isnt_it_tweet.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>20</div>\n                                        <h3>isn&#39;t it tweet </h3>\n                                    </div>\n                                    <p class=\"item-comments\">413</p>\n                                </div>    \n                            \n                                <div class=\"banner greatesthits\"><!-- >:-( --></div>\n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>20</div>\n                                        <h3>isn&#39;t it tweet </h3>\n                                    </div>\n                                    <p>We\xE2\x80\x99re avoiding the red balloons this year and creating something really special for you and your beau.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li  class=\"last\">\n                    <a href=\"/2011/1/31/on-location/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/19_on_location.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>19</div>\n                                        <h3>on location</h3>\n                                    </div>\n                                    <p class=\"item-comments\">92</p>\n                                </div>    \n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>19</div>\n                                        <h3>on location</h3>\n                                    </div>\n                                    <p>It\xE2\x80\x99s BAFTA Film Awards season, so we\xE2\x80\x99re rolling out the red carpet and testing your film location knowledge.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2011/1/24/winter-warmer/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/18_winter_warmer.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>18</div>\n                                        <h3>winter warmer</h3>\n                                    </div>\n                                    <p class=\"item-comments\">857</p>\n                                </div>    \n                            \n                                <div class=\"banner greatesthits\"><!-- >:-( --></div>\n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>18</div>\n                                        <h3>winter warmer</h3>\n                                    </div>\n                                    <p>Send a winter warmer to a friend - tweet #WinterWarmer with your friend\xE2\x80\x99s name or Twitter name.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2011/1/17/orange-helpers/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/17_orange_helpers.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>17</div>\n                                        <h3>Orange helpers</h3>\n                                    </div>\n                                    <p class=\"item-comments\">51</p>\n                                </div>    \n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>17</div>\n                                        <h3>Orange helpers</h3>\n                                    </div>\n                                    <p>The @OrangeHelpers are the ace Customer Services team online, there to straighten out all your mobile and broadband snags.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li  class=\"last\">\n                    <a href=\"/2011/1/10/summer-holiday/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/16_summer_holiday.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>16</div>\n                                        <h3>summer holiday</h3>\n                                    </div>\n                                    <p class=\"item-comments\">42</p>\n                                </div>    \n                            \n                        \n                            <div class=\"banner haveaplay\"><!-- >:-( --></div>\n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>16</div>\n                                        <h3>summer holiday</h3>\n                                    </div>\n                                    <p>We\xE2\x80\x99ve created an app to inspire you to visit somewhere new this year. </p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2010/12/27/were-on-holiday/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/13_closed.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>15</div>\n                                        <h3>we&#39;re on holiday</h3>\n                                    </div>\n                                    <p class=\"item-comments\">10</p>\n                                </div>    \n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>15</div>\n                                        <h3>we&#39;re on holiday</h3>\n                                    </div>\n                                    <p>sorry, we&#39;re on holiday!</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2011/1/3/the-feed-predicts/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/14_predictions.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>14</div>\n                                        <h3>The Feed predicts</h3>\n                                    </div>\n                                    <p class=\"item-comments\">25</p>\n                                </div>    \n                            \n                        \n                            <div class=\"banner haveaplay\"><!-- >:-( --></div>\n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>14</div>\n                                        <h3>The Feed predicts</h3>\n                                    </div>\n                                    <p>We&#39;re gazing into our crystal ball to make predictions for 2011 and we need your help.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li  class=\"last\">\n                    <a href=\"/2010/12/20/stocking-fillers/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/15_stocking.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>13</div>\n                                        <h3>stocking fillers</h3>\n                                    </div>\n                                    <p class=\"item-comments\">80</p>\n                                </div>    \n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>13</div>\n                                        <h3>stocking fillers</h3>\n                                    </div>\n                                    <p>Since Christmas is the time for giving, we\xE2\x80\x99re getting in the spirit this week.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2010/12/13/santa-stand/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/12_santa.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>12</div>\n                                        <h3>santa stand in</h3>\n                                    </div>\n                                    <p class=\"item-comments\">57</p>\n                                </div>    \n                            \n                        \n                            <div class=\"banner haveaplay\"><!-- >:-( --></div>\n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>12</div>\n                                        <h3>santa stand in</h3>\n                                    </div>\n                                    <p>Use our fun app to create a silly picture of yourself dressed as Santa and share it with your mates.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2010/11/29/secret-portraits/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/07_secret_portraits.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>11</div>\n                                        <h3>secret portraits</h3>\n                                    </div>\n                                    <p class=\"item-comments\">989</p>\n                                </div>    \n                            \n                                <div class=\"banner greatesthits\"><!-- >:-( --></div>\n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>11</div>\n                                        <h3>secret portraits</h3>\n                                    </div>\n                                    <p>We were lucky enough to make friends with a class of illustration students from UCA who are drawing portraits.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li  class=\"last\">\n                    <a href=\"/2010/11/22/tweet-twist/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/11_tweet_twist.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>10</div>\n                                        <h3>tweet with a twist</h3>\n                                    </div>\n                                    <p class=\"item-comments\">128</p>\n                                </div>    \n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>10</div>\n                                        <h3>tweet with a twist</h3>\n                                    </div>\n                                    <p>Every day we\xE2\x80\x99re giving you an unusual, fun word that we challenge you to squeeze into normal a Tweet.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2010/11/15/film-flipper/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/10_film_flipper.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>9</div>\n                                        <h3>film flipper</h3>\n                                    </div>\n                                    <p class=\"item-comments\">33</p>\n                                </div>    \n                            \n                        \n                            <div class=\"banner haveaplay\"><!-- >:-( --></div>\n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>9</div>\n                                        <h3>film flipper</h3>\n                                    </div>\n                                    <p>Still can\xE2\x80\x99t work out what movie to see? It can be a bit of a conundrum. Rom-com or horror?</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2010/11/8/stop-you-pop/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/09_balloonacy.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>8</div>\n                                        <h3>stop before you pop</h3>\n                                    </div>\n                                    <p class=\"item-comments\">26</p>\n                                </div>    \n                            \n                        \n                            <div class=\"banner haveaplay\"><!-- >:-( --></div>\n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>8</div>\n                                        <h3>stop before you pop</h3>\n                                    </div>\n                                    <p>Here at The Feed we\xE2\x80\x99ve created \xE2\x80\x98Stop Before You Pop\xE2\x80\x99 to give away five Hyper Blasts every day.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li  class=\"last\">\n                    <a href=\"/2010/11/1/king-of-the-internet/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/08_king_of_internet.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>7</div>\n                                        <h3>king of the internet</h3>\n                                    </div>\n                                    <p class=\"item-comments\">54</p>\n                                </div>    \n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>7</div>\n                                        <h3>king of the internet</h3>\n                                    </div>\n                                    <p>This week we\xE2\x80\x99ve got some great tips to make using your favourite sites speedier and more fun.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2010/10/25/trick-or-treater/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/06_trick_or_trick.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>6</div>\n                                        <h3>trick or treater</h3>\n                                    </div>\n                                    <p class=\"item-comments\">59</p>\n                                </div>    \n                            \n                        \n                            <div class=\"banner haveaplay\"><!-- >:-( --></div>\n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>6</div>\n                                        <h3>trick or treater</h3>\n                                    </div>\n                                    <p>This week, we\xE2\x80\x99ve scrambled into the darkest, most cobwebby corners of the internet. It was freaky down there.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2010/10/18/what-the-feed/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/05_WTF.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>5</div>\n                                        <h3>What The Feed!</h3>\n                                    </div>\n                                    <p class=\"item-comments\">18</p>\n                                </div>    \n                            \n                        \n                            <div class=\"banner haveaplay\"><!-- >:-( --></div>\n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>5</div>\n                                        <h3>What The Feed!</h3>\n                                    </div>\n                                    <p>Think you know your BRBs from your LOLs?   We\xE2\x80\x99ve created a fun little game that tests your internet acronym skills. </p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li  class=\"last\">\n                    <a href=\"/2010/10/11/lost-for-words/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/03_conversationator.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>4</div>\n                                        <h3>lost for words?</h3>\n                                    </div>\n                                    <p class=\"item-comments\">13</p>\n                                </div>    \n                            \n                        \n                            <div class=\"banner haveaplay\"><!-- >:-( --></div>\n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>4</div>\n                                        <h3>lost for words?</h3>\n                                    </div>\n                                    <p>Not anymore, you\xE2\x80\x99re not. We\xE2\x80\x99ve created an app that endlessly sources the weirdest and most wonderful </p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2010/10/4/singing-tweetagrams/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/04_tweetagrams.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>3</div>\n                                        <h3>singing tweetagrams</h3>\n                                    </div>\n                                    <p class=\"item-comments\">790</p>\n                                </div>    \n                            \n                                <div class=\"banner greatesthits\"><!-- >:-( --></div>\n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>3</div>\n                                        <h3>singing tweetagrams</h3>\n                                    </div>\n                                    <p>Got a friend who needs cheering up? Or maybe you just want to tell them that you love them/miss them.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li >\n                    <a href=\"/2010/9/27/sent-smile/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/02_sincerely_yours.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>2</div>\n                                        <h3>sent with a smile</h3>\n                                    </div>\n                                    <p class=\"item-comments\">37</p>\n                                </div>    \n                            \n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>2</div>\n                                        <h3>sent with a smile</h3>\n                                    </div>\n                                    <p>Always sending emails from your mobile? Why end it with a boring \xE2\x80\x98sent from my iphone/Blackberry/R2D2\xE2\x80\x99.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                    <li  class=\"last\">\n                    <a href=\"/2010/9/20/phone-or-baby/\">\n                        <div class=\"item-flip\">\n                            <div class=\"item-inner\">\n                                <div class=\"item-image\" style=\"background-image: url('http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/home/01_phone_or_baby.png');\">\n                                    <div class=\"item-text\">\n                                        <div class=\"number\"><span>#</span>1</div>\n                                        <h3>phone or baby</h3>\n                                    </div>\n                                    <p class=\"item-comments\">42</p>\n                                </div>    \n                            \n                        \n                            <div class=\"banner haveaplay\"><!-- >:-( --></div>\n                        \n                            </div>\n                            <div class=\"item-inner item-more\">\n                                <div class=\"item-description\">\n                                    <div class=\"item-title\">\n                                        <div class=\"number\"><span>#</span>1</div>\n                                        <h3>phone or baby</h3>\n                                    </div>\n                                    <p>Phone or Baby \xE2\x80\x93 an addictive little game based on cheese or font but using celebrity babies and mobile phones.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </a>\n                    </li>\n                    \n                </ul>\n            </div>\n        </div>\n            <div class=\"footer panel\">\n            <div class=\"inner\">\n                <ul>\n                    <li><a href=\"http://www.orange.co.uk/\">orange.co.uk</a></li>\n                    <li><a href=\"http://shop.orange.co.uk/\">Orange shop</a></li>\n                    <li><a href=\"http://www.orange.co.uk/mediapack/?link=footer_advertise\">advertise</a></li>\n                    <li><a href=\"http://www.orange.co.uk/privacy/?linkfrom=mediapack_&link=footer_privacy\">privacy</a></li>\n                    <li><a href=\"http://www.orange.co.uk/terms/?linkfrom=privacy_&link=footer_terms_and_conditions\">terms and conditions</a></li>\n                </ul>\n            </div>\n        </div>\n        <script type=\"text/javascript\">\n\
+      \t\t  var pageTracker = _gat._getTracker(\"UA-1399240-39\");\n\
+      \t\t  pageTracker._initData();\n\
+      \t\t  pageTracker._trackPageview();\n\
+      \t   </script>\n\
+      \t</body>\n\
+      </html>"
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://bit.ly:80/gYYoWH
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 301
+      message: Moved
+    headers: 
+      server: 
+      - nginx
+      date: 
+      - Sun, 17 Apr 2011 22:21:27 GMT
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - keep-alive
+      set-cookie: 
+      - _bit=4dab67e7-003c0-0196c-dfac8fa8;domain=.bit.ly;expires=Fri Oct 14 18:21:27 2011;path=/; HttpOnly
+      cache-control: 
+      - private; max-age=90
+      location: 
+      - http://www.pokelondon.com/blog/news/im-looking-new-me-is-it-you/
+      mime-version: 
+      - "1.0"
+      content-length: 
+      - "156"
+    body: |-
+      <html>
+      <head>
+      <title>bit.ly</title>
+      </head>
+      <body>
+      <a href="http://www.pokelondon.com/blog/news/im-looking-new-me-is-it-you/">moved here</a>
+      </body>
+      </html>
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.pokelondon.com:80/blog/news/im-looking-new-me-is-it-you/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      server: 
+      - nginx/0.7.67
+      date: 
+      - Sun, 17 Apr 2011 22:22:51 GMT
+      content-type: 
+      - text/html; charset=utf-8
+      transfer-encoding: 
+      - chunked
+      connection: 
+      - keep-alive
+      vary: 
+      - Cookie
+    body: "<!DOCTYPE html>\n\
+      <!--\n\
+      |_   __ \\  .'   `.|_  ||_  _| |_   __  |\n  | |__) |/  .-.  \\ | |_/ /     | |_ \\_|\n  |  ___/ | |   | | |  __'.     |  _| _\n _| |_    \\  `-'  /_| |  \\ \\_  _| |__/ |\n\
+      |_____|    `.___.'|____||____||________|\n\
+      -->\n\
+      <html class=\"no-js\">\n\
+      <head>\n\
+      \t<meta charset=\"utf-8\">\n\
+      \t<meta name=\"viewport\" content=\"width=device-width\">\n    <meta name=\"description\" content=\"Hello. I\xE2\x80\x99m Rebecca. I\xE2\x80\x99m a copywriter-slash-social-media-manager at Poke, but I\xE2\x80\x99m off to make music with my band. So I\xE2\x80\x99m looking for the new me to\xC2\xA0take over my job.\">\n    <meta name=\"google-site-verification\" content=\"7DIID48NaFOU3aus2WG9X9UouwEwfGK5aUXjebs7cf4\" />\n\
+      \t<script src=\"/s/js/modernizr-1.6.min.js\"></script>\n    <title>I\xE2\x80\x99m looking for the new me. Is it you? | POKE</title>\n    <link href=\"/blog/latest.rss\" rel=\"alternate\" title=\"RSS\" type=\"application/rss+xml\">\n\
+      \t<link href=\"/s/css/reset.css\" media=\"all\" rel=\"stylesheet\">\n\
+      \t<link href=\"/s/css/mobile/main.css\" media=\"all\" rel=\"stylesheet\">\n\
+      \t<link href=\"/s/css/desktop/main.css\" media=\"screen and (min-device-width: 768px)\" rel=\"stylesheet\">\n\
+      \t<!--link href=\"/s/css/ui-lightness/jquery-ui-1.8.9.custom.css\" media=\"screen\" rel=\"stylesheet\"-->\n\
+      \t<!--[if lt IE 9]>\n\
+      \t<link href=\"/s/css/desktop/main.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t<![endif]-->\n    <link href=\"/blog/latest.rss\" rel=\"alternate\" title=\"RSS\" type=\"application/rss+xml\">\n    <link rel=\"shortcut icon\" href=\"/s/images/favicon.ico\" type=\"image/x-icon\">\n\
+      \t\n    <link href=\"/s/css/mobile/blog.css\" media=\"all\" rel=\"stylesheet\">\n    <link href=\"/s/css/desktop/blog.css\" media=\"screen and (min-device-width: 768px)\" rel=\"stylesheet\">\n    <!--[if lt IE 9]>\n\
+      \t<link href=\"/s/css/desktop/blog.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t<![endif]-->\n    <style media=\"screen\">\n        body { background-color: #e6e1d3; }\n        .header, .hentry h1 { background-color: #6a5b48; }\n        .banner, .search { background-color: #33261b; }\n    </style>\n    <style media=\"screen and (min-device-width: 768px)\">\n        .search, .hentry h1 { background-color: transparent; }\n    </style>\n    <!--[if lt IE 9]>\n\
+      \t<style media=\"screen\">\n        .search, .hentry h1 { background-color: transparent; }\n    </style>\n\
+      \t<![endif]-->\n\n\
+      \t<!--[if lt IE 9]>\n\
+      \t<link href=\"/s/css/ie.8.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t<![endif]-->\n    <!--[if lt IE 8]>\n\
+      \t<link href=\"/s/css/ie.7.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t<![endif]-->\n    <!--[if lt IE 7]>\n\
+      \t<link href=\"/s/css/ie.6.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t<script src=\"/s/js/iepngfix_tilebg.js\"></script>\n\
+      \t<![endif]-->\n\
+      \t<link href=\"/s/css/print.css\" media=\"print\" rel=\"stylesheet\">\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js\"></script>\n    <script src=\"/s/js/jquery-ui-1.8.9.custom.min.js\"></script>\n    <script src=\"/s/js/search.js\"></script>\n\n    <script>\n    $(document).ready(function(){\n        var screenWidth = (screen.width < 768) ? true : false;\n        if(screenWidth) {\n            var mainNav = $('.header .navigation');\n            mainNav.detach();\n            $('.body').append(mainNav);\n        }\n    });\n    </script>\n\n\n    \n\n\
+      </head>\n\
+      <body class=\"post\">\n\n    \n\n\n    <div class=\"header\">\n        <div class=\"container\">\n            <div class=\"search\">\n                <form action=\"/search/\" method=\"get\">\n                    <input id=\"search\" name=\"search\" results type=\"search\">\n                </form>\n            </div>\n            <h1 id=\"poke\"><a href=\"/blog/\"><img alt=\"Poke\" height=\"99\" src=\"/s/images/poke-large.png\" width=\"97\"></a></h1>\n            \n            <ul class=\"navigation light\" role=\"navigation\">\n                <li class=\"active\"><a href=\"/blog/\"><span>Home</span></a></li>\n                <li ><a href=\"/portfolio/\"><span>Portfolio</span></a></li>\n                <li ><a href=\"/workwithus/\"><span>Work with us</span></a></li>\n                <li ><a href=\"/about/\"><span>About us</span></a></li>\n                <li ><a href=\"/contact/\"><span>Contact</span></a></li>\n            </ul>\n\n        <div class=\"banner\">\n            <div class=\"row light\">\n                <div class=\"span-1\">\n                    <p><a href=\"/blog/\">Blog<br>home</a></p>\n                </div>\n                \n                \n                <div class=\"span-2 divider-left\">\n                    <p><a href=\"/blog/project-launch/new-formula-1-season-starts-here/\">Previous entry <span>The Formula 1 season starts&nbsp;here</span></a></p>\n                </div>\n                <div class=\"span-2 empty-right-3 last divider-left\">\n                    <p><a href=\"/blog/fun-stuff/easter-eggsperiment-feed/\">Next entry <span>An Easter eggsperiment for The&nbsp;Feed</span></a></p>\n                </div>\n                \n                \n            </div>\n        </div>\n\n        </div>\n    </div>\n    <div class=\"body\">\n    <div class=\"container\">\n\n        <div class=\"content\">\n            <div class=\"row\">\n                <div class=\"span-6 divider-right hfeed\">\n            <!-- Blog entry -->\n                    <div class=\"row hentry light\">\n                        <div class=\"span-1 entry-meta\">\n                            <p class=\"category news\"><span rel=\"tag\">News</span></p>\n                            <p class=\"meta updated\"><span class=\"value\" title=\"2011-04-06\">6th Apr 2011</span></p>\n                            <p class=\"meta comments\">\n                                <a href=\"/blog/news/im-looking-new-me-is-it-you/#disqus_thread\">View all comments</a>\n                                <script type=\"text/javascript\">\n    var disqus_shortname = 'pokelondon';\n    (function () {\n        var s = document.createElement('script'); s.async = true;\n        s.src = 'http://disqus.com/forums/pokelondon/count.js';\n        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);\n    }());\n\
+      </script>\n                            </p>\n                        </div>\n                        <div class=\"span-4 empty-right last\">\n                            <h1 class=\"entry-title news\">I\xE2\x80\x99m looking for the new me. Is it you?</h1>\n                            <div class=\"entry-content\">\n                                \n                                <p>Hello. I\xE2\x80\x99m Rebecca. I\xE2\x80\x99m a copywriter-slash-social-media-manager at Poke, but I\xE2\x80\x99m off to make music with my band. So I\xE2\x80\x99m looking for the new me to <a href=\"http://www.pokelondon.com/workwithus/social-media-copywriter/\">take over my job</a>.</p><p><img src=\"/m/photos/blog_1.jpg\"></p><p>Hopefully you\xE2\x80\x99re a nice chap or chapette, with a creative flair and a geeky love of social networks. A background in writing, blogging or copy is useful but not essential, and the ability to make cookies gets you bonus points. Yes to all of that? This way then please, we\xE2\x80\x99ve got some challenges for you.</p><p><img src=\"/m/photos/blog_2.jpg\"><br></p><p>On Friday, I released a series of challenges via our\xC2\xA0<a href=\"http://twitter.com/findanewrebecca\">@findanewrebecca</a> Twitter stream. In case you missed it on the\xC2\xA0day, you can see all the challenges below. There\xE2\x80\x99s still time for you\xC2\xA0to send an email to <a href=\"mailto:findanewrebecca@pokelondon.com\">findanewrebecca@pokelondon.com</a> with your\xC2\xA0answers to the challenges. We\xE2\x80\x99ll be interviewing our favourites for\xC2\xA0the job in the next few weeks.</p><p><b>#poketask1</b><br>We have two Thor premiere tickets to give away\xC2\xA0on <a href=\"http://www.facebook.com/orangefilmclub\">Orange Film Club</a>. Think up a comp &amp; tweet how you&#8217;d\xC2\xA0announce it.<br><br><b>#poketask2</b><br>Someone complains that @PizzaExpress was too\xC2\xA0busy on Weds because of #OrangeWednesdays. Extinguish their\xC2\xA0grumpiness in a tweet.<br><br><b>#poketask3</b><br>Tweet three ways you\xE2\x80\x99d get people to enter your\xC2\xA0competition from task one.</p><p><b>#poketask4</b><br>Oops. We just wrote \xE2\x80\x98exited\xE2\x80\x99 instead of \xE2\x80\x98excited\xE2\x80\x99 on our\xC2\xA0Facebook wall &amp; everyone\xE2\x80\x99s saying we\xE2\x80\x99re half-baked. What do you\xC2\xA0do?</p><p><b>#poketask5</b><br>Someone\xE2\x80\x99s posted on\xC2\xA0<a href=\"http://www.facebook.com/orangefilmclub\">Orange Film Club</a>:\xC2\xA0\xE2\x80\x9CTracy,\xC2\xA0you\xE2\x80\x99re an idiot\xE2\x80\x9D. Tweet what you would do/say.</p><p><b>#poketask6</b><br>Think up a sticky, smart hashtag for our new project\xC2\xA0all about personalised Royal Wedding memorabilia. (Yep, you read\xC2\xA0that right)</p><p>We&#8217;ve set a deadline of the end of Thursday the 14th of April for people to get in touch with us about the role. Once the deadline is up we&#8217;ll be checking out everyone&#8217;s new Rebecca stylings, and if we&#8217;d like to have a chat with you we&#8217;ll be in touch next week.<br></p>\n                                \n                            </div>\n                        </div>\n                    </div>\n            <!-- /Blog entry -->\n                    <div class=\"row\">\n                        <div class=\"span-4 empty-right last\">\n                        \n                            \n                        </div>\n                    </div>\n                    <div class=\"row\">\n                        <div class=\"disqus_comments\">\n                        <div id=\"disqus_thread\"></div>\n\
+      <script type=\"text/javascript\">\n    /* <![CDATA[ */\n    var disqus_shortname = 'pokelondon';\n    var disqus_domain = 'disqus.com';\n    (function() {\n        var dsq = document.createElement('script'); dsq.type = 'text/javascript';\n        dsq.async = true;\n        dsq.src = 'http://' + disqus_shortname + '.' + disqus_domain + '/embed.js';\n        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);\n    })();\n    /* ]]> */\n\
+      </script>\n\
+      <noscript>Please enable JavaScript to view the <a href=\"http://disqus.com/?ref_noscript=\">comments powered by Disqus.</a></noscript>\n\
+      <p><a href=\"http://disqus.com\" class=\"dsq-brlink\">blog comments powered by <span class=\"logo-disqus\">Disqus</span></a></p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"span-2 last aside\">\n                    \n                    <div class=\"widget latest-project\">\n                            <h3>Latest work</h3>\n                            <a href=\"/portfolio/marussia-virgin-racing-2011/\">\n                                <img alt=\"\" height=\"144\" src=\"/m/portfolio/marussia-virgin-racing-2011/thumb.jpg\" width=\"218\">\n                                <h4>Marussia Virgin Racing 2011</h4>\n                                <p>A fresh identity for the hungriest Formula 1 team out there</p>\n                            </a>\n                    </div>\n                    \n                                        <div class=\"widget\">\n                        <h3>Subscribe</h3>\n                        <ul class=\"subscribe\">\n                            <li class=\"rss\"><a href=\"/blog/latest.rss\">Blog RSS</a></li>\n                            <li class=\"twitter\"><a href=\"http://twitter.com/pokelondon\">Follow us on Twitter</a></li>\n                        </ul>\n                    </div>\n\n                </div>\n            </div>\n        </div>\n\n\n         <div class=\"footer\">\n            <div class=\"row\">\n                <div class=\"span-3 divider-right first\">\n                    <div class=\"vcard\" id=\"poke-london\">\n                        <p class=\"fn org\">Poke London</p>\n                        <p class=\"adr\">Biscuit building <span class=\"street-address\">10 Redchurch Street</span> <span class=\"locality\">London</span> <span class=\"postal-code\">E2 7DD</span></p>\n                        <p class=\"contact\"><a class=\"email\" href=\"mailto:hello@pokelondon.com\">hello@pokelondon.com</a></p>\n                        <p class=\"contact tel\">+44(0)20 7749 5353</p>\n                    </div>\n                </div>\n                <div class=\"span-3 divider-right\">\n                    <div class=\"vcard\" id=\"poke-newyork\">\n                        <p class=\"fn org\">Poke New York</p>\n                        <p class=\"adr\"><span class=\"street-address\">11 Harrison Street</span> <span class=\"locality\">New York</span> <span class=\"postal-code\">NY 10013</span></p>\n                        <p class=\"contact\"><a class=\"email\" href=\"mailto:whatup@pokenewyork.com\">whatup@pokenewyork.com</a></p>\n                        <p class=\"contact tel\">+00 212-254-8800</p>\n                    </div>\n                </div>\n                <div class=\"span-2 last\">\n                    <p id=\"ahundredpercent\">&copy; 100% Poke</p>\n                </div>\n            </div>\n        </div>\n\n    </div>\n    </div>\n    <script type=\"text/javascript\">\n        var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");\n        document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n    </script>\n    <script type=\"text/javascript\">\n        try{\n            var pageTracker = _gat._getTracker(\"UA-1399240-13\");\n            pageTracker._trackPageview();\n        } catch(err) {}\n    </script>\n\
+      </body>\n\
+      </html>\n"
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.pokelondon.com:80/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      server: 
+      - nginx/0.7.67
+      date: 
+      - Sun, 17 Apr 2011 22:22:52 GMT
+      content-type: 
+      - text/html; charset=utf-8
+      transfer-encoding: 
+      - chunked
+      connection: 
+      - keep-alive
+      vary: 
+      - Cookie
+    body: "<!DOCTYPE html>\n\
+      <!--\n\
+      |_   __ \\  .'   `.|_  ||_  _| |_   __  |\n  | |__) |/  .-.  \\ | |_/ /     | |_ \\_|\n  |  ___/ | |   | | |  __'.     |  _| _\n _| |_    \\  `-'  /_| |  \\ \\_  _| |__/ |\n\
+      |_____|    `.___.'|____||____||________|\n\
+      -->\n\
+      <html class=\"no-js\">\n\
+      <head>\n\
+      \t<meta charset=\"utf-8\">\n\
+      \t<meta name=\"viewport\" content=\"width=device-width\">\n    <meta name=\"description\" content=\"If you're looking for POKE, the creative company, then you've found us. Visit the site to see our latest news, portfolio and for our contact details.\">\n    <meta name=\"google-site-verification\" content=\"7DIID48NaFOU3aus2WG9X9UouwEwfGK5aUXjebs7cf4\" />\n\
+      \t<script src=\"/s/js/modernizr-1.6.min.js\"></script>\n    <title>POKE</title>\n    <link href=\"/blog/latest.rss\" rel=\"alternate\" title=\"RSS\" type=\"application/rss+xml\">\n\
+      \t<link href=\"/s/css/reset.css\" media=\"all\" rel=\"stylesheet\">\n\
+      \t<link href=\"/s/css/mobile/main.css\" media=\"all\" rel=\"stylesheet\">\n\
+      \t<link href=\"/s/css/desktop/main.css\" media=\"screen and (min-device-width: 768px)\" rel=\"stylesheet\">\n\
+      \t<!--link href=\"/s/css/ui-lightness/jquery-ui-1.8.9.custom.css\" media=\"screen\" rel=\"stylesheet\"-->\n\
+      \t<!--[if lt IE 9]>\n\
+      \t<link href=\"/s/css/desktop/main.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t<![endif]-->\n    <link href=\"/blog/latest.rss\" rel=\"alternate\" title=\"RSS\" type=\"application/rss+xml\">\n    <link rel=\"shortcut icon\" href=\"/s/images/favicon.ico\" type=\"image/x-icon\">\n\
+      \t\n    <link href=\"/s/css/mobile/blog.css\" media=\"all\" rel=\"stylesheet\">\n    <link href=\"/s/css/desktop/blog.css\" media=\"screen and (min-device-width: 768px)\" rel=\"stylesheet\">\n    <!--[if lt IE 9]>\n\
+      \t<link href=\"/s/css/desktop/blog.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t<![endif]-->\n\
+      \t\n    <style media=\"screen\">\n        body { background-color: #dedba8; }\n        .header { background-color: #f7891c; }\n        .banner { background-color: #87331e; }   \n        .sticky .category { background-image: url('/m/blog/dot_119.png');\n    </style>\n    \n    <style media=\"screen and (min-device-width: 768px)\">\n        .banner { background-image: url('/m/sticky_posts/blog-sticky_4.jpg'); }\n        .sticky p.category { background-image: url('/m/blog/dot_119.png'); }\n    </style>\n    <!--[if lt IE 9]>\n    <style media=\"screen\">\n        .banner { background-image: url('/m/sticky_posts/blog-sticky_4.jpg'); }\n        .sticky p.category { background-image: url('/m/blog/dot_119.png'); }\n    </style>\n    <![endif]-->\n\n\
+      \t<!--[if lt IE 9]>\n\
+      \t<link href=\"/s/css/ie.8.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t<![endif]-->\n    <!--[if lt IE 8]>\n\
+      \t<link href=\"/s/css/ie.7.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t<![endif]-->\n    <!--[if lt IE 7]>\n\
+      \t<link href=\"/s/css/ie.6.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t<script src=\"/s/js/iepngfix_tilebg.js\"></script>\n\
+      \t<![endif]-->\n\
+      \t<link href=\"/s/css/print.css\" media=\"print\" rel=\"stylesheet\">\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js\"></script>\n    <script src=\"/s/js/jquery-ui-1.8.9.custom.min.js\"></script>\n    <script src=\"/s/js/search.js\"></script>\n\n    <script>\n    $(document).ready(function(){\n        var screenWidth = (screen.width < 768) ? true : false;\n        if(screenWidth) {\n            var mainNav = $('.header .navigation');\n            mainNav.detach();\n            $('.body').append(mainNav);\n        }\n    });\n    </script>\n\n\n    \n\
+      \t<script src=\"/s/js/jquery.endless-scroll.js\"></script>\n    <script type=\"text/javascript\">\n    $(document).ready(function(){\n        var screenWidth = (screen.width < 768) ? true : false;\n        if(!screenWidth) {\n            var loading = false;\n            $(document).endlessScroll({\n                bottomPixels: 200,\n                fireDelay: 1000,\n                fireOnce: true,\n                callback: function(p){\n                    if (!loading){\n                        var paginator = $('#paginator');\n                        var href = paginator.find('a').attr('href');\n                        $.get(href, function(data){\n                            paginator.replaceWith(data);\n                            loading = false;\n                        });\n                    loading = true;\n                    }\n                }\n            });\n        }\n        if(screenWidth) {\n            var hasGeoLocation = navigator.geolocation ? true : false;\n            if (hasGeoLocation) {\n                navigator.geolocation.getCurrentPosition(function(position){\n                    if (typeof(Number.prototype.toRad) === 'undefined') {\n                        Number.prototype.toRad = function() {\n                            return this * Math.PI / 180;\n                        };\n                    }\n                    var usLat = 51.524284;\n                    var usLon = -0.076237;\n                    var youLat = position.coords.latitude;\n                    var youLon = position.coords.longitude;\n                    var R = 6371; // km\n                    var dLat = (usLat-youLat).toRad();\n                    var dLon = (usLon-youLon).toRad(); \n                    var a = Math.sin(dLat/2) * Math.sin(dLat/2) + Math.cos(usLat.toRad()) * Math.cos(youLat.toRad()) * Math.sin(dLon/2) * Math.sin(dLon/2);\n                    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); \n                    var d = R * c;\n                    var distance = Math.round(d*10)/10;\n                    $('#distance').prepend('You\xE2\x80\x99re '+distance+'km away from Poke. ');\n                });\n            }\n        }\n    });\n    </script>\n\n\
+      </head>\n\
+      <body class=\"home\">\n\n    \n    <div class=\"header\">\n        <div class=\"container\">\n            <div class=\"search\">\n                <form action=\"/search/\" method=\"get\">\n                    <input id=\"search\" name=\"search\" results type=\"search\">\n                </form>\n            </div>\n            <h1 id=\"poke\"><a href=\"/blog/\"><img alt=\"Poke\" height=\"99\" src=\"/s/images/poke-large.png\" width=\"97\"></a></h1>\n            \n        <div id=\"find_us\" class=\"light\">\n            <h2 id=\"distance\">Trying to find us?</h2>\n            <p><a href=\"http://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=10+redchurch+street+e2+7dd&aq=&sll=53.800651,-4.064941&sspn=21.172589,54.18457&ie=UTF8&hq=&hnear=10+Redchurch+St,+London+E2+7DD,+United+Kingdom&z=16\">view map &raquo;</a></p>\n            <p><a href=\"tel:+442077495353\">020 7749 5353</a></p>\n            <p><a href=\"mailto:hello@pokelondon.com\">hello@pokelondon.com</a></p>\n        </div>\n\n            <ul class=\"navigation light\" role=\"navigation\">\n                <li class=\"active\"><a href=\"/blog/\"><span>Home</span></a></li>\n                <li ><a href=\"/portfolio/\"><span>Portfolio</span></a></li>\n                <li ><a href=\"/workwithus/\"><span>Work with us</span></a></li>\n                <li ><a href=\"/about/\"><span>About us</span></a></li>\n                <li ><a href=\"/contact/\"><span>Contact</span></a></li>\n            </ul>\n\n        \n        <div class=\"banner sticky\">\n            <h1 class=\"blog-head\">Blog</h1>\n            <div class=\"banner-text light\">\n                <h1 class=\"fun-stuff\"><a href=\"/blog/fun-stuff/easter-eggsperiment-feed/\">An Easter eggsperiment for The Feed</a></h1>\n                <p class=\"more\"><a href=\"/blog/fun-stuff/easter-eggsperiment-feed/\">Read full story&hellip;</a></p>\n                <p class=\"meta updated\"><span class=\"value\" title=\"2011-04-14\">14th Apr 2011</span></p>\n                <p class=\"meta comments\"><a href=\"/blog/fun-stuff/easter-eggsperiment-feed/#disqus_thread\">View all comments</a><script type=\"text/javascript\">\n    var disqus_shortname = 'pokelondon';\n    (function () {\n        var s = document.createElement('script'); s.async = true;\n        s.src = 'http://disqus.com/forums/pokelondon/count.js';\n        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);\n    }());\n\
+      </script></p>\n            </div>\n            <p class=\"category fun-stuff\"><span rel=\"tag\">Fun Stuff</span></p>\n        </div>\n        \n\n        </div>\n    </div>\n    <div class=\"body\">\n    <div class=\"container\">\n\n        <div class=\"content\">\n            <div class=\"row\">\n                <div class=\"span-6 divider-right hfeed\">\n                    \n\n\n\n\
+      <!-- twitter entry -->\n\
+      <div class=\"row twitter-entry \">\n    <div class=\"span-1\">\n        <p class=\"meta updated\"><span class=\"value\" title=\"\">3 days ago</span><a href=\"http://twitter.com/pokelondon\">via Twitter</a></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <p>Read more about <a href=\"http://search.twitter.com/search?q=%23predictachick\">#predictachick</a> on the Poke blog <a href=\"http://www.pokelondon.com\">http://www.pokelondon.com</a></p>\n    </div>\n\
+      </div>\n\
+      <!-- /twitter entry -->\n\n\n\n\n\
+      <!-- twitter entry -->\n\
+      <div class=\"row twitter-entry \">\n    <div class=\"span-1\">\n        <p class=\"meta updated\"><span class=\"value\" title=\"\">3 days ago</span><a href=\"http://twitter.com/pokelondon\">via Twitter</a></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <p>Haven't checked out The Feed's shiny new homepage yet? <a href=\"http://thefeed.orange.co.uk/\">http://thefeed.orange.co.uk/</a> Get over&nbsp;there!</p>\n    </div>\n\
+      </div>\n\
+      <!-- /twitter entry -->\n\n\n\n\n\
+      <!-- twitter entry -->\n\
+      <div class=\"row twitter-entry twitter-entry-last\">\n    <div class=\"span-1\">\n        <p class=\"meta updated\"><span class=\"value\" title=\"\">3 days ago</span><a href=\"http://twitter.com/pokelondon\">via Twitter</a></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <p>& <a href=\"http://twitter.com/OrangeTheFeed\">@OrangeTheFeed</a> are very proud parents to 15 baby chicks (with 2 more on the way!) <a href=\"http://search.twitter.com/search?q=%23PredictAChick\">#PredictAChick</a> <a href=\"http://twitpic.com/4knpqm\">http://twitpic.com/4knpqm</a></p>\n    </div>\n\
+      </div>\n\
+      <!-- /twitter entry -->\n\n\n\n\n\
+      <!-- Blog entry -->\n\
+      <div class=\"row hentry light\" style=\"background-color: #33261b;\">\n    <div class=\"span-1 entry-meta\">\n        <p class=\"category news\"><span rel=\"tag\">News</span></p>\n        <p class=\"meta updated\"><span class=\"value\" title=\"2011-04-06\">6th Apr 2011</span></p>\n        <p class=\"meta comments\"><a href=\"/blog/news/im-looking-new-me-is-it-you/#disqus_thread\">View all comments</a><script type=\"text/javascript\">\n    var disqus_shortname = 'pokelondon';\n    (function () {\n        var s = document.createElement('script'); s.async = true;\n        s.src = 'http://disqus.com/forums/pokelondon/count.js';\n        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);\n    }());\n\
+      </script></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <h2 class=\"entry-title news\"><a href=\"/blog/news/im-looking-new-me-is-it-you/\">I\xE2\x80\x99m looking for the new me. Is it you?</a></h2>\n        <div class=\"entry-summary\">\n\n        \n            <p>Hello. I\xE2\x80\x99m Rebecca. I\xE2\x80\x99m a copywriter-slash-social-media-manager at Poke, but I\xE2\x80\x99m off to make music with my band. So I\xE2\x80\x99m looking for the new me to\xC2\xA0<a href=\"http://www.pokelondon.com/workwithus/social-media-copywriter/\">take over my job</a>.</p><p><img src=\"/m/photos/blog_1_2.jpg\"></p>\n            \n            <p class=\"more safe\"><a href=\"/blog/news/im-looking-new-me-is-it-you/\">Read full story&hellip;</a></p>\n            \n        \n        </div>\n        <p class=\"more\"><a href=\"/blog/news/im-looking-new-me-is-it-you/\">Read full story&hellip;</a></p>\n    </div>\n\
+      </div>\n\
+      <!-- /Blog entry -->\n\n\n\n\n\
+      <!-- twitter entry -->\n\
+      <div class=\"row twitter-entry \">\n    <div class=\"span-1\">\n        <p class=\"meta updated\"><span class=\"value\" title=\"\">2 weeks ago</span><a href=\"http://twitter.com/pokelondon\">via Twitter</a></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <p>RT <a href=\"http://twitter.com/nikroope\">@nikroope</a>: Top 10 Biases presentation by Poke's <a href=\"http://twitter.com/stopsatgreen\">@stopsatgreen</a> <a href=\"http://bit.ly/idnxyL\">http://bit.ly/idnxyL</a></p>\n    </div>\n\
+      </div>\n\
+      <!-- /twitter entry -->\n\n\n\n\n\
+      <!-- twitter entry -->\n\
+      <div class=\"row twitter-entry \">\n    <div class=\"span-1\">\n        <p class=\"meta updated\"><span class=\"value\" title=\"\">2 weeks ago</span><a href=\"http://twitter.com/pokelondon\">via Twitter</a></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <p>Thanks to the <a href=\"http://twitter.com/LoveMuseli\">@LoveMuseli</a> chaps for our surprise Tuesday breakfast&nbsp;goodies.</p>\n    </div>\n\
+      </div>\n\
+      <!-- /twitter entry -->\n\n\n\n\n\
+      <!-- twitter entry -->\n\
+      <div class=\"row twitter-entry twitter-entry-last\">\n    <div class=\"span-1\">\n        <p class=\"meta updated\"><span class=\"value\" title=\"\">2 weeks ago</span><a href=\"http://twitter.com/pokelondon\">via Twitter</a></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <p>Monday morning? Time for a mini pub quiz on <a href=\"http://twitter.com/OrangeTheFeed\">@OrangeTheFeed</a> <a href=\"http://t.co/viz0Oxz\">http://t.co/viz0Oxz</a> <a href=\"http://search.twitter.com/search?q=%23whosthefool\">#whosthefool</a></p>\n    </div>\n\
+      </div>\n\
+      <!-- /twitter entry -->\n\n\n\n\n\
+      <!-- Blog entry -->\n\
+      <div class=\"row hentry light\" style=\"background-color: #352a32;\">\n    <div class=\"span-1 entry-meta\">\n        <p class=\"category project-launch\"><span rel=\"tag\">Project Launch</span></p>\n        <p class=\"meta updated\"><span class=\"value\" title=\"2011-03-25\">25th Mar 2011</span></p>\n        <p class=\"meta comments\"><a href=\"/blog/project-launch/new-formula-1-season-starts-here/#disqus_thread\">View all comments</a><script type=\"text/javascript\">\n    var disqus_shortname = 'pokelondon';\n    (function () {\n        var s = document.createElement('script'); s.async = true;\n        s.src = 'http://disqus.com/forums/pokelondon/count.js';\n        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);\n    }());\n\
+      </script></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <h2 class=\"entry-title project-launch\"><a href=\"/blog/project-launch/new-formula-1-season-starts-here/\">The Formula 1 season starts here</a></h2>\n        <div class=\"entry-summary\">\n\n        \n            <p><img src=\"/m/photos/blog_2_2.jpg\"></p><p>If you can't tell a KERS from a\xC2\xA0Blown Diffuser, you might be struggling to get as excited as we are about the start of the Formula 1 season this weekend.</p><p>But even if you're not a fan of Eccelstone's circus, you should still be interested in the first public outing for our Marussia Virgin Racing branding.</p><p>For all the detail have a mooch\xC2\xA0<a href=\"http://www.pokelondon.com/portfolio/marussia-virgin-racing-2011/\">here</a>\xC2\xA0or visit the website at\xC2\xA0<a href=\"http://www.marussiavirginracing.com/\">www.marussiavirginracing.com</a>.</p><p>And keep an eye out on telly - the pit garage is looking seriously swish.</p>\n            \n            <p class=\"more safe\"><a href=\"/blog/project-launch/new-formula-1-season-starts-here/\">Read full story&hellip;</a></p>\n            \n        \n        </div>\n        <p class=\"more\"><a href=\"/blog/project-launch/new-formula-1-season-starts-here/\">Read full story&hellip;</a></p>\n    </div>\n\
+      </div>\n\
+      <!-- /Blog entry -->\n\n\n\n\n\
+      <!-- twitter entry -->\n\
+      <div class=\"row twitter-entry twitter-entry-last\">\n    <div class=\"span-1\">\n        <p class=\"meta updated\"><span class=\"value\" title=\"\">3 weeks ago</span><a href=\"http://twitter.com/pokelondon\">via Twitter</a></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <p>New on <a href=\"http://www.pokelondon.com/\">http://www.pokelondon.com/</a> - a Plumen-related&nbsp;hat-doff.</p>\n    </div>\n\
+      </div>\n\
+      <!-- /twitter entry -->\n\n\n\n\n\
+      <!-- Blog entry -->\n\
+      <div class=\"row hentry light\" style=\"background-color: #41200c;\">\n    <div class=\"span-1 entry-meta\">\n        <p class=\"category news\"><span rel=\"tag\">News</span></p>\n        <p class=\"meta updated\"><span class=\"value\" title=\"2011-03-23\">23rd Mar 2011</span></p>\n        <p class=\"meta comments\"><a href=\"/blog/news/plumen-eck/#disqus_thread\">View all comments</a><script type=\"text/javascript\">\n    var disqus_shortname = 'pokelondon';\n    (function () {\n        var s = document.createElement('script'); s.async = true;\n        s.src = 'http://disqus.com/forums/pokelondon/count.js';\n        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);\n    }());\n\
+      </script></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <h2 class=\"entry-title news\"><a href=\"/blog/news/plumen-eck/\">Plumen \xE2\x80\x98eck</a></h2>\n        <div class=\"entry-summary\">\n\n        \n            <p>As well as sporting Poke\xE2\x80\x99s finest beard, our\xC2\xA0Executive Creative Director and founder, Nik Roope has just achieved something even more impressive. Along with his product design company, <a href=\"http://www.hulger.com/\">Hulger</a> and designer <a href=\"http://www.samuelwilkinson.com/\">Samuel Wilkinson</a>, Nik has just won the <a href=\"http://www.designsoftheyear.com/\">Brit Insurance Design of the Year</a> award for the <a href=\"http://plumen.com/\">Plumen lightbulb</a>.</p><p><img src=\"/m/photos/blog_03.jpg\"></p><p><img src=\"/m/photos/blog_04.jpg\"><br></p>\n            \n            <p class=\"more safe\"><a href=\"/blog/news/plumen-eck/\">Read full story&hellip;</a></p>\n            \n        \n        </div>\n        <p class=\"more\"><a href=\"/blog/news/plumen-eck/\">Read full story&hellip;</a></p>\n    </div>\n\
+      </div>\n\
+      <!-- /Blog entry -->\n\n\n\n\n\
+      <!-- twitter entry -->\n\
+      <div class=\"row twitter-entry \">\n    <div class=\"span-1\">\n        <p class=\"meta updated\"><span class=\"value\" title=\"\">1 month ago</span><a href=\"http://twitter.com/pokelondon\">via Twitter</a></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <p>Smashing news for <a href=\"http://twitter.com/nikroope\">@nikroope</a> and the team - the Plumen bulb won Design Of The Year&nbsp;2011!</p>\n    </div>\n\
+      </div>\n\
+      <!-- /twitter entry -->\n\n\n\n\n\
+      <!-- twitter entry -->\n\
+      <div class=\"row twitter-entry \">\n    <div class=\"span-1\">\n        <p class=\"meta updated\"><span class=\"value\" title=\"\">1 month ago</span><a href=\"http://twitter.com/pokelondon\">via Twitter</a></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <p>What would you like to be tweeting in the future? Make a prediction with <a href=\"http://search.twitter.com/search?q=%232020tweets\">#2020tweets</a>, new from <a href=\"http://twitter.com/OrangeTheFeed\">@OrangeTheFeed</a> <a href=\"http://bit.ly/ha7w8c\">http://bit.ly/ha7w8c</a></p>\n    </div>\n\
+      </div>\n\
+      <!-- /twitter entry -->\n\n\n\n\n\
+      <!-- twitter entry -->\n\
+      <div class=\"row twitter-entry twitter-entry-last\">\n    <div class=\"span-1\">\n        <p class=\"meta updated\"><span class=\"value\" title=\"\">1 month ago</span><a href=\"http://twitter.com/pokelondon\">via Twitter</a></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <p>Another brilliant project from <a href=\"http://twitter.com/BREAKFASTny\">@BREAKFASTny</a>: <a href=\"http://instaprint.me/\">http://instaprint.me/</a> <a href=\"http://search.twitter.com/search?q=%23instaprint\">#instaprint</a></p>\n    </div>\n\
+      </div>\n\
+      <!-- /twitter entry -->\n\n\n\n\n\
+      <!-- Blog entry -->\n\
+      <div class=\"row hentry light\" style=\"background-color: #1e2b48;\">\n    <div class=\"span-1 entry-meta\">\n        <p class=\"category news\"><span rel=\"tag\">News</span></p>\n        <p class=\"meta updated\"><span class=\"value\" title=\"2011-02-15\">15th Feb 2011</span></p>\n        <p class=\"meta comments\"><a href=\"/blog/news/new-day-new-hairdo/#disqus_thread\">View all comments</a><script type=\"text/javascript\">\n    var disqus_shortname = 'pokelondon';\n    (function () {\n        var s = document.createElement('script'); s.async = true;\n        s.src = 'http://disqus.com/forums/pokelondon/count.js';\n        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);\n    }());\n\
+      </script></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <h2 class=\"entry-title news\"><a href=\"/blog/news/new-day-new-hairdo/\">New day, new hairdo</a></h2>\n        <div class=\"entry-summary\">\n\n        \n            <p>You\xE2\x80\x99ve probably noticed that we\xE2\x80\x99ve got a new website. Like a new hairdo, we secretly hope you love it, but really want to pretend we didn\xE2\x80\x99t try hard to achieve it. Alas, we\xE2\x80\x99re bad at pretending, so here\xE2\x80\x99s why we\xE2\x80\x99ve changed things...</p><p><img src=\"/m/photos/image_0.jpg\"><br></p>\n            \n            <p class=\"more safe\"><a href=\"/blog/news/new-day-new-hairdo/\">Read full story&hellip;</a></p>\n            \n        \n        </div>\n        <p class=\"more\"><a href=\"/blog/news/new-day-new-hairdo/\">Read full story&hellip;</a></p>\n    </div>\n\
+      </div>\n\
+      <!-- /Blog entry -->\n\n\n\n\n\
+      <!-- Blog entry -->\n\
+      <div class=\"row hentry light\" style=\"background-color: #860303;\">\n    <div class=\"span-1 entry-meta\">\n        <p class=\"category news\"><span rel=\"tag\">News</span></p>\n        <p class=\"meta updated\"><span class=\"value\" title=\"2011-02-15\">15th Feb 2011</span></p>\n        <p class=\"meta comments\"><a href=\"/blog/news/a-year-in-the-life/#disqus_thread\">View all comments</a><script type=\"text/javascript\">\n    var disqus_shortname = 'pokelondon';\n    (function () {\n        var s = document.createElement('script'); s.async = true;\n        s.src = 'http://disqus.com/forums/pokelondon/count.js';\n        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);\n    }());\n\
+      </script></p>\n    </div>\n    <div class=\"span-4 empty-right last\">\n        <h2 class=\"entry-title news\"><a href=\"/blog/news/a-year-in-the-life/\">A year in the life</a></h2>\n        <div class=\"entry-summary\">\n\n        \n            <p>OK, so we know it\xE2\x80\x99s February, but we thought it would be nice to round up what we got up to last year. Mainly because lots of good things happened.</p><p>Deep breath...<br><br><img src=\"/m/photos/blog_post_02.jpg\"><br></p>\n            \n            <p class=\"more safe\"><a href=\"/blog/news/a-year-in-the-life/\">Read full story&hellip;</a></p>\n            \n        \n        </div>\n        <p class=\"more\"><a href=\"/blog/news/a-year-in-the-life/\">Read full story&hellip;</a></p>\n    </div>\n\
+      </div>\n\
+      <!-- /Blog entry -->\n\n\n\n    <p id=\"paginator\"><a href=\"/blog/blog/page/2/\">load more</a></p>\n\n\n                </div>\n                <div class=\"span-2 last aside\">\n                    <div class=\"widget latest-project\">\n                        \n                            <h3>Latest work</h3>\n                            <a href=\"/portfolio/marussia-virgin-racing-2011/\">\n                                <img alt=\"\" height=\"144\" src=\"/m/portfolio/marussia-virgin-racing-2011/thumb.jpg\" width=\"218\">\n                                <h4>Marussia Virgin Racing 2011</h4>\n                                <p>A fresh identity for the hungriest Formula 1 team out there</p>\n                            </a>\n                        \n                    </div>\n                                        <div class=\"widget\">\n                        <h3>Categories</h3>\n                        <ul class=\"categories\">\n                            <li class=\"project-launch\"><a href=\"/blog/project-launch/\">Project launch</a></li>\n                            <li class=\"news\"><a href=\"/blog/news/\">In the news</a></li>\n                            <li class=\"fun-stuff\"><a href=\"/blog/fun-stuff/\">Fun stuff</a></li>\n                            \n                            <li class=\"awards\"><a href=\"/blog/awards/\">Awards</a></li>\n                        </ul>\n                    </div>\n\n                                        <div class=\"widget\">\n                        <h3>Subscribe</h3>\n                        <ul class=\"subscribe\">\n                            <li class=\"rss\"><a href=\"/blog/latest.rss\">Blog RSS</a></li>\n                            <li class=\"twitter\"><a href=\"http://twitter.com/pokelondon\">Follow us on Twitter</a></li>\n                        </ul>\n                    </div>\n\n                </div>\n            </div>\n        </div>\n\n\n         <div class=\"footer\">\n            <div class=\"row\">\n                <div class=\"span-3 divider-right first\">\n                    <div class=\"vcard\" id=\"poke-london\">\n                        <p class=\"fn org\">Poke London</p>\n                        <p class=\"adr\">Biscuit building <span class=\"street-address\">10 Redchurch Street</span> <span class=\"locality\">London</span> <span class=\"postal-code\">E2 7DD</span></p>\n                        <p class=\"contact\"><a class=\"email\" href=\"mailto:hello@pokelondon.com\">hello@pokelondon.com</a></p>\n                        <p class=\"contact tel\">+44(0)20 7749 5353</p>\n                    </div>\n                </div>\n                <div class=\"span-3 divider-right\">\n                    <div class=\"vcard\" id=\"poke-newyork\">\n                        <p class=\"fn org\">Poke New York</p>\n                        <p class=\"adr\"><span class=\"street-address\">11 Harrison Street</span> <span class=\"locality\">New York</span> <span class=\"postal-code\">NY 10013</span></p>\n                        <p class=\"contact\"><a class=\"email\" href=\"mailto:whatup@pokenewyork.com\">whatup@pokenewyork.com</a></p>\n                        <p class=\"contact tel\">+00 212-254-8800</p>\n                    </div>\n                </div>\n                <div class=\"span-2 last\">\n                    <p id=\"ahundredpercent\">&copy; 100% Poke</p>\n                </div>\n            </div>\n        </div>\n\n    </div>\n    </div>\n    <script type=\"text/javascript\">\n        var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");\n        document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n    </script>\n    <script type=\"text/javascript\">\n        try{\n            var pageTracker = _gat._getTracker(\"UA-1399240-13\");\n            pageTracker._trackPageview();\n        } catch(err) {}\n    </script>\n\
+      </body>\n\
+      </html>\n"
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://bit.ly:80/ha7w8c
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 301
+      message: Moved
+    headers: 
+      server: 
+      - nginx
+      date: 
+      - Sun, 17 Apr 2011 22:21:30 GMT
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - keep-alive
+      set-cookie: 
+      - _bit=4dab67ea-00060-017f3-dfac8fa8;domain=.bit.ly;expires=Fri Oct 14 18:21:30 2011;path=/; HttpOnly
+      cache-control: 
+      - private; max-age=90
+      location: 
+      - http://thefeed.orange.co.uk/2011/3/14/2020-tweets/
+      mime-version: 
+      - "1.0"
+      content-length: 
+      - "142"
+    body: |-
+      <html>
+      <head>
+      <title>bit.ly</title>
+      </head>
+      <body>
+      <a href="http://thefeed.orange.co.uk/2011/3/14/2020-tweets/">moved here</a>
+      </body>
+      </html>
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://thefeed.orange.co.uk:80/2011/3/14/2020-tweets/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      server: 
+      - nginx/0.7.62
+      date: 
+      - Sun, 17 Apr 2011 22:21:32 GMT
+      content-type: 
+      - text/html; charset=utf-8
+      transfer-encoding: 
+      - chunked
+      connection: 
+      - keep-alive
+      vary: 
+      - Cookie
+      set-cookie: 
+      - csrftoken=e3ad92b937afc29876f8cf8283dc7dd1; Max-Age=31449600; Path=/
+      - sessionid=abfb6bbee588c9438f160613fdb5d6a1; expires=Sun, 01-May-2011 22:21:31 GMT; Max-Age=1209600; Path=/
+    body: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n\
+      <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n\
+      <head>\n    <title>The Feed | Orange</title>\n\
+      <!--Meta-->\n\
+      \t<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n\
+      \t<meta name=\"robots\" content=\"noodp\" />\n\
+      <!--Microsoft smarties-->\n\
+      \t<meta http-equiv=\"ImageResize\" content=\"no\" />\n\
+      \t<meta http-equiv=\"ImageToolbar\" content=\"no\" />\n\
+      \t<meta name=\"MSSmartTagsPreventParsing\" content=\"true\" />\n    \n    <!-- Facebook smarties-->\n        <meta name=\"title\" content=\"The Feed | Orange | 2020 tweets\" />\n        <meta name=\"description\" content=\"What would you like to be tweeting come 2020? We asked, people answered, and we gave a few tweeters a kick-start towards making their dreams come true.\" />\n        <meta name=\"medium\" content=\"blog\" />\n        <link rel=\"image_src\" href=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/carousel/future_me_thumb.jpg\" />\n        <meta property=\"og:title\" content=\"The Feed | Orange | 2020 tweets\"/>\n        <meta property=\"fb:admins\" content=\"61007660\" />\n    \n\
+      <!--stylesheets-->\n    <link rel=\"stylesheet\" href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/css/styles.css\" type=\"text/css\" media=\"all\"/>\n    <link rel=\"stylesheet\" href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/css/print.css\" type=\"text/css\" media=\"print\"/>\n    \n\
+      <!-- New Javascript-->\n            <link rel=\"icon\" href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/images/favicon.ico\" type=\"image/x-icon\" />\n        <script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/home/js/modernizr.custom.js\"></script>\n        <script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js\"></script>\n        <link href=\"http://fast.fonts.com/cssapi/3aad38c4-1e0b-47b3-bbb5-b2315834c782.css\" rel=\"stylesheet\" type=\"text/css\" />\n\
+      \t\t<link href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/home/css/style.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t\t<link href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/home/css/desktop.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t\t<script>\n\
+      \t\tvar isRunningIE6OrBelow;\n\
+      \t\t</script>\n\
+      \t\t<!--[if lt IE 9]>\n\
+      \t\t<link href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/home/css/ie.8.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t\t<![endif]-->\n\
+      \t\t<!--[if lt IE 8]>\n\
+      \t\t<link href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/home/css/ie.7.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t\t<![endif]-->\n\
+      \t\t<!--[if lt IE 7]>\n\
+      \t\t<link href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/home/css/ie.6.css\" media=\"screen\" rel=\"stylesheet\">\n\
+      \t\t<script>\n            isRunningIE6OrBelow = true;\n        </script>\n\
+      \t\t<![endif]-->\n\n    <script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/lib/jquery.jcarousel.min.js\"></script>\n    <link rel=\"stylesheet\" href=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/skins/thefeed/skin.css\">\n    <script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/app/thefeed.js\"></script>\n    <script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/lib/jquery.hoverIntent.minified.js\"></script>\n\
+      \t<script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/app/new_carousel.js\"></script>\n\
+      \t<script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/app/init.js\"></script>\n\
+      <!--Javascript Libraries-->\n\
+      \t<script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/lib/jquery.ui.js\" type=\"text/javascript\"></script>\n\
+      \t<script type=\"text/javascript\">\n\
+      \t\tvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");\n\
+      \t\tdocument.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n\
+      \t</script>\n\
+      \t\n\
+      <script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/lib/jquery.scrollTo.js\" type=\"text/javascript\"></script>\n\
+      <script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/lib/swfobject.js\" type=\"text/javascript\"></script>\n\
+      <script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/lib/jquery.youtube.js\" type=\"text/javascript\"></script>\n\n\
+      <!--png fix for IE6-->\n\
+      \t<!--[if IE 6]>\n\
+      \t\t<script type=\"text/javascript\" src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/lib/DD_belatedPNG_0.0.8a-min.js\"></script>\n\
+      \t\t<script type=\"text/javascript\">\n\
+      \t\t\t/* PNG FIX */\n\
+      \t\t\tDD_belatedPNG.fix('#content, #carousel, #post #mainPost .date ul li.twitter,#post #content, #carousel, #post #mainPost .date, #post #mainPost .date ul, #post #mainPost .cherryPickedComments, .orangeButton, .orangeButton a, #post #mainPost .socialLinks, #post #mainPost .socialLinks ul, #post #mainPost .socialLinks ul li, #post #mainPost .socialLinks ul li span, #post #comments .socialLinks ul li span, .socialLinks ul li a, .post.arrowRight, .post.arrowLeft, .post .date, .post .date ul, .post .date ul li.type, ol.numberList li, a.orangeButton, a.orangeButton em, .orangeButtonLarge, .orangeButtonLarge a, #comingSoon, .bottomBorder, ul#archiveList li .image .overlay, ul#archiveList li .textArea .date, ul#archiveList li .textArea .date p, ul.buttons li a.comment, ul.buttons li a.tweetIt, #post #mainPost .date ul li.share a, #post #mainPost .date ul li.comment a, #post .widgetArea, #post .widgetArea .background, #post .widgetArea img, #post .post, #post #mainPost .date ul li, #post .widgetArea .embed');\n\
+      \t\t</script>\t\n\
+      \t<![endif]-->\n\
+      <!--Javascript Apps-->\n\
+      \t<script src=\"/url_maps.js\" type=\"text/javascript\"></script>\n\
+      \t\n\
+      <script src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/js/app/post.js\" type=\"text/javascript\"></script>\n\n\
+      \t\n\
+      </head>\n\
+      <body id=\"post\" class=\"grey\" data-postnumber=\"26\">\n    <p class=\"skipNavigationLink\"><a href=\"#content\">Skip navigation</a></p>\n            <div class=\"header panel\" role=\"banner\">\n            <div class=\"inner\">\n                <p id=\"orange\"><a href=\"http://orange.co.uk\" title=\"Orange homepage\">Orange</a></p>\n                <h1><a href=\"/\" title=\"The Feed homepage\">The Feed</a> <span>adventures on the internet</span></h1>\n                <iframe src=\"http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fthefeed.orange.co.uk%2F&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:100px; height:21px;\" allowTransparency=\"true\"></iframe>\n                <div class=\"getmore\">\n                    <p><a href=\"http://twitter.com/#!/OrangeTheFeed\" title=\"Follow us on Twitter\">get more</a> <a href=\"http://twitter.com/#!/OrangeTheFeed\" class=\"twitter\" title=\"Follow us on Twitter\">Twitter</a> <a href=\"/subscribe/\" class=\"email\" title=\"Subscribe to our email\">Email</a></p>\n                </div>\n            </div>\n        </div>\n    <!--div class=\"subnav\" role=\"navigation\">\n            <div class=\"inner\">\n                <ul>\n                    <li><a href=\"\">home</a></li>\n                    <li><a href=\"\">what&#8216;s it about?</a></li>\n                    <li><a href=\"\">get involved</a></li>\n                </ul>\n            </div>\n        </div-->\n    \n                <div class=\"carousel\">\n            <div class=\"inner\">\n                <ul id=\"feed_carousel\" class=\"jcarousel-skin-thefeed\">\n                \n                    <li data-comments=\"510\" data-number=\"29\" data-title=\"predict-a-chick\"><a href=\"/2011/4/11/predict-chick/\"><span>#</span>29</a></li>\n                \n                    <li data-comments=\"77\" data-number=\"28\" data-title=\"Orange toy awards\"><a href=\"/2011/4/1/orange-toy-awards/\"><span>#</span>28</a></li>\n                \n                    <li data-comments=\"70\" data-number=\"27\" data-title=\"who&#39;s the fool?\"><a href=\"/2011/3/25/whos-fool/\"><span>#</span>27</a></li>\n                \n                    <li data-comments=\"284\" data-number=\"26\" data-title=\"2020 tweets\"><a href=\"/2011/3/14/2020-tweets/\"><span>#</span>26</a></li>\n                \n                    <li data-comments=\"116\" data-number=\"25\" data-title=\"whose tweet is it anyway?\"><a href=\"/2011/3/7/whose-tweet-it-anyway/\"><span>#</span>25</a></li>\n                \n                    <li data-comments=\"96\" data-number=\"23\" data-title=\"capture the caption\"><a href=\"/2011/2/25/capture-caption/\"><span>#</span>23</a></li>\n                \n                    <li data-comments=\"23\" data-number=\"22\" data-title=\"the million questions\"><a href=\"/2011/2/21/million-questions/\"><span>#</span>22</a></li>\n                \n                    <li data-comments=\"187\" data-number=\"21\" data-title=\"film quotathon\"><a href=\"/2011/2/14/film-quotathon/\"><span>#</span>21</a></li>\n                \n                    <li data-comments=\"413\" data-number=\"20\" data-title=\"isn&#39;t it tweet \"><a href=\"/2011/2/7/isnt-it-tweet/\"><span>#</span>20</a></li>\n                \n                    <li data-comments=\"92\" data-number=\"19\" data-title=\"on location\"><a href=\"/2011/1/31/on-location/\"><span>#</span>19</a></li>\n                \n                    <li data-comments=\"857\" data-number=\"18\" data-title=\"winter warmer\"><a href=\"/2011/1/24/winter-warmer/\"><span>#</span>18</a></li>\n                \n                    <li data-comments=\"51\" data-number=\"17\" data-title=\"@OrangeHelpers\"><a href=\"/2011/1/17/orange-helpers/\"><span>#</span>17</a></li>\n                \n                    <li data-comments=\"42\" data-number=\"16\" data-title=\"summer holiday\"><a href=\"/2011/1/10/summer-holiday/\"><span>#</span>16</a></li>\n                \n                    <li data-comments=\"25\" data-number=\"14\" data-title=\"The Feed predicts\"><a href=\"/2011/1/3/the-feed-predicts/\"><span>#</span>14</a></li>\n                \n                    <li data-comments=\"10\" data-number=\"15\" data-title=\"we&#39;re on holiday\"><a href=\"/2010/12/27/were-on-holiday/\"><span>#</span>15</a></li>\n                \n                    <li data-comments=\"80\" data-number=\"13\" data-title=\"stocking fillers\"><a href=\"/2010/12/20/stocking-fillers/\"><span>#</span>13</a></li>\n                \n                    <li data-comments=\"57\" data-number=\"12\" data-title=\"santa stand in\"><a href=\"/2010/12/13/santa-stand/\"><span>#</span>12</a></li>\n                \n                    <li data-comments=\"989\" data-number=\"11\" data-title=\"secret portraits\"><a href=\"/2010/11/29/secret-portraits/\"><span>#</span>11</a></li>\n                \n                    <li data-comments=\"128\" data-number=\"10\" data-title=\"tweet with a twist\"><a href=\"/2010/11/22/tweet-twist/\"><span>#</span>10</a></li>\n                \n                    <li data-comments=\"33\" data-number=\"9\" data-title=\"film flipper\"><a href=\"/2010/11/15/film-flipper/\"><span>#</span>9</a></li>\n                \n                    <li data-comments=\"26\" data-number=\"8\" data-title=\"stop before you pop\"><a href=\"/2010/11/8/stop-you-pop/\"><span>#</span>8</a></li>\n                \n                    <li data-comments=\"54\" data-number=\"7\" data-title=\"king of the internet\"><a href=\"/2010/11/1/king-of-the-internet/\"><span>#</span>7</a></li>\n                \n                    <li data-comments=\"59\" data-number=\"6\" data-title=\"trick or treater\"><a href=\"/2010/10/25/trick-or-treater/\"><span>#</span>6</a></li>\n                \n                    <li data-comments=\"18\" data-number=\"5\" data-title=\"What The Feed!\"><a href=\"/2010/10/18/what-the-feed/\"><span>#</span>5</a></li>\n                \n                    <li data-comments=\"13\" data-number=\"4\" data-title=\"lost for words?\"><a href=\"/2010/10/11/lost-for-words/\"><span>#</span>4</a></li>\n                \n                    <li data-comments=\"790\" data-number=\"3\" data-title=\"singing tweetagrams\"><a href=\"/2010/10/4/singing-tweetagrams/\"><span>#</span>3</a></li>\n                \n                    <li data-comments=\"37\" data-number=\"2\" data-title=\"sent with a smile\"><a href=\"/2010/9/27/sent-smile/\"><span>#</span>2</a></li>\n                \n                    <li data-comments=\"42\" data-number=\"1\" data-title=\"phone or baby?\"><a href=\"/2010/9/20/phone-or-baby/\"><span>#</span>1</a></li>\n                \n                </ul>\n                <div id=\"carousel-info\">\n                    <p class=\"carousel-title\">default text</p>\n                    <div class=\"carousel-tail\"><!-- :'( --></div>\n                    <p class=\"carousel-comments\">0</p>\n                </div>\n            </div>\n        </div>\n    \n\
+      <!-- UPDATE BAR -->\n    \n\
+      <!--CONTENT-->\n    \n\
+      <div id=\"content\">\n    \n    \n    \n    <div class=\"postWrapper\" style=\"background-image:url(http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/backgrounds/future_header_1.png); background-position:center top; background-repeat:no-repeat\">\n    \n    \n        \n        \n            \n            \n                \n                \n                <!-- MAIN POST -->\n            \t\t<div id=\"mainPost\" class=\"post29\">\n            \t\t\t<div class=\"container\">\n                        <!-- left column -->\n                            <div class=\"leftColumn\">\n                                <div class=\"number\"><span>#</span>26</div>\n                                <h1 class=\"helveticaNeue\">2020 tweets</h1>\n                                <!-- Date / Social Stats -->\n            \t\t\t\t\t<div class=\"date\">\n            \t\t\t\t\t\t<div class=\"leftBg\"></div>\n            \t\t\t\t\t\t<ul class=\"socialLinks\">\n            \t\t\t\t\t\t\t<li class=\"first\">14 Mar, 2011</li>\n            \t\t\t\t\t\t\t<li class=\"comment\"><a href=\"#comments\">284 comments</a></li>\n            \t\t\t\t\t\t\t<li class=\"share\"><a href=\"#share\" rel=\"http://bit.ly/hMcSSY\">share</a></li>\t\t\t\t\t\n            \t\t\t\t\t\t\t<li class=\"twitter\">\n            \t\t\t\t\t\t\t    <a href=\"http://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://thefeed.orange.co.uk/2011/3/14/2020-tweets/\" data-text=\"What would you like to be tweeting come 2020? Tell @OrangeTheFeed your dream for the future #2020tweets \" data-count=\"horizontal\">Tweet</a>\n            \t\t\t\t\t\t\t    <script type=\"text/javascript\" src=\"http://platform.twitter.com/widgets.js\"></script>\n            \t\t\t\t\t\t\t    \n            \t\t\t\t\t\t\t</li>\n            \t\t\t\t\t\t\t<li class=\"facebook\">\n            \t\t\t\t\t\t\t    <iframe src=\"http://www.facebook.com/plugins/like.php?href=http://thefeed.orange.co.uk/2011/3/14/2020-tweets/&amp;layout=button_count&amp;show_faces=false&amp;colorscheme=light&amp;width=90\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" style=\"border:none; overflow:hidden; width:90px; height:21px;\"></iframe>\n            \t\t\t\t\t\t\t</li>\n            \t\t\t\t\t\t</ul>\n            \t\t\t\t\t\t<div class=\"rightBg\"></div>\n            \t\t\t\t\t</div>\n            \t\t\t\t\t<!-- Post Content -->\n            \t\t\t\t\t\n\n\n\n\n\n    \n    <p>\r\n\
+      \t<span style=\"font-size:14px;\"><span class=\"Apple-style-span\" style=\"color: rgb(35, 35, 35); font-family: Arial; \">What would you like to be tweeting come 2020, assuming our robot secretaries aren&rsquo;t tweeting for us by then?</span></span></p>\r\n\
+      <p>\r\n\
+      \t<span style=\"font-size:14px;\">Maybe you&rsquo;d like to be posting Twitpics from your beachside digs in the Maldives. Or perhaps you&rsquo;d like to be tweeting about your latest Lord Sugar-worthy business deal.<br />\r\n\
+      \t<br />\r\n\
+      \t<span style=\"font: 12.0px 'Lucida Grande'\"> </span>Have a think and post a tweet this week as Future You, adding the hashtag&nbsp;<a href=\"http://twitter.com/#!/search/%232020tweets\" target=\"_blank\"><font class=\"Apple-style-span\">#2020tweets.&nbsp;</font></a>We&rsquo;ll give a few lucky tweeters a little kick-start towards making their future-dreams come true.&nbsp;</span><br />\r\n\
+      \t<br />\r\n\
+      \t<br />\r\n\
+      \t&nbsp;</p>\r\n\n    \n\n\n\n\n            \t\t\t\t\t\n            \t\t\t\t\t\n            \t\t\t\t\t    <p class=\"orangeButtonWhiteBorder\"><a href=\"#2020tweets @OrangeTheFeed\" class=\"post-call-to-action\" target=\"_blank\">post your tweet</a></p>\n            \t\t\t\t\t\n                            </div>\n                \t\t<!-- end left column -->\n                \t\t\n            \t\t\t</div>\n            \t\t</div>\n                <!-- END MAIN POST -->\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update1\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">15</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">monday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update1_1.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update2\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">15</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">monday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update2.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update3\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">16</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">tuesday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update3\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update4\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">16</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">tuesday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update4.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update5\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">17</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">wednesday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update5.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update6\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">17</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">wednesday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update6.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update7\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">18</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">thursday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update7.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update8\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">18</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">friday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update8_1.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update9\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">18</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">friday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update9.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update10\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">22</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">monday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update9_1.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update11\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">22</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">tuesday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update10.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update12\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">23</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">wednesday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update11.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update13\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">23</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">wednesday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update12.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n            \n            \n                \n                                    \n                    \n\n\n    <a id=\"update14\"></a>\n    <div class=\"post image\">\n        <div class=\"container\">\n        \t<div class=\"date\">\n        \t\t<ul>\n        \t\t\t<li>\n        \t\t\t\t<span class=\"day\">24</span>\n        \t\t\t\t<span class=\"monthYear\">\n        \t\t\t\t\t<span class=\"month\">March</span>\n        \t\t\t\t\t<span class=\"year\">2011</span>\n        \t\t\t\t</span>\n        \t\t\t</li>\n        \t\t\t<li class=\"type\">2020 tweets</li>\n        \t\t</ul>\n        \t</div>\t\t\t\t\n        \t<h2 class=\"helveticaNeue\">thursday&#39;s favourites</h2>\n\
+      \t\t</div>  \n\n\n\n\n    \n    \n    \n    \n    \n    \n    <!-- image block -->\n    \t<div class=\"widgetArea\">\n    \t\t<div class=\"background\">\n    \t\t\t<div class=\"container\">\n    \t\t\t\t<p class=\"mainImage\"><img src=\"http://assets.thefeed.orange.co.uk/cdn/media/blog/posts/updates/update13.png\" /></p>\n    \t\t\t</div>\n    \t\t</div>\n    \t</div>\n    <!-- end image block -->\n    \n    \n    \n    \n\n\n\n\n    </div>\n\n\n                \n            \n        \n    \n    </div>\n\n\
+      \t\n\
+      \t\n\
+      \t<!--COMMENTS-->\n\
+      \t\t<div id=\"comments\">\n\
+      \t\t<!--form-->\n\
+      \t\t\t<div class=\"container\">\n\
+      \t\t    \n\
+      \t\t\t\t<div class=\"commentFormArea\">\n\
+      \t\t\t\t    <div class=\"titleArea\">\n\
+      \t    \t\t\t\t<h2 class=\"helveticaNeue\">what do you think?</h2>\n\
+      \t\t\t\t\t</div>\n\
+      \t\t\t\t\t<form action=\"/comments/post/\" method=\"post\" id=\"comment-form\">\n\
+      \t\t\t\t        \n\
+      \t                    <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='e3ad92b937afc29876f8cf8283dc7dd1' /></div>\n\
+      \t                    \n\
+      \t                        \n\
+      \t                            <input type=\"hidden\" name=\"content_type\" value=\"blog.post\" id=\"id_content_type\" />    \n\
+      \t                        \n\
+      \t                    \n\
+      \t                        \n\
+      \t                            <input type=\"hidden\" name=\"object_pk\" value=\"29\" id=\"id_object_pk\" />    \n\
+      \t                        \n\
+      \t                    \n\
+      \t                        \n\
+      \t                            <input type=\"hidden\" name=\"timestamp\" value=\"1303078891\" id=\"id_timestamp\" />    \n\
+      \t                        \n\
+      \t                    \n\
+      \t                        \n\
+      \t                            <input type=\"hidden\" name=\"security_hash\" value=\"2bcb2d01574f4e6f33c68ec0d0be402ccd8cb124\" id=\"id_security_hash\" />    \n\
+      \t                        \n\
+      \t                    \n\
+      \t                        \n\
+      \t                    \n\
+      \t                        \n\
+      \t                    \n\
+      \t                        \n\
+      \t                            <input type=\"hidden\" name=\"url\" id=\"id_url\" />    \n\
+      \t                        \n\
+      \t                    \n\
+      \t                        \n\
+      \t                    \n\
+      \t                        \n\
+      \t                    \n\
+      \t                        \n\
+      \t                            <input type=\"hidden\" name=\"image\" id=\"id_image\" />    \n\
+      \t                        \n\
+      \t                    \n\
+      \t                    <input type=\"hidden\" name=\"next\" value=\"/2011/3/14/2020-tweets/?page=1\" />\n\
+      \t                    <fieldset>\n\
+      \t                        <div class=\"halfColumn\">                                \n\
+      \t                            <label for=\"id_name\">your name</label>\n\
+      \t                            <input type=\"text\" name=\"name\" id=\"id_name\" value=\"\"/>\n\
+      \t                        </div>\n\
+      \t                        <div class=\"halfColumn\">\n\
+      \t                            <label for=\"id_email\">your email</label>\n\
+      \t                            <input type=\"text\" name=\"email\" id=\"id_email\" value=\"we won't share this or save it\"/>                     \n\
+      \t                        </div>\n\
+      \t                        <div class=\"fullColumn\">\n\
+      \t                            <label for=\"id_comment\">your comment</label>\n\
+      \t\t\t\t\t\t\t\t<div class=\"textArea\">\n\
+      \t\t\t\t\t\t\t\t\t<div class=\"topBorder\"></div>\n\
+      \t\t\t\t\t\t\t\t\t<textarea id=\"id_comment\" name=\"comment\">be nice, be funny, but please don't be sweary</textarea>\n\
+      \t\t\t\t\t\t\t\t\t<div class=\"bottomBorder\"></div>\n\
+      \t\t\t\t\t\t\t\t</div>\n\
+      \t                        </div>\n\
+      \t                    </fieldset>\n\
+      \t                    \n\
+      \t\t\t\t\t\t<input type=\"submit\" name=\"submit\" id=\"submit\" class=\"orangeButton\" value=\"submit\" />\t\t\t\t\t\n\
+      \t\t\t\t\t</form>\n\
+      \t\t\t\t</div>\n\
+      \t\t\t\n\
+      \t\t\t</div>\n\
+      \t\t\t<!--title block dark-->\n\
+      \t\t\t<div class=\"container\">\n\
+      \t\t\t\t<div class=\"titleArea\">\n\
+      \t\t\t\t\t<h2 class=\"helveticaNeue\">what's being said</h2>\n\
+      \t\t\t\t</div>\n\
+      \t\t\t</div>\n\
+      \t    \t<!--comments block light-->\n\
+      \t\t\t<div class=\"container\">\n\
+      \t \t\t\t<div class=\"commentArea\">\n\
+      \t    \t\t\t<!--comment list-->\n\
+      \t    \t\t\t\n\
+      \t        \t\t\t\n\
+      \t        \t\t\t\n\
+      \t\t\t\t\t\t<ul class=\"commentList\">\n\
+      \t\t\t\t\t\t    \n\
+      \t                            <li id=\"comment8280\">\n\
+      \t<div class=\"commentContainer\">\n\
+      \t\t<div class=\"comment\">\n\
+      \t\t\t<div class=\"box\">\n\
+      \t\t\t    <p>LOL&quot;</p>\n\
+      \t\t\t    \n\
+      \t\t\t</div>\n\
+      \t\t\t<div class=\"pointer\"></div>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"details\">\n\
+      \t\t\t<p class=\"avatar\">\n\
+      \t\t\t    \n\
+      \t\t\t        <img src=\"http://assets.thefeed.orange.co.uk/cdn/1302872930/static/images/iconComment.gif\" class=\"avatar\" />\n\
+      \t\t\t    \n\
+      \t\t\t</p>\n\
+      \t\t\t<div class=\"author\">\n\
+      \t\t\t\t<p>by: <strong><span class=\"name\">OranngeTheFeed</span></strong></p>\n\
+      \t\t\t\t<p class=\"subText\">11 hours, 11 minutes ago</p>\n\
+      \t\t\t</div>\n\
+      \t\t\t<ul class=\"buttons\">\n\
+      \t\t\t\t<li><a class=\"reply\" href=\"#\">reply</a></li>\n\
+      \t\t\t\t\n\
+      \t\t\t\t<li><a class=\"favourite selected\" href=\"/comments/like/8280/\">3</a></li>\n\
+      \t\t\t</ul>\n\
+      \t\t</div>\n\
+      \t</div>\t\t\t\t\t\t\n\
+      </li>\n\
+      \t\t\t\t\t\t\t\n\
+      \t                            <li id=\"comment7842\">\n\
+      \t<div class=\"commentContainer\">\n\
+      \t\t<div class=\"comment\">\n\
+      \t\t\t<div class=\"box\">\n\
+      \t\t\t    <p>Another great thing about NYC: an air conditioned office when it gets hot! Unlike my friends at @2020tweets</p>\n\
+      \t\t\t    \n\
+      \t\t\t</div>\n\
+      \t\t\t<div class=\"pointer\"></div>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"details\">\n\
+      \t\t\t<p class=\"avatar\">\n\
+      \t\t\t    \n\
+      \t\t\t        <img src=\"http://a3.twimg.com/profile_images/1229409501/gd_normal.jpg\" width=\"48\" height=\"48\" class=\"avatar\" />\n\
+      \t\t\t    \n\
+      \t\t\t</p>\n\
+      \t\t\t<div class=\"author\">\n\
+      \t\t\t\t<p>by: <strong><span class=\"name\">Greg_Dillon</span></strong></p>\n\
+      \t\t\t\t<p class=\"subText\">5 days, 6 hours ago on <a href=\"http://twitter.com/Greg_Dillon/status/57852318208638976\" target=\"_blank\">Twitter</a></p>\n\
+      \t\t\t</div>\n\
+      \t\t\t<ul class=\"buttons\">\n\
+      \t\t\t\t<li><a class=\"reply\" href=\"#\">reply</a></li>\n\
+      \t\t\t\t\n\
+      \t\t\t\t<li><a class=\"favourite selected\" href=\"/comments/like/7842/\">14</a></li>\n\
+      \t\t\t</ul>\n\
+      \t\t</div>\n\
+      \t</div>\t\t\t\t\t\t\n\
+      </li>\n\
+      \t\t\t\t\t\t\t\n\
+      \t                            <li id=\"comment7834\">\n\
+      \t<div class=\"commentContainer\">\n\
+      \t\t<div class=\"comment\">\n\
+      \t\t\t<div class=\"box\">\n\
+      \t\t\t    <p>GUERRILLA INNOVATION - I tweet dal futuro - # 2020tweets -  http://t.co/HjjXCt1</p>\n\
+      \t\t\t    \n\
+      \t\t\t</div>\n\
+      \t\t\t<div class=\"pointer\"></div>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"details\">\n\
+      \t\t\t<p class=\"avatar\">\n\
+      \t\t\t    \n\
+      \t\t\t        <img src=\"http://a2.twimg.com/profile_images/1191113745/tumblr_normal.jpg\" width=\"48\" height=\"48\" class=\"avatar\" />\n\
+      \t\t\t    \n\
+      \t\t\t</p>\n\
+      \t\t\t<div class=\"author\">\n\
+      \t\t\t\t<p>by: <strong><span class=\"name\">ValentinaTi</span></strong></p>\n\
+      \t\t\t\t<p class=\"subText\">5 days, 13 hours ago on <a href=\"http://twitter.com/ValentinaTi/status/57747856911634432\" target=\"_blank\">Twitter</a></p>\n\
+      \t\t\t</div>\n\
+      \t\t\t<ul class=\"buttons\">\n\
+      \t\t\t\t<li><a class=\"reply\" href=\"#\">reply</a></li>\n\
+      \t\t\t\t\n\
+      \t\t\t\t<li><a class=\"favourite selected\" href=\"/comments/like/7834/\">19</a></li>\n\
+      \t\t\t</ul>\n\
+      \t\t</div>\n\
+      \t</div>\t\t\t\t\t\t\n\
+      </li>\n\
+      \t\t\t\t\t\t\t\n\
+      \t                            <li id=\"comment7609\">\n\
+      \t<div class=\"commentContainer\">\n\
+      \t\t<div class=\"comment\">\n\
+      \t\t\t<div class=\"box\">\n\
+      \t\t\t    <p>OrangeTheFeed: Enjoy! RT @tweetymike proof that Twitter is useful: \xC2\xA366.20 worth of Zoo tkts via #2020tweets HUGE... http://bit.ly/gtbwJS</p>\n\
+      \t\t\t    \n\
+      \t\t\t</div>\n\
+      \t\t\t<div class=\"pointer\"></div>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"details\">\n\
+      \t\t\t<p class=\"avatar\">\n\
+      \t\t\t    \n\
+      \t\t\t        <img src=\"http://a1.twimg.com/profile_images/1134820804/1st_magicapps_logo_normal.jpg\" width=\"48\" height=\"48\" class=\"avatar\" />\n\
+      \t\t\t    \n\
+      \t\t\t</p>\n\
+      \t\t\t<div class=\"author\">\n\
+      \t\t\t\t<p>by: <strong><span class=\"name\">Magicappsuk</span></strong></p>\n\
+      \t\t\t\t<p class=\"subText\">2 weeks, 3 days ago on <a href=\"http://twitter.com/Magicappsuk/status/53491868759113728\" target=\"_blank\">Twitter</a></p>\n\
+      \t\t\t</div>\n\
+      \t\t\t<ul class=\"buttons\">\n\
+      \t\t\t\t<li><a class=\"reply\" href=\"#\">reply</a></li>\n\
+      \t\t\t\t\n\
+      \t\t\t\t<li><a class=\"favourite selected\" href=\"/comments/like/7609/\">59</a></li>\n\
+      \t\t\t</ul>\n\
+      \t\t</div>\n\
+      \t</div>\t\t\t\t\t\t\n\
+      </li>\n\
+      \t\t\t\t\t\t\t\n\
+      \t                            <li id=\"comment7608\">\n\
+      \t<div class=\"commentContainer\">\n\
+      \t\t<div class=\"comment\">\n\
+      \t\t\t<div class=\"box\">\n\
+      \t\t\t    <p>Enjoy! RT @tweetymike proof that Twitter is useful: \xC2\xA366.20 worth of Zoo tkts via #2020tweets HUGE HT @whatelydude :-) http://t.co/u8fH8x</p>\n\
+      \t\t\t    \n\
+      \t\t\t</div>\n\
+      \t\t\t<div class=\"pointer\"></div>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"details\">\n\
+      \t\t\t<p class=\"avatar\">\n\
+      \t\t\t    \n\
+      \t\t\t        <img src=\"http://a3.twimg.com/profile_images/1148857839/the_feed_icon_02_normal.png\" width=\"48\" height=\"48\" class=\"avatar\" />\n\
+      \t\t\t    \n\
+      \t\t\t</p>\n\
+      \t\t\t<div class=\"author\">\n\
+      \t\t\t\t<p>by: <strong><span class=\"name\">OrangeTheFeed</span></strong></p>\n\
+      \t\t\t\t<p class=\"subText\">2 weeks, 3 days ago on <a href=\"http://twitter.com/OrangeTheFeed/status/53486985700065281\" target=\"_blank\">Twitter</a></p>\n\
+      \t\t\t</div>\n\
+      \t\t\t<ul class=\"buttons\">\n\
+      \t\t\t\t<li><a class=\"reply\" href=\"#\">reply</a></li>\n\
+      \t\t\t\t\n\
+      \t\t\t\t<li><a class=\"favourite selected\" href=\"/comments/like/7608/\">57</a></li>\n\
+      \t\t\t</ul>\n\
+      \t\t</div>\n\
+      \t</div>\t\t\t\t\t\t\n\
+      </li>\n\
+      \t\t\t\t\t\t\t\n\
+      \t                            <li id=\"comment7606\">\n\
+      \t<div class=\"commentContainer\">\n\
+      \t\t<div class=\"comment\">\n\
+      \t\t\t<div class=\"box\">\n\
+      \t\t\t    <p>RT @tweetymike: Concrete proof that Twitter is useful: \xC2\xA366.20 worth of free Zoo tkts via #2020tweets HUGE HT @whatelydude :-) http://t.co/u8fH8xr</p>\n\
+      \t\t\t    \n\
+      \t\t\t</div>\n\
+      \t\t\t<div class=\"pointer\"></div>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"details\">\n\
+      \t\t\t<p class=\"avatar\">\n\
+      \t\t\t    \n\
+      \t\t\t        <img src=\"http://a0.twimg.com/profile_images/1192589804/IMG_0261.JPG_normal.jpg\" width=\"48\" height=\"48\" class=\"avatar\" />\n\
+      \t\t\t    \n\
+      \t\t\t</p>\n\
+      \t\t\t<div class=\"author\">\n\
+      \t\t\t\t<p>by: <strong><span class=\"name\">Whatleydude</span></strong></p>\n\
+      \t\t\t\t<p class=\"subText\">2 weeks, 3 days ago on <a href=\"http://twitter.com/Whatleydude/status/53467772839137280\" target=\"_blank\">Twitter</a></p>\n\
+      \t\t\t</div>\n\
+      \t\t\t<ul class=\"buttons\">\n\
+      \t\t\t\t<li><a class=\"reply\" href=\"#\">reply</a></li>\n\
+      \t\t\t\t\n\
+      \t\t\t\t<li><a class=\"favourite selected\" href=\"/comments/like/7606/\">58</a></li>\n\
+      \t\t\t</ul>\n\
+      \t\t</div>\n\
+      \t</div>\t\t\t\t\t\t\n\
+      </li>\n\
+      \t\t\t\t\t\t\t\n\
+      \t                            <li id=\"comment7607\">\n\
+      \t<div class=\"commentContainer\">\n\
+      \t\t<div class=\"comment\">\n\
+      \t\t\t<div class=\"box\">\n\
+      \t\t\t    <p>Concrete proof that Twitter is useful: \xC2\xA366.20 worth of free Zoo tkts via #2020tweets HUGE HT @whatelydude :-) http://t.co/u8fH8xr</p>\n\
+      \t\t\t    \n\
+      \t\t\t</div>\n\
+      \t\t\t<div class=\"pointer\"></div>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"details\">\n\
+      \t\t\t<p class=\"avatar\">\n\
+      \t\t\t    \n\
+      \t\t\t        <img src=\"http://a3.twimg.com/profile_images/1276845560/Tweed_8-bit_avatar_normal.png\" width=\"48\" height=\"48\" class=\"avatar\" />\n\
+      \t\t\t    \n\
+      \t\t\t</p>\n\
+      \t\t\t<div class=\"author\">\n\
+      \t\t\t\t<p>by: <strong><span class=\"name\">tweetymike</span></strong></p>\n\
+      \t\t\t\t<p class=\"subText\">2 weeks, 3 days ago on <a href=\"http://twitter.com/tweetymike/status/53467509063561217\" target=\"_blank\">Twitter</a></p>\n\
+      \t\t\t</div>\n\
+      \t\t\t<ul class=\"buttons\">\n\
+      \t\t\t\t<li><a class=\"reply\" href=\"#\">reply</a></li>\n\
+      \t\t\t\t\n\
+      \t\t\t\t<li><a class=\"favourite selected\" href=\"/comments/like/7607/\">61</a></li>\n\
+      \t\t\t</ul>\n\
+      \t\t</div>\n\
+      \t</div>\t\t\t\t\t\t\n\
+      </li>\n\
+      \t\t\t\t\t\t\t\n\
+      \t                            <li id=\"comment7587\">\n\
+      \t<div class=\"commentContainer\">\n\
+      \t\t<div class=\"comment\">\n\
+      \t\t\t<div class=\"box\">\n\
+      \t\t\t    <p>Google just delivered my bread and ads appear when I toast a slice. #2020tweets</p>\n\
+      \t\t\t    \n\
+      \t\t\t</div>\n\
+      \t\t\t<div class=\"pointer\"></div>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"details\">\n\
+      \t\t\t<p class=\"avatar\">\n\
+      \t\t\t    \n\
+      \t\t\t        <img src=\"http://a0.twimg.com/profile_images/1230795392/beach_normal.JPG\" width=\"48\" height=\"48\" class=\"avatar\" />\n\
+      \t\t\t    \n\
+      \t\t\t</p>\n\
+      \t\t\t<div class=\"author\">\n\
+      \t\t\t\t<p>by: <strong><span class=\"name\">Coolz0r</span></strong></p>\n\
+      \t\t\t\t<p class=\"subText\">2 weeks, 4 days ago on <a href=\"http://twitter.com/Coolz0r/status/52941363804766209\" target=\"_blank\">Twitter</a></p>\n\
+      \t\t\t</div>\n\
+      \t\t\t<ul class=\"buttons\">\n\
+      \t\t\t\t<li><a class=\"reply\" href=\"#\">reply</a></li>\n\
+      \t\t\t\t\n\
+      \t\t\t\t<li><a class=\"favourite selected\" href=\"/comments/like/7587/\">64</a></li>\n\
+      \t\t\t</ul>\n\
+      \t\t</div>\n\
+      \t</div>\t\t\t\t\t\t\n\
+      </li>\n\
+      \t\t\t\t\t\t\t\n\
+      \t                            <li id=\"comment7586\">\n\
+      \t<div class=\"commentContainer\">\n\
+      \t\t<div class=\"comment\">\n\
+      \t\t\t<div class=\"box\">\n\
+      \t\t\t    <p>Google just delivered my bread and ads appear with when I toast a slice.  #2020tweets</p>\n\
+      \t\t\t    \n\
+      \t\t\t</div>\n\
+      \t\t\t<div class=\"pointer\"></div>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"details\">\n\
+      \t\t\t<p class=\"avatar\">\n\
+      \t\t\t    \n\
+      \t\t\t        <img src=\"http://a0.twimg.com/profile_images/1230795392/beach_normal.JPG\" width=\"48\" height=\"48\" class=\"avatar\" />\n\
+      \t\t\t    \n\
+      \t\t\t</p>\n\
+      \t\t\t<div class=\"author\">\n\
+      \t\t\t\t<p>by: <strong><span class=\"name\">Coolz0r</span></strong></p>\n\
+      \t\t\t\t<p class=\"subText\">2 weeks, 4 days ago on <a href=\"http://twitter.com/Coolz0r/status/52932659453763584\" target=\"_blank\">Twitter</a></p>\n\
+      \t\t\t</div>\n\
+      \t\t\t<ul class=\"buttons\">\n\
+      \t\t\t\t<li><a class=\"reply\" href=\"#\">reply</a></li>\n\
+      \t\t\t\t\n\
+      \t\t\t\t<li><a class=\"favourite selected\" href=\"/comments/like/7586/\">67</a></li>\n\
+      \t\t\t</ul>\n\
+      \t\t</div>\n\
+      \t</div>\t\t\t\t\t\t\n\
+      </li>\n\
+      \t\t\t\t\t\t\t\n\
+      \t                            <li id=\"comment7580\">\n\
+      \t<div class=\"commentContainer\">\n\
+      \t\t<div class=\"comment\">\n\
+      \t\t\t<div class=\"box\">\n\
+      \t\t\t    <p>She looks ace! Watch out Becks. RT @Sadlybrokeboy: @OrangeTheFeed Beth got her football boots today!! #2020tweets  http://twitpic.com/4eofj9</p>\n\
+      \t\t\t    \n\
+      \t\t\t</div>\n\
+      \t\t\t<div class=\"pointer\"></div>\n\
+      \t\t</div>\n\
+      \t\t<div class=\"details\">\n\
+      \t\t\t<p class=\"avatar\">\n\
+      \t\t\t    \n\
+      \t\t\t        <img src=\"http://a3.twimg.com/profile_images/1148857839/the_feed_icon_02_normal.png\" width=\"48\" height=\"48\" class=\"avatar\" />\n\
+      \t\t\t    \n\
+      \t\t\t</p>\n\
+      \t\t\t<div class=\"author\">\n\
+      \t\t\t\t<p>by: <strong><span class=\"name\">OrangeTheFeed</span></strong></p>\n\
+      \t\t\t\t<p class=\"subText\">2 weeks, 5 days ago on <a href=\"http://twitter.com/OrangeTheFeed/status/52776319364247552\" target=\"_blank\">Twitter</a></p>\n\
+      \t\t\t</div>\n\
+      \t\t\t<ul class=\"buttons\">\n\
+      \t\t\t\t<li><a class=\"reply\" href=\"#\">reply</a></li>\n\
+      \t\t\t\t\n\
+      \t\t\t\t<li><a class=\"favourite selected\" href=\"/comments/like/7580/\">68</a></li>\n\
+      \t\t\t</ul>\n\
+      \t\t</div>\n\
+      \t</div>\t\t\t\t\t\t\n\
+      </li>\n\
+      \t\t\t\t\t\t\t\n\
+      \t\t\t\t\t\t</ul>\n\
+      \t        \t\t\t<!--pagination-->\n\
+      \t\t\t\t\t\t<div class=\"pagination\">\n\
+      \t\t\t\t\t\t    \n\n\
+      <ul>\n    \n        \n            \n                <li><a class=\"selected\" href=\"?page=1#comments\">1</a></li>\n            \n        \n    \n        \n            \n                <li><a href=\"?page=2#comments\">2</a></li>\n            \n        \n    \n        \n            \n                <li><a href=\"?page=3#comments\">3</a></li>\n            \n        \n    \n        \n            \n                <li><a href=\"?page=4#comments\">4</a></li>\n            \n        \n    \n        \n            <li>...</li>\n        \n    \n        \n            \n                <li><a href=\"?page=26#comments\">26</a></li>\n            \n        \n    \n        \n            \n                <li><a href=\"?page=27#comments\">27</a></li>\n            \n        \n    \n        \n            \n                <li><a href=\"?page=28#comments\">28</a></li>\n            \n        \n    \n        \n            \n                <li><a href=\"?page=29#comments\">29</a></li>\n            \n        \n    \n\
+      </ul>\n\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\n\
+      \t\t\t\t</div>\n\
+      \t\t\t</div>\n\
+      \t\t</div>\n\
+      \t\n\n\
+      \t\n\
+      </div>\n\n\
+      <!--FOOTER-->\n\
+      \t        <div class=\"footer panel\">\n            <div class=\"inner\">\n                <ul>\n                    <li><a href=\"http://www.orange.co.uk/\">orange.co.uk</a></li>\n                    <li><a href=\"http://shop.orange.co.uk/\">Orange shop</a></li>\n                    <li><a href=\"http://www.orange.co.uk/mediapack/?link=footer_advertise\">advertise</a></li>\n                    <li><a href=\"http://www.orange.co.uk/privacy/?linkfrom=mediapack_&link=footer_privacy\">privacy</a></li>\n                    <li><a href=\"http://www.orange.co.uk/terms/?linkfrom=privacy_&link=footer_terms_and_conditions\">terms and conditions</a></li>\n                </ul>\n            </div>\n        </div>\n        <script type=\"text/javascript\">\n\
+      \t\t  var pageTracker = _gat._getTracker(\"UA-1399240-39\");\n\
+      \t\t  pageTracker._initData();\n\
+      \t\t  pageTracker._trackPageview();\n\
+      \t   </script>\n\
+      </body>\n\
+      </html>"
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://instaprint.me:80/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      server: 
+      - nginx/0.8.54
+      date: 
+      - Sun, 17 Apr 2011 22:21:32 GMT
+      content-type: 
+      - text/html; charset=utf-8
+      transfer-encoding: 
+      - chunked
+      connection: 
+      - keep-alive
+    body: "<!doctype html>\n\
+      <html lang=\"en\" class=\"no-js\">\n\
+      <head>\n    <meta charset=\"utf-8\" />\n    \n    <meta name=\"viewport\" content=\"width=1024\"/>\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\" />\n    \n    <title>Instaprint - A location based photo booth for Instagram</title>\n    <meta name=\"description\" content=\"Another toy from BREAKFAST designed to sit on a wall at an event and print out Instagrams tagged with that location or hashtag.\"> \n    \n    <link rel=\"shortcut icon\" href=\"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/images/favicon.ico\" />\n    <link rel=\"apple-touch-icon\" href=\"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/images/favicon_100x100.gif\" />\n\n    \n        <link rel=\"stylesheet\" href=\"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/css/reset-min.css\" type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n        <link rel=\"stylesheet\" href=\"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/css/960.css\" type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n        <link rel=\"stylesheet\" href=\"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/css/styles.css?2011-04-10-12-46-31\" type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n        \n    \n    \n    <!--[if lt IE 7 ]>\n      <link rel=\"stylesheet\" href=\"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/css/ie6.css\" type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n      <script src=\"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/js/dd_belatedpng.js\"></script>\n      <script>\n        DD_belatedPNG.fix('');\n      </script>\n    <![endif]-->\n    \n    \n    \n    <link rel=\"stylesheet\" type=\"text/css\" href=\"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/js/fancybox/jquery.fancybox-1.3.4.css\" media=\"screen\" />\n\n    \n    <script src=\"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/js/head.min.js\"></script>\n    <script>\n        head.js(\n           {jquery: \"http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js\"},\n           \"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/js/jquery.easing.1.3.js\",\n           \"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/js/rotate.js\",\n           \"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/js/common.js\",\n           \"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/js/pubsub.js\",\n           \"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/js/camera.js\",\n           \"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/js/fancybox/jquery.fancybox-1.3.4.pack.js\"\n        );\n        var BREAKFAST = {\n            debug: parseInt(\"0\"),\n            domain: \"instaprint.me\",\n            media_url: \"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/\"\n        };\n    </script>\n    \n    \n\n    \n    \n    \n    <script type=\"text/javascript\">\n\n      var _gaq = _gaq || [];\n      _gaq.push(['_setAccount', 'UA-11345519-8']);\n      _gaq.push(['_trackPageview']);\n\n      (function() {\n        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n      })();\n\n    </script>\n\n\
+      </head>\n\n\
+      <body id=\"index\" class=\"  tk\">\n    \n    <div id=\"page\" class=\"\">\n    \n        \n\n        \n            <div id=\"content\" class=\"container_24\">\n                \n    \n    <div class=\"grid_24\">\n        \n        \n        <div class=\"grid_19 alpha dred\">\n            <div id=\"logo_holder\" class=\"grid_19 alpha omega dred\">\n                <h1 id=\"logo\"><a href=\"/\"><span>Instaprint</span></a></h1>\n                <span id=\"tagline\">A location based photo booth for Instagram</span>&nbsp;\n            </div>\n            <div id=\"video_background\" class=\"grid_19 alpha omega dgreen copy\">\n                \n                \n                    <div id=\"video_menu\">\n                        Follow <a class=\"\" href=\"http://twitter.com/breakfastny\" target=\"_blank\"><span>@BREAKFASTny</span></a> for updates.\n                    </div>\n                \n                \n                \n                    <div id=\"video_wrapper\" overflow:hidden;>\n                        <div id=\"video\" >\n                            <iframe src=\"http://player.vimeo.com/video/20759156?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" width=\"606\" height=\"341\" frameborder=\"0\"></iframe>\n                        </div>\n                        \n                    </div>\n                \n            </div>\n        </div>\n        \n        \n        <div id=\"right_col\" class=\"grid_5 omega dred\">\n            <div id=\"paper_stack\" class=\"dgreen\">\n                <div id=\"stack\"></div>\n                <div id=\"camera\"></div>\n                <img id=\"printing\" alt=\"Now printing\" rel=\"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/images/now_printing_anim_v1.gif\" src=\"http://d3ous0vnp05zqm.cloudfront.net/2011-04-10-12-46-31/images/x.gif\" />\n                <div id=\"event_name\">\n                    <a href=\"/gallery/pandora/\" class=\"\">Pandora Mashup Mixer</a>\n                </div>\n            </div>\n            <div class=\"grid_5 alpha omega dgreen\">\n                <a id=\"gallery_link\" href=\"/gallery/pandora/\"><span>View Gallery</span></a>\n            </div>\n            \n            <script>\n                var start_images = [];\n                var waiting_for_new_images = false;\n                start_images.push({'url' : \"http://live.instaprint.breakfast.s3.amazonaws.com:80/prints/uploads/prints/2011/04/11/22/10/503d07fe64ad11e09c0b404083363b6c_display.jpg\", \"id\" : \"5351\", \"event_slug\" : \"pandora\", \"printing\" : 0});\n                var is_printing = false;\n                head.ready(function() {\n                    \n                    var printing_url = $('#printing').attr('rel');\n                    var printing_x = $('#printing').attr('src');\n                    var printing_timeout = null;\n                    var current_index = 0;\n                    \n                    var remove_printing = function () {\n                        // if (!is_printing) {\n                            $('#printing').attr('src', printing_x);\n                        // }\n                    };\n                    \n                    var advance_viewer = function () {\n                        if (start_images.length == current_index) {\n                            waiting_for_new_images = true;\n                        } else {\n                            waiting_for_new_images = false;\n                            var cur = start_images[current_index];\n                            if (cur.printing) {\n                                $('#printing').attr('src', printing_url);\n                                is_printing = true;\n                                clearTimeout(printing_timeout);\n                            };\n                            print_image(cur, function(img) {\n                                // Called when printed\n                                $(img).animate({\n                                    width : 136,\n                                    height : 204,\n                                    top : (Math.random() * 10) + 55,\n                                    left: (Math.random() * 4) + 23\n                                },{\n                                    queue : true,\n                                    easing : 'easeOutQuint',\n                                    duration : 1000,\n                                    complete : function () {\n                                        is_printing = false;\n                                    }\n                                });                                \n                                printing_timeout = setTimeout(remove_printing, 17000);\n                            });\n                            current_index++;\n                        };\n                        if($('#stack img').length > 8) {\n                           $('#stack img:first').remove();\n                        }\n                    };\n                    // Kick things off\n                    var interval_timeout = 1;\n                    var interval = setInterval(advance_viewer, interval_timeout*1000);\n                    advance_viewer();\n                    \n                    // Subscriber\n                    var sub = new Subscriber('/comet/sub?id=gallery', function(msg) {\n                        \n                        switch (msg.type) {\n                            \n                            case 'new' :\n\n                                for(i=0;i<start_images.length;i++){\n                                    if(start_images[i].id == msg.data.pk){\n                                        return;\n                                    }\n                                }\n                                break;\n                                \n                            case 'nowprinting' :\n                            \n                                start_images.push({url:msg.data.image_print_display, id:msg.data.pk, printing:msg.type == 'nowprinting', event_slug:msg.data.event_slugs[0]});\n                                if(waiting_for_new_images) {\n                                    advance_viewer();\n                                }                                                        \n                                \n                            break;\n                        }\n                    });\n                });\n            </script>\n        </div>\n    </div>\n    \n    \n    <div id=\"info\" class=\"grid_24 dgreen copy\">\n        <div class=\"grid_8 alpha dred\">\n            <div class=\"info-line\">\n                <div class=\"flatblock block-how_it_works\">\n\n    <h2 class=\"title\">What&#39;s this all about?</h2>\n\n    <div class=\"content\"><a class=\"\" href=\"http://instagr.am\" target=\"_blank\"><span>Instagram</span></a> has brought the nostalgia of old Polaroid prints back to modern day, but deep down we all still miss the uniqueness of those square little photos you'd hold comfortably in your hand. So, we made Instaprint.\r\n\
+      <br><br>\r\n\
+      Each Instaprint box is set with its location or a specific hashtag. Any Instagram tagged with that location or hashtag will pop out of the Instaprint box, giving you a modern day photo booth.\r\n\
+      <br><br>\r\n\
+      To stay true to the old days, Instaprint uses a new printing technology developed by <a class=\"\" href=\"http://www.zink.com\" target=\"_blank\"><span>Zink</span></a>. Similar to how instant film once worked, the color for the prints comes from the paper itself. No ink necessary.</div>\n\
+      </div>\n\
+      <br />\n                <div class=\"flatblock block-want_one\">\n\n    <h2 class=\"title\">Want one?</h2>\n\n    <div class=\"content\">If you have an event coming up that you think Instaprint would be great for, we'd love to hear all about it and see if we can make it happen.\r\n\
+      <br><br>\r\n\
+      If you\xE2\x80\x99d like to learn more about hiring Instaprint, write to us at\r\n\
+      \r\n\
+      <a class=\"\" href=\"mailto:instaprint@breakfastny.com\" target=\"_blank\"><span>instaprint@breakfastny.com</span></a></div>\n\
+      </div>\n\n            </div>\n        </div>\n        <div class=\"grid_8 dgreen omega\">\n            <div class=\"info-line\">\n                <h2 class=\"title\">What it looks like</h2> \n                <div id=\"photos\">\n                    \n                        <a href=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_on_glass_800_display.jpg\" rel=\"photo\" ><img class=\"first\" src=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_on_glass_800_thumbnail.jpg\" alt=\"On glass\" /></a>\n                    \n                        <a href=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_prints_800_display.jpg\" rel=\"photo\" ><img class=\"\" src=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_prints_800_thumbnail.jpg\" alt=\"Polaroid prints\" /></a>\n                    \n                        <a href=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_on_white_800_display.jpg\" rel=\"photo\" ><img class=\"last\" src=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_on_white_800_thumbnail.jpg\" alt=\"Instaprint on white wall. Red cord.\" /></a>\n                    \n                        <a href=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_on_wood_800_display.jpg\" rel=\"photo\" ><img class=\"first\" src=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_on_wood_800_thumbnail.jpg\" alt=\"BREAKFAST HQ\" /></a>\n                    \n                        <a href=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/25/16/04/instaprint_on_vinyl_siding_800_display.jpg\" rel=\"photo\" ><img class=\"\" src=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/25/16/04/instaprint_on_vinyl_siding_800_thumbnail.jpg\" alt=\"Instaprint on Vinyl Siding\" /></a>\n                    \n                        <a href=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_printing_800_display.jpg\" rel=\"photo\" ><img class=\"last\" src=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_printing_800_thumbnail.jpg\" alt=\"Printing on table\" /></a>\n                    \n                        <a href=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_on_tile2_800_display.jpg\" rel=\"photo\" ><img class=\"first\" src=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_on_tile2_800_thumbnail.jpg\" alt=\"The Good Capitalist, Full frontal\" /></a>\n                    \n                        <a href=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_on_red_800_display.jpg\" rel=\"photo\" ><img class=\"\" src=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_on_red_800_thumbnail.jpg\" alt=\"Town holler\" /></a>\n                    \n                        <a href=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_under_light_800_display.jpg\" rel=\"photo\" ><img class=\"last\" src=\"http://live.instaprint.breakfast.s3.amazonaws.com:80/photos/uploads/photos/2011/03/22/17/05/instaprint_under_light_800_thumbnail.jpg\" alt=\"Tumblr and Funny or Die Part at the Highball\" /></a>\n                    \n                </div>\n            </div>\n        </div>        \n        <div class=\"grid_8\">\n            <div class=\"\">\n            <div class=\"flatblock block-twitter_stream\">\n\n    <h2 class=\"title\">Twitter Stream</h2>\n\n    <div class=\"content\"><script src=\"http://widgets.twimg.com/j/2/widget.js\"></script>\r\n\
+      <script>\r\n\
+      new TWTR.Widget({\r\n  version: 2,\r\n  type: 'search',\r\n  search: 'instaprint',\r\n  interval: 8000,\r\n  title: '',\r\n  subject: '',\r\n  width: 275,\r\n  height: 480,\r\n  theme: {\r\n    shell: {\r\n      background: '#f7f3ec',\r\n      color: '#332f29'\r\n    },\r\n    tweets: {\r\n      background: '#f7f3ec',\r\n      color: '#332f29',\r\n      links: '#ff2249'\r\n    }\r\n  },\r\n  features: {\r\n    scrollbar: false,\r\n    loop: true,\r\n    live: true,\r\n    hashtags: true,\r\n    timestamp: true,\r\n    avatars: true,\r\n    toptweets: true,\r\n    behavior: 'default'\r\n  }\r\n\
+      }).render().start();\r\n\
+      </script></div>\n\
+      </div>\n    \n            </div>\n        </div>\n    </div>\n    \n\n            </div>\n        \n        <div id=\"footer\">\n            \n                <a href=\"http://breakfastny.com/\" title=\"BREAKFAST is a physical-digital interactive agency based in New York\"><span>Another toy from BREAKFAST</span></a>\n            \n        </div>\n    \n    </div>\n    \n    \n    \n    <script type=\"text/javascript\" charset=\"utf-8\">\n        head.ready(function(){\n            $(\"#photos a\").fancybox({\n\
+      \t\t\t\toverlayShow\t: false,\n\
+      \t\t\t\ttransitionIn\t: 'elastic',\n\
+      \t\t\t\ttransitionOut\t: 'elastic',\n\
+      \t\t\t\tonStart : function (el) {\n                    // console.log(el, 'onStart');\n\
+      \t\t\t\t    $('#video_wrapper').hide();\n\
+      \t\t\t\t},\n\
+      \t\t\t\tonClosed : function (el) {\n                    // console.log(el, 'onClosed');\n\
+      \t\t\t\t    $('#video_wrapper').show();\n\
+      \t\t\t\t}\n\
+      \t\t\t});\n        });\n    </script>\n    \n\n    \n\
+      </body>\n\
+      </html>"
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.lovieawards.eu:80/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Sun, 17 Apr 2011 22:21:33 GMT
+      server: 
+      - Apache/2.2.9
+      last-modified: 
+      - Wed, 13 Apr 2011 19:43:16 GMT
+      etag: 
+      - "\"68cc73b-1b28-4a0d205247be3\""
+      accept-ranges: 
+      - bytes
+      content-length: 
+      - "6952"
+      vary: 
+      - Accept-Encoding,User-Agent
+      content-type: 
+      - text/html
+    body: "\n\
+      <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\n\
+      \t\"http://www.w3.org/TR/html4/strict.dtd\"> \n\
+      <html> \n\
+      <head> \n\
+      \t<title>Lovie Awards | 2011</title> \n\
+      \t<link rel=\"stylesheet\" href=\"css/reset.css\"/> \n\
+      \t<link rel=\"stylesheet\" href=\"css/styles.css\"/> \n\
+      \t<script type=\"text/javascript\" src=\"js/dd.js\"></script> \n\
+      \t<script> \n\
+      \t\tDD_belatedPNG.fix('#follow img, #follow, #entries, #newsletter a img, #where');\n\
+      \t</script>\n\
+      \t\n\
+      \t<script type=\"text/javascript\">\n\n  var _gaq = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-21909747-1']);\n  _gaq.push(['_trackPageview']);\n\n  (function() {\n    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n  })();\n\n\
+      </script>\n\
+      \t\n\
+      \t\n\
+      </head> \n\
+      <body> \n\
+      \t\n\
+      \t<h1>The Lovie Awards</h1> \n\
+      \t\n\
+      \t<div id=\"follow\"> \n\
+      \t\tFollow us\n\
+      \t\t<a href=\"http://twitter.com/#!/lovieawards\" target=\"_blank\" id=\"twitter\"><img src=\"img/twitter-small.png\" alt=\"Twitter\" border=\"0\"/></a> \n\
+      \t\t<a id=\"facebook\" href=\"http://www.facebook.com/pages/The-Lovie-Awards/130965330309951\"><img alt=\"Facebook\" src=\"img/facebook-small.png\"/></a>\t</div> \n\
+      \t\n\
+      <div id=\"languages\"> \n\
+      \t\t<div class=\"selected\"><a href=\"#\">EN</a></div> \n\
+      \t\t<div><a href=\"es.html\">ES</a></div> \n\
+      \t\t<div><a href=\"it.html\">IT</a></div> \n\
+      \t\t<div><a href=\"de.html\">DE</a></div> \n\
+      \t\t<div><a href=\"fr.html\">FR</a></div> \n\
+      \t</div> \n    \n    \n\
+      \t<div id=\"entries\"> \n\
+      \t\t\t<div> \n\
+      \t\t\t\t<span>14</span> \n\
+      \t\t\t\t<em>Call for Entries</em> \n\
+      \t\t\t\tApril 2011\n\
+      \t\t\t</div> \n\
+      \t</div>\n        \n        \n\
+      \t<div id=\"page\"> \n\
+      \t\t<h2>Honouring the Best of the European Internet</h2> \n\
+      \t\t\n\
+      \t  <p class=\"important\"> \n\
+      \t\t\tThe Lovie Awards is the first-ever pan-European award specifically created to embrace the entire breadth of content created for the European Internet &ndash; from websites and mobile apps to online video and interactive advertising.\n\
+      \t\t</p> \n\
+      \t\t\n\
+      \t\t \n\
+      \t\t\n\
+      \t    <iframe name=\"newsletter\" src=\"newsletter-form.html\" id=\"newsletter-iframe\" frameborder=\"0\"></iframe><img src=\"img/sign-up-wrapper.png\" class=\"sign-up-wrapper\" alt=\"\">\n\
+      \t\t\n        <div id=\"presented-by\">\n       \t  <div id=\"header\"> \n\
+      \t\t\t\t<h4>Presented by</h4> \n\
+      \t\t  </div>\n            \n            \n\
+      \t\t\t<div id=\"small-logos\"> \n             <a href=\"http://iadas.net/\" target=\"_blank\"><img src=\"img/iadas.gif\" width=\"179\" height=\"42\" border=\"0\"/></a>\n             <br>\n             <a href=\"http://www.internetweekeurope.com/\" target=\"_blank\"><img src=\"img/iwe.gif\" width=\"176\" height=\"73\" border=\"0\"/></a> </div>\n            \n            \n             \n\
+      \t  </div> \n        \n        \n        \n        \n        \n\
+      \t  <div id=\"about\"> \n\
+      \t    <p>The mission of the Lovie Awards is to recognise the unique and resonant nature of the European Internet community &ndash; from Europe&rsquo;s top web and creative networks and content publishers to cultural and political organisations and bedroom bloggers.</p>\n        \n        <p>In its first year, The Lovie Awards will accept entries in <a href=\"index.html\">English</a>, <a href=\"fr.html\">French</a>, <a href=\"es.html\">Spanish</a>, <a href=\"it.html\">Italian</a> and <a href=\"de.html\">German</a>.</p> \n \n\
+      \t\t<p>The Lovie Awards is presented and will be judged by <a href=\"http://www.iadas.net\">The International Academy of Digital Arts & Sciences</a>, a body of leading web experts, business figures, luminaries, creative celebrities and other internet professionals including:</p> \n \n\
+      \t\t\t<ul>\n            \n\
+      \t\t\t  <li><a href=\"http://www.wired.co.uk/\">David Rowan</a><br>\n              Editor, WIRED magazine</li>\n\n\
+      \t\t\t  <li><a href=\"http://www.skype.com/\">Niklas Zennstrom &amp; Janus Friis</a><br>\n              Founders, Skype</li>\n              \n              <li><a href=\"http://www.consulmarketing.com/\">Rino Moffa</a><br>\n              Founder, TVN/Consulmarketing</li>\n              \n              <li><a href=\"http://www.tweetdeck.com/\">Iain Dodsworth</a><br>\n              Founder/CEO, TweetDeck</li>\n              \n               <li><a href=\"http://we-make-money-not-art.com/\">R&eacute;gine Debatty</a><br>\n              Founder, we-make-money-not-art.com</li>\n              \n              <li><a href=\"http://www.herraizsoto.com/\">Rafa Soto</a><br>\n              ECD/Owner, Herraiz Soto</li>\n              \n              <li><a href=\"http://www.acmilan.com/\">Giuliano Giorgetti</a><br>\n              Head of Web & New Media, AC Milan</li>\n              \n              <li><a href=\"http://www.aka-aki.com/\">Stefanie Hoffmann</a><br>\n              Co-founder, aka-aki</li>\n              \n              <li><a href=\"http://www.deezer.com/\">Jonathan Benassaya</a><br>\n              Co-founder, Deezer</li>\n              \n              <li><a href=\"http://www.cpbeurope.com/\">Gustav Martner</a><br>\n              ECD/Partner, <br>\n\
+      \t\t\t\tCrispin Porter + Bogusky Europe</li>\n              \n              </ul>\n\
+      \t\t\n        \n        <p class=\"clear\">The Academy chair for The Lovie Awards is <strong>Nicolas Roope</strong>, co-chair of Internet Week Europe and executive creative director of Poke.</p> \n        <p>A full site with more judges, expanded info, FAQ and more will be launching along with the Call for Entries on April 14. Please forward any inquiries to <a href=\"mailto:info@lovieawards.eu\">info@lovieawards.eu</a>.</p>\n        <p><a href=\"downloads/press_release_english.pdf\">Download the press release for more information.</a></p>\n\
+      \t  </div> \n\
+      \t\t\n\
+      \t\t<div id=\"where\"> \n\
+      \t\t\t<div> \n\
+      \t\t\t\t<h3>Why Call It The Lovies?</h3> \n\
+      \t\t\t\t<p>The Lovie Awards, named in honour of Ada Lovelace, represents innovation and outstanding achievement in technology. Ada Lovelace is credited as being the first computer programmer and is a lasting symbol of European technological and creative ingenuity. And it is for this reason we named the award &ldquo;The Lovie.&rdquo;</p> \n \n\
+      \t\t\t</div> \n\
+      \t\t</div> \n\
+      \t</div> \n\n\n    <div id=\"sponsor\"> \n        <div class=\"sponsor-heading\">Sponsors&nbsp;&amp; Partners</div>\n        <div class=\"logos\">\n            <div class=\"logo\"><a href=\"http://www.yahoo.co.uk\" target=\"_blank\"><img src=\"img/logos/yahoo.gif\" alt=\"Yahoo logo\" border=\"0\"></a></div>\n          <div class=\"logo\"><a href=\"http://www.aquent.co.uk\" target=\"_blank\"><img src=\"img/logos/aquent.gif\" alt=\"Aquent logo\" border=\"0\"></a></div>\n          <div class=\"logo\"><a href=\"http://www.tvnmediagroup.it/\" target=\"_blank\"><img src=\"img/logos/tvn.gif\" alt=\"TVN logo\" border=\"0\"></a></div>\n          <div class=\"logo\"><a href=\"http://www.behance.net/\" target=\"_blank\"><img src=\"img/logos/behance.gif\" alt=\"Behance logo\" border=\"0\"></a></div>\n          <div class=\"logo\"><a href=\"http://www.bima.co.uk/\" target=\"_blank\"><img src=\"img/logos/bima.gif\" alt=\"Bima logo\" border=\"0\"></a></div>\n      </div>\n    </div> \n    \n    <div id=\"footer\"> \n        &copy; 2011 The Lovie Awards. All rights reserved.\n    </div> \n\
+      \t\t\n\
+      \t\n\
+      </body> \n\
+      </html>"
+    http_version: "1.1"

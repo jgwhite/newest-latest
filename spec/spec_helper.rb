@@ -2,7 +2,9 @@ require "bundler"
 Bundler.setup
 
 require "simplecov"
-SimpleCov.start
+SimpleCov.start do
+	add_filter "/spec/"
+end
 
 require "rspec"
 require "vcr"
