@@ -1395,3 +1395,643 @@
       </body> \n\
       </html>"
     http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: https://api.twitter.com:443/1/statuses/user_timeline.json?screen_name=withassociates
+    body: 
+    headers: 
+      accept: 
+      - application/json
+      user-agent: 
+      - Twitter Ruby Gem 1.3.0
+      accept-encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Mon, 18 Apr 2011 07:08:01 GMT
+      server: 
+      - hi
+      status: 
+      - 200 OK
+      x-transaction: 
+      - 1303110481-31974-56451
+      x-ratelimit-limit: 
+      - "150"
+      etag: 
+      - "\"beb3e99119137e923f9964e4f87834da\"-gzip"
+      last-modified: 
+      - Mon, 18 Apr 2011 07:08:01 GMT
+      x-ratelimit-remaining: 
+      - "146"
+      x-runtime: 
+      - "0.01801"
+      x-transaction-mask: 
+      - a6183ffa5f8ca943ff1b53b5644ef114
+      content-type: 
+      - application/json; charset=utf-8
+      pragma: 
+      - no-cache
+      x-ratelimit-class: 
+      - api
+      x-revision: 
+      - DEV
+      expires: 
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      cache-control: 
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      x-ratelimit-reset: 
+      - "1303113598"
+      set-cookie: 
+      - k=92.24.106.115.1303110481692950; path=/; expires=Mon, 25-Apr-11 07:08:01 GMT; domain=.twitter.com
+      - guest_id=130311048169740501; path=/; expires=Wed, 18 May 2011 07:08:01 GMT
+      - _twitter_sess=BAh7CDoPY3JlYXRlZF9hdGwrCCL3b2cvAToHaWQiJTIxNGRkNmVjMWRlZGMy%250AODdiOTY0YWVhZjllYjc4ZWQ3IgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy%250AOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--0acbb4039a91001fb54d160e6c9062237e064ed9; domain=.twitter.com; path=/; HttpOnly
+      vary: 
+      - Accept-Encoding
+      content-encoding: 
+      - gzip
+      content-length: 
+      - "2756"
+    body: !binary |
+      H4sIAAAAAAAAA+2dC2/bRhKA/8qEBZoG56OXyzcPRezYSeq26QW1eznc6SCs
+      yJW0MclVuUspatH/frOkLEtyrdiHREBw6wC2JO5zdmY+zb7y79+dMZvLRmhe
+      ONmYlYofOZp/0E7mXLYz3gD/kJuHoCUotgTZNrCQzTXIGvSUw4sXZ3BR60YW
+      bS7qCfwyKyUrQCgoxZw/ganWs2xwPDgejXJX1INjzq69qwuozA/88k/BXfiO
+      aQVyPDZ1XMqxXoiG35Rf8LnrHDkN1wvO9TCXbY1tI0eOqIcNn5XLoZZDlTec
+      18OaVdzJ6rYsdx5rpls1FAW+am4SzEqWr1PnErsgRq2Wjbr5bFXlhlw2y2wV
+      b7DEm8QK5WKKcxZ85Pxpys26cymbQtRMc7W3vTcPJ1yuszYcsxVDZkboHY7L
+      6awBzwePZGGYBSH8heAPUOJ5ph2rap0w8ajnJSmJ09BLqU/xoWmYk/3uzBo5
+      FiUfjlh+PWlQwMVQ43sn002LvR43gteFuhE9pfHROouo2IQP26bEKtYjzaiL
+      Q1hN3FxWg+OtpGpwHNDYjwOPpIPjBRvWsqlY6U7EGBvU95uvq0rS5MiZ80aM
+      xcYoGH1tjcKu03lHTsFRB8RMC1kbuQg9hVLO+RFUUulyCeNGVp0+1VIo1OKa
+      G60qWT3B5Lx2brtUivoaCy6lEZv3Kk3OYiOr7S4uFgt3gZUwpWQuzDiazpou
+      bGqis53EMc0cs7bUwy2hrHt286kSBR+xZjhCLUHduWnMWfSSvnx5t5R1/k0t
+      HvKajcoNsZUyZyvxnKPZctbOhWyO4EdZF3JTADgCm6qwauJKF2RZygVq6q8t
+      V3qouBH/yp7uatGdhvfZhRH6vZn+XKXIn6nUbi7ULi8NwpQk/uD4/PJsGCdp
+      6H7/9nXfO83zTWvesqQ36G6+ZzXQCLw0o1Hme2tLIinmX41op1mnm0O6NjEv
+      DUMv6ixLqKFuWK1Kpo0AVhWqKYqOleVQ1KhkfFjxQrD1U7TxO2NWS42634/b
+      2lNoUfHhb6jBWOedwTOuey33KPJfeF17sMib5qEmCGX6vTKeAG2s1fkQ/a/i
+      vWvd1UN8U64LPT99efYqWA8mb27NkKTJH9i+pq1ztuU38eUdB/TH0R70nMym
+      bVtzDUvZPkUYoBNYwoKXOPwcvsEPzkrZFm8bUetnLrxFV62XMCqlrAyDWMV+
+      M3+Fqp9qEPrJ4wDirCp39lLECWN0Y5GfxKlPgoRERiafCioxCQOP0odzxVnl
+      cB4Dlzs9eDBpaEaSPaQhNI5C4ieU+n5kSWNJY0ljSXNI0mw5oL2keccNXxhG
+      K1qXHFAuFdo8ejtjURuYwdikwPBnrScaFWRwHM1+UD/9dg5fl/pvPlo9q68V
+      vJZyUqJDGMsGlCznBkXcEExPjUJ+QcHMoCXEP2Mwbfj428GtkQiNfFQum81K
+      3htKixaBb1EuKDfNG0xTBCRFs0jT5Hmlv/XowIGGl1hMLfsBHfTlv7zqs3Ty
+      esPyvlIsrn96uGjqquU94yiQNPNJRtP7GBcjWfyA4teZwEu82DLOMs4yzjLu
+      cIzbdUB7GffVCNUrL9HxaMMhOJkLrSSH963SwJpGzJF3xvsyqBAShlcd/UTO
+      wYxrpfqnZfkEvkKFs/NxH4mSCOp9lBGSkfg+goRR5JEojTwv8P00CSxBLEEs
+      QSxBDkaQXQe0fz5OsYZNh/mUzSocFQya5hwmEukBoxbtV+m2ELKPkY5g0cVU
+      pZTX3WychhCyc/gKgwWGXTJB0lK2j5yT22rAx2bmwiiMzFRjSJIoDEjyCWfm
+      vCigQRQHX1CU5Ny0+XGTg7tCfBj2wiyIMm8P9sI4TLBI4oWRFxGLPYs9iz2L
+      vQNib9sBPQZ7QsNCtmVxtP3K2DbkvNEMJbrsH7hwisEV+gy9BM3wlQIThAH6
+      uvnN5OI6vHryeVkYJDQhYULTkKTdOHxGFn5smep/RdF2Hx6KIppkQboHRb6H
+      fMP2+DS0c3gWRRZFFkWHRdGWA9qPIuzklBmHOYETdM7q11Y0Gk7GrW4x7mCj
+      RuSAOWQXIOAnMBcMTk5L/uF1g7YBt0tXczbBodDtzOgOfPPTC3QDQpkte7Vc
+      gDQzhMYvTDkrQI7h5A3Dt4t3Aguvs2ePZNVtsz8KqjBJvChO8ZfnkzD6hKBK
+      SID/HoGpPsMjIbXT/odBystokPn3bqYIw9SLMTwnaLfUpzZespCykLKQOiCk
+      dhzQXkhdoaXOsGjT0hqjG6SHCXgw0FGgUKYGXjO0rAVaCAKnBnTw+NvkNvhB
+      pGkOKO/cTBy6UGNGdAIoKm6cQJ3dMqzLaPJh/9HNYZ0dzDrmvZ8spliQXaV6
+      GH68zA/34IekcUi9KEpSL7S7xi1+LH4sfg6Kny0HtD9Guo2L0IBAs2temzNF
+      rTLg2TLDOSZqWTmSH1zZTFab+7ZirFcbgdVnjHniIKYx8VHoPkmSLy/m2W7/
+      w6BDsjDKCL0fOkkQBvitw0fNI93qnYWOhY6FjoXOoaCz7YAePDGneVmqznax
+      ZJT+FkRceMeRS3Oz2/ztGSB6AKuvTb4KTUTMSg7/ePMBWF100Y7Zb9dv0UNj
+      qVEhuujmZ16hdsA5V9dazlz4DvuFfsd1XQupTw2pMCPePkjRJPGSOEiDgHgW
+      UhZSFlIWUgeF1KYD2gupi3F/AsnMpAkFOFIlGvFEymIV+iw4VGIy1T2gSo4j
+      UiuQrTZtRrjAhbotYSI72EkY8a2iTlhZyfoantuptwcBJkj37ZQLE5oEQRjR
+      MImjwEZBFjAWMBYwBwXMlgPaC5hTDFqWXB11JrvaDY7ajfqm2m5rgeGGWRqS
+      tWsOyBb9JUJf4lrN/+ehWBKC52c+hkT3LxbRiHpxGsVJRNMkscSyxLLEssQ6
+      ILF2HNBHLn7oJ9dQnfFLOYM3orxmcM5EBd/s3PLA6cXry6sfn7lw2ZMNHUYh
+      cp3BBSxYbU5BmTCoy+xalH0hKAuQM/tQRghNgzjwozCwp3MtyizKLMoOi7JN
+      B7R/CWo8bkfmFlbeoJ6Zubm/wmK67Cy4kmbBacFWRt3fTQTnUj2HV0YXQMmK
+      dxcTYVJzE1Kec6UECvaRs3iOacTHlpKCJEz9MEnCKIpDn37Sg7kBDcLADx9z
+      GGmV5XHLSbt9eBBwSIoqlZHgXuB4aRyHHiEB9eOEWuBY4FjgWOAcEDg7Dmj/
+      bB+C4vLl32HWsFwL032sp7+uW0yExlAINVDMWYkKaDaBj1h9jSmeb9wGLrRb
+      LgfH4+mrf0kNoyWcsLpYjtqi6Ddx90tJdiHpQWghGM6ke9DiJ3GQJIEfeLG9
+      csGixaLFouWwaNlyQHvRgsNh9iNgLFL3V3gjZKQJSdYfdYdV0T9fm5uF3p26
+      cC5U3qpuj3fNF93C0hjbB4XM2wr1tBMimChHFqrbXtdzC0t14fW5zBV8Da8v
+      jV8xLwQiawrV8omFzz3wMSbTwSfodjF4GfXvgw8GSxFJqId+nyYetWtCFj4W
+      PhY+h4PPrgPav01OP1XQqRwaLIylLA1Ufr5a72y7MuzBV3qKCU+27QyUOb26
+      ukXB/OdHLlwAOggxqc0CE2JnYZShm3CD7gSs290bDmbvBOv8BnqM93IEXRxV
+      WPzcg59Xjejx45nzqz7NAnIffjCU9RJKQ+r5QUDsLm2LH4sfi58D4mfXAf3x
+      n/8COq/iy3JvAAA=
+
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://bbc.in:80/eak1TI
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 301
+      message: Moved
+    headers: 
+      server: 
+      - nginx
+      date: 
+      - Mon, 18 Apr 2011 07:08:02 GMT
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - keep-alive
+      set-cookie: 
+      - _bit=4dabe352-000e3-07d85-c6ac8fa8;domain=.bbc.in;expires=Sat Oct 15 03:08:02 2011;path=/; HttpOnly
+      cache-control: 
+      - private; max-age=90
+      location: 
+      - http://www.bbc.co.uk/music/introducing/uploader/
+      mime-version: 
+      - "1.0"
+      content-length: 
+      - "140"
+    body: |-
+      <html>
+      <head>
+      <title>bit.ly</title>
+      </head>
+      <body>
+      <a href="http://www.bbc.co.uk/music/introducing/uploader/">moved here</a>
+      </body>
+      </html>
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.bbc.co.uk:80/music/introducing/uploader/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Mon, 18 Apr 2011 07:08:02 GMT
+      server: 
+      - Apache
+      set-cookie: 
+      - BBC-UID=541dfa4b7ed3450243c4dba8f17fa0d3c7c40987c0e0c18414bf36ef50e4cf350Ruby; expires=Fri, 17-Apr-15 07:08:02 GMT; path=/; domain=bbc.co.uk;
+      pragma: 
+      - no-cache
+      expires: 
+      - Fri, 10 Aug 1984 12:00:00 GMT
+      cache-control: 
+      - no-cache
+      content-type: 
+      - text/html
+      transfer-encoding: 
+      - chunked
+    body: |
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+      <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
+      <head profile="http://dublincore.org/documents/dcq-html/">
+      <title>BBC - Music - Introducing - Upload Your Music - Tour</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="description" content="BBC Introducing supports unsigned, undiscovered and under the radar bands and musicians. Upload the music you're making to us and your tracks could be played on local and national BBC radio shows. You might even earn yourself a studio session or a slot on the BBC Introducing stage at major UK festivals." />
+      <meta name="keywords" content="bbc, introducing, uploader, upload, uploadr, music, musician, radio, airplay, unsigned, artist, band, new, submit, send, radio 1, radio1, 6 music, 6music" />
+      <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+      <meta name="DCTERMS.created" content="2006-09-15T12:00:00Z" />
+      <meta name="DCTERMS.modified" content="2008-09-22T10:29+0:00" />
+          <link rel="schema.dcterms" href="http://purl.org/dc/terms/" /> <link rel="index" href="http://www.bbc.co.uk/a-z/" title="A to Z" /> <link rel="help" href="http://www.bbc.co.uk/help/" title="BBC Help" /> <link rel="copyright" href="http://www.bbc.co.uk/terms/" title="Terms of Use" /> <link rel="icon" href="http://www.bbc.co.uk/favicon.ico" type="image/x-icon" />  <meta name="viewport" content="width = 974" />    <link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/style/main.css"  />     <script type="text/javascript" src="http://node1.bbcimg.co.uk/glow/gloader.0.1.3.js"> </script> <script type="text/javascript"> gloader.use("glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.5.js"}); </script>      <script type="text/javascript" src="http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/script/blq_core.js"></script>
+        <!--[if (IE 6)|(IE 7)|(IE 8)]> <style type="text/css"> html{font-size:125%} body{font-size:50%} .blq-tooltipped:hover {background-position:0 0} #blq-autosuggest ul li { zoom:normal; } #blq-mast-home { background: transparent;  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000)"; /* IE8 */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000); } .skylightTheme #blq-mast-home, .doveTheme #blq-mast-home, .tealTheme #blq-mast-home, .aquaTheme #blq-mast-home, .greenTheme #blq-mast-home, .violetTheme #blq-mast-home, .purpleTheme #blq-mast-home, .pinkTheme #blq-mast-home, .oliveTheme #blq-mast-home, .suedeTheme #blq-mast-home, .redTheme #blq-mast-home, .orangeTheme #blq-mast-home { filter: none; -ms-filter: ""; } #blq-nav-main { background-position: 96% 17px; } </style> <![endif]--> <!--[if IE 7]> <style type="text/css"> .blq-clearfix {display: inline-block} </style> <![endif]-->  <!--[if IE 6]> <link rel="stylesheet" href="http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/style/ie6.css" type="text/css" /> <style type="text/css"> .blq-js #blq-nav-links-inner {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/img/panel.png', sizingMethod='crop')} .blq-js #blq-nav-foot div {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/img/panel.png', sizingMethod='image');margin-top:-139px}  #blq-container {height: 15%} #blq-mast-home span.blq-home { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='crop', src='http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/img/blocks.png');} </style>  <script type="text/javascript"> try { document.execCommand("BackgroundImageCache",false,true); } catch(e) {} </script> <![endif]-->   <script type="text/javascript"> blq.assetPath="http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/"; blqOnDomReady(function() { if(!blq.addGoTrack.isStub) { blq.addGoTrack('blq-main', {external:true}); }  blq.suggest_short = false; blq.addAutoSuggest(); });  blq.setEnvironment('live'); if (blq.setFlagpole) { blq.setFlagpole('barlesque/nedstat', 'ON'); }   </script> 			<link type="text/css" rel="stylesheet" media="screen" href="http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/style/id-gel.css" /> <!--[if IE]> <style type="text/css" media="screen"> body .panel-identity .hd h2{ background-image: url(http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/panel/logo-bbcid.gif); /* Even 8bit alpha transparent PNGs are no good here */ } .panel-id-hint .panel-bd, .panel-id-hint .panel-hd, .panel-id-hint .panel-ft{ background-image: url(http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/panel/bg-hint.gif); } </style> <![endif]--> <!--[if lte IE 6]> <style type="text/css" media="screen"> /* Secure Glow fixes */ div.panel-identity .infoPanel-pointerT { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.bbc.co.uk/glow/1.0.2/widgets/images/darkpanel/at.png', sizingMethod='crop'); } div.panel-identity .infoPanel-pointerR { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.bbc.co.uk/glow/1.0.2/widgets/images/darkpanel/ar.png', sizingMethod='crop'); } div.panel-identity .infoPanel-pointerB { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.bbc.co.uk/glow/1.0.2/widgets/images/darkpanel/ab.png', sizingMethod='crop'); } div.panel-identity .infoPanel-pointerL { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.bbc.co.uk/glow/1.0.2/widgets/images/darkpanel/al.png', sizingMethod='crop'); } /* min-height fixes */ body .panel-identity .hd h2{ height: 26px; } #blq-main a.id-cta-button{ height: 22px; } #blq-main a.id-cta-button span{ height: 12px; } /* other */ div.panel-identity .c{ zoom: 1; } /* Transparent PNG replacements */ .blq-toolbar-transp #id-status .idUsername{ background-image: url(http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/palettes/transp/status-id-logo-noprofile.gif); } .blq-toolbar-transp #id-status .idSignin, .blq-toolbar-transp #id-status .idUsernameWithProfile{ background-image: url(http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/palettes/dark/status-id-logo.gif); } </style> <![endif]--> <!--[if lte IE 7]> <style type="text/css" media="screen"> .panel-identity form .text, .panel-identity form .password { zoom: 1; } .panel-identity form .text p { margin: 0; } .panel-identity form .password p { margin: 0 0 18px 0; } .panel-identity p.id-registerlink a.id-register { zoom: 1; padding-top: 3px; padding-bottom: 3px; top: 3px; } </style> <![endif]--> <!--[if lte IE 8]> <style type="text/css" media="screen"> /* Custom PNG corners for lightbox */ div.panel-identity .pc .tr { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/panel/ctr.png', sizingMethod='crop'); } div.panel-identity .pc .tl { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/panel/ctl.png', sizingMethod='crop'); } div.panel-identity .pc .bl { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/panel/cbl.png', sizingMethod='crop'); } div.panel-identity .pc .br { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/panel/cbr.png', sizingMethod='crop'); } </style> <![endif]--> <script type="text/javascript"> if(typeof identity == 'undefined'){ identity = {}; } idProperties = { 'env': 'live', 'staticServer': 'http://', 'dynamicServer': 'http://id.bbc.co.uk', 'secureServer': 'https://id.bbc.co.uk', 'assetVersion': '3.19.2', 'assetPath': 'http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/' }; </script> <script type="text/javascript" src="http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/script/id-core.js"></script> <script type="text/javascript" src="http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/script/id.js"></script> 	
+                      <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/style/layout.css" />
+      <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/style/decoration.css" />
+      <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/style/hacks.css" />
+          <!-- <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/style/global.css" /> -->
+          <!-- <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/style/hacks.css" /> -->
+          <!-- <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/style/upload.css" /> -->
+          <!-- <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/signon/sso_includes/singlesignon.css" /> -->
+          <!-- <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/uploader/sso_resources/includes/service_statbar.css" />-->
+      
+          <link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/music/introducing/css/introducing.css?version=2" />
+          <!--[if IE 6]>
+              <link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/music/introducing/css/introducing_ie6.css" />
+          <![endif]-->
+          <!--[if IE 6]>
+              <link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/music/introducing/css/introducing_ie7.css" />
+          <![endif]-->
+      <script type="text/javascript" src="http://www.bbc.co.uk/emp/swfobject.js"></script>
+      <script type="text/javascript" src="http://www.bbc.co.uk/emp/embed.js"></script>
+      <script type="text/javascript" src="http://static.bbc.co.uk/music/introducing/js/jquery-1.4.4.js"></script>
+      <!--[if IE 6]>
+      <script src="http://static.bbc.co.uk/music/introducing/js/pngfix.js"></script>
+      <script>
+        DD_belatedPNG.fix('img, div');
+      </script>
+      <![endif]--> 
+          </head>
+      <body class="noscript">
+         <!-- NEDSTAT -->
+      <!-- Begin iStats 20100118 (UX-CMC 1.1009.3) -->
+      <script type="text/javascript">
+      // <![CDATA[
+      function sitestat(n){var j=document,f=j.location,b="";if(j.cookie.indexOf("st_ux=")!=-1){var k=j.cookie.split(";");var e="st_ux",h=document.domain,a="/";if(typeof ns_!="undefined"&&typeof ns_.ux!="undefined"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var g=0,f=k.length;g<f;g++){var m=k[g].indexOf("st_ux=");if(m!=-1){b="&"+unescape(k[g].substring(m+6))}}document.cookie=e+"=; expires="+new Date(new Date().getTime()-60).toGMTString()+"; path="+a+"; domain="+h}ns_pixelUrl=n;n=ns_pixelUrl+"&ns__t="+(new Date().getTime())+"&ns_c="+((j.characterSet)?j.characterSet:j.defaultCharset)+"&ns_ti="+escape(j.title)+b+"&ns_jspageurl="+escape(f&&f.href?f.href:j.URL)+"&ns_referrer="+escape(j.referrer);if(n.length>2000&&n.lastIndexOf("&")){n=n.substring(0,n.lastIndexOf("&")+1)+"ns_cut="+n.substring(n.lastIndexOf("&")+1,n.lastIndexOf("=")).substring(0,40)}(j.images)?new Image().src=n:j.write('<p><i'+'mg src="'+n+'" height="1" width="1" alt="" /></p>')};
+      if (document.cookie.indexOf('NO-SA=') == -1) {sitestat("//sa.bbc.co.uk/bbc/bbc/s?name=music.introducing.uploader.page&ml_name=barlesque&app_type=web&language=en-GB&ml_version=0.1.28&prod_name=music&app_name=music");}
+      // ]]>
+      </script>
+      <noscript><p><img src="//sa.bbc.co.uk/bbc/bbc/s?name=music.introducing.uploader.page&amp;ml_name=barlesque&amp;app_type=web&amp;language=en-GB&amp;ml_version=0.1.28&amp;prod_name=music&amp;app_name=music" height="1" width="1" alt="" /></p></noscript>
+      <!-- End iStats (UX-CMC) -->
+      <!-- END NEDSTAT -->
+        <div id="blq-container" class="blq-lang-en-GB blq-gvl-2-7"> <div id="blq-pre-mast" lang="en-GB"> <!-- Pre mast -->  </div> <div id="blq-container-inner" lang="en-GB">  <div id="blq-acc" class="blq-rst">  <p id="blq-mast-home" class="blq-no-images"><a href="/" hreflang="en-GB"> <span class="blq-home">British Broadcasting Corporation</span><img src="http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/img/blocks.png" alt="BBC" id="blq-blocks" width="84" height="24" /><span class="blq-span">Home</span></a></p>  <p class="blq-hide"><strong><a id="page-top">Accessibility links</a></strong></p> <ul id="blq-acc-links">   <li class="blq-hide"><a href="#blq-content">Skip to content</a></li>  <li class="blq-hide"><a href="#blq-nav-main">Skip to bbc.co.uk navigation</a></li> <li class="blq-hide"><a href="#blq-search">Skip to bbc.co.uk search</a></li>   <li id="blq-acc-help" class="blq-hide"> <a href="/help/">Help</a> </li>   <li class="blq-hide"><a href="/accessibility/">Accessibility Help</a></li>   </ul>  </div>   <div id="blq-main" class="blq-clearfix">    <div id="masthead">
+      <h1>
+      	<a href="/music/introducing" title="BBC Introducing - Home"><span>&nbsp;</span><strong>BBC Introducing - How to Upload Your Music</strong></a>
+      </h1>
+      </div>
+      
+      <div id="navigation" class="clearme">
+        <ul>
+      <li class="home"><a href="/music/introducing" title="Home"><span>Home</span></a></li>
+      <li class="advice"><a href="/music/introducing/advice" title="Advice"><span>Advice</span></a></li>
+      <li class="upload-selected"><a href="/music/introducing/uploader" title="Upload your Music"><span>Upload your Music</span></a></li>
+      <li class="artists"><a href="/music/introducing/artists" title="Artists"><span>Artists</span></a></li>
+      <li class="shows"><a href="/music/introducing/shows" title="Shows"><span>Shows</span></a></li>
+      <li class="festivals"><a href="/music/introducing/festivals" title="Festivals"><span>Festivals</span></a></li>
+      <li class="sessions"><a href="/music/introducing/sessions" title="Sessions"><span>Sessions</span></a></li>
+      <li class="links"><a href="/music/introducing/links" title="Links"><span>Links</span></a></li>
+      <li class="blog"><a href="/blogs/introducing/" title="Blog"><span>Blog</span></a></li>
+      <li class="about"><a href="/music/introducing/about" title="About Us"><span>About Us</span></a></li>
+        </ul>
+      </div>
+        
+      
+      <script type="text/javascript" src="http://static.bbc.co.uk/music/introducing/js/tour-tabs-javascript.js?version=2"></script>
+      <script type="text/javascript">
+        var pal_host = "http://static.bbc.co.uk"
+      </script>
+      
+      <div id="tour-main-div">
+        <div class="summary-box">
+          <img src="http://static.bbc.co.uk/music/introducing/img/tour-header-text.png"
+               alt="UPLOAD YOUR MUSIC TO BBC INTRODUCING AND GET THE CHANCE TO BE PLAYED ON LOCAL AND NATIONAL RADIO." />
+          <h2 class="blq-hide">UPLOAD YOUR MUSIC TO BBC INTRODUCING AND GET AIRPLAY ON LOCAL AND NATIONAL RADIO.</h2>
+          <br />
+          <div class="register-sign-in-div">
+                      <a href="http://id.bbc.co.uk/users/register?ptrt=http://www.bbc.co.uk/music/introducing/uploader/" class="tour-register id-tour-button"><img src="http://static.bbc.co.uk/music/introducing/img/register.png" alt="Register now"/></a>
+                <span class="or-span">OR</span>
+                <a href="http://id.bbc.co.uk/users/signin?ptrt=http://www.bbc.co.uk/music/introducing/uploader/" class="tour-login id-tour-button"><img src="http://static.bbc.co.uk/music/introducing/img/sign-in.png" alt="Sign in"/></a>
+                 </div>
+           <div class="extended-line-div"></div>
+         </div>
+      
+         <div id="tour-tabs-container">
+           <a id="left-arrow" class="tab-arrow">
+             <img id="left-arrow-image" src="http://static.bbc.co.uk/music/introducing/img/tour-tabs/left-arrow-disabled.png" alt=""/>
+           </a>
+           <a id="right-arrow" class="tab-arrow">
+             <img id="right-arrow-image" src="http://static.bbc.co.uk/music/introducing/img/tour-tabs/right-arrow.png" alt=""/>
+           </a>
+           <div id="tour-tabs">
+             <div id="tour-tab-headers">
+               <div id="create-tour-header" class="tab-header selected">
+                 <img id="img-create-tour-header" src="http://static.bbc.co.uk/music/introducing/img/tab-numbers/1-selected.png" alt="CREATE AN ACCOUNT"/>
+               </div>
+               <div id="upload-tour-header" class="tab-header">
+                 <img id="img-upload-tour-header" src="http://static.bbc.co.uk/music/introducing/img/tab-numbers/2-deselected.png" alt="UPLOAD YOUR MUSIC"/>
+               </div>
+               <div id="played-tour-header" class="tab-header">
+                 <img id="img-played-tour-header" src="http://static.bbc.co.uk/music/introducing/img/tab-numbers/3-deselected.png" alt="GET PLAYED!"/>
+               </div>
+             </div>
+             <div class="tour-tab" id="create-tour-tab">
+               <div class="tour-tab-content" id="create-tour-content">
+                 <div class="scroll-div">
+                   <h3>To upload tracks to us, you'll need a BBC iD membership.</h3>
+                   <p>If you've already got a BBC iD, just click Sign in and enter your email address or username and password.
+                     <br /><br />
+                     If you've never signed into bbc.co.uk before, you'll need to create a BBC iD membership.
+                     It only takes a minute. Just click Register now to set up your account.</p>
+                   <div class="register-sign-in-div">
+                                      <a href="http://id.bbc.co.uk/users/register?ptrt=http://www.bbc.co.uk/music/introducing/uploader/" class="id-tour-button tour-register"><img src="http://static.bbc.co.uk/music/introducing/img/register.png" alt="Register now"/></a>
+                        <span class="or-span">OR</span>
+                        <a href="http://id.bbc.co.uk/users/signin?ptrt=http://www.bbc.co.uk/music/introducing/uploader/" class="id-tour-button tour-login"><img src="http://static.bbc.co.uk/music/introducing/img/sign-in.png" alt="Sign in"/></a>
+                                    </div>
+                 </div>
+               </div>
+             </div>
+             <div class="tour-tab qq-box" id="upload-tour-tab">
+               <div class="tour-tab-content" id="upload-tour-content">
+                 <div class="scroll-div">
+                   <h3>Create your artist profile, then upload some songs.</h3>
+                   <p>Once you're signed in, click Go To Your Profile to get started.
+                     <br/>
+                     The first time you visit, you'll need to fill out an artist profile to tell us about you or your band.
+                   </p>
+                   <p>
+                     When you've done that, you're ready to upload your songs. Just select an MP3 file from your computer to submit to us.
+                   </p>
+                   <p>
+                     You can sign back in to update your profile and upload more tracks whenever you like (maximum three songs per month).
+                   </p>
+                 </div>
+               </div>
+             </div>
+             <div class="tour-tab" id="played-tour-tab">
+               <div class="tour-tab-content" id="played-tour-content">
+                 <div class="scroll-div">
+                   <h3>Your songs could be broadcast on BBC Radio.</h3>
+                   <p>
+                     Based on your postcode (UK only), the tracks you upload go straight to the presenters and producers of your nearest BBC Introducing radio show.
+                     You can also choose to target a show on one of our national stations with your tunes.</p>
+                   <p>
+                     We'll email you as soon as your music is listened to by someone at the BBC,
+                     and if your songs are strong enough, you could be hearing them on the radio!
+                   </p>
+               </div>
+               </div>
+             </div>
+           </div>
+         </div>
+      
+           <div class="broadcasts-map-border"></div>
+         <div class="map-div">
+           <div class="get-heard">
+             <div class="scroll-div">
+               <div class="get-heard-title">
+                 <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/get_heard_title.png" alt="BBC INTRODUCING RADIO SHOWS ACROSS THE UK" />
+                         <h3 class="blq-hide">GET PLAYED ON OUR NATIONAL STATIONS</h3>
+               </div>
+               <div class="get-heard-body">
+                 <p>
+                   We have more than 30 shows on BBC Local Radio waiting to hear your music.
+                   Every week, they broadcast tracks by unsigned and under the radar artists throughout the UK.
+                 </p>
+                 <p>
+                   Tune in to <a href="http://www.bbc.co.uk/music/introducing/shows/#regional_shows">your local show</a>
+                   to hear which bands and musicians are getting themselves played in your neck of the woods.
+                 </p>
+                 <p>
+                   Reckon you deserve some airplay? <br/>Upload the music you're making and show us what you've got to offer.
+                 </p>
+               </div>
+               <div class="live-statistics">
+                 <div class="live-statistics-title">
+                   <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/live_statistics.png" alt="LIVE STATISTICS" />
+                 </div>
+                 <div class="last-updated">Updated 7 mins ago</div>
+                            <div class="total-artists">
+                   <div class="count-label">TOTAL ARTISTS REGISTERED</div>
+                   <div class="count">44,290</div>
+                 </div>
+                            <div class="tracks-added-this-week">
+                                                   <div class="count-label">TRACKS UPLOADED IN THE LAST 7 DAYS</div>
+                       <div class="count">1880</div>
+                                </div>
+               </div>
+             </div>
+           </div>
+           <div class="broadcasts-map">
+                           <div class="recently-played" id="recently-played-1">
+               <div class="band-name">
+                               Natalie Lungley         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-2">
+               <div class="band-name">
+                               Tom Williams &amp; The Boat         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-3">
+               <div class="band-name">
+                               SPOOKASONIC         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-4">
+               <div class="band-name">
+                               Fish Tank         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-5">
+               <div class="band-name">
+                               Little Signals         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-6">
+               <div class="band-name">
+                               Do Re Mi         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-7">
+               <div class="band-name">
+                               Coopzz         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-8">
+               <div class="band-name">
+                               PHARAOHS         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-9">
+               <div class="band-name">
+                               The Taints         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-10">
+               <div class="band-name">
+                               David Leighton - Songwriter...         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Cambridgeshire         </div>
+             </div>
+                  </div>
+         </div><br />
+         <div class="get-played-on-our-national-stations">
+           <div class="get-played-title-block">
+             <div class="get-played-title">
+               <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/get_played_title.png" alt="GET PLAYED ON OUR NATIONAL STATIONS" />
+      		 <h3 class="blq-hide">GET PLAYED ON OUR NATIONAL STATIONS</h3>
+             </div>
+           </div>
+           <div class="get-played-body">
+             <span id="get-played-left-paragraph">
+               Our local show teams pass on the very best tracks from their region to DJs at Radio 1 and 6 Music, 
+               so your music could get played nationwide and reach a massive audience.
+             </span>
+             <span id="get-played-right-paragraph">
+               On your artist profile,
+               you can also choose to send your songs directly to 100% HomeGrown on Radio 1Xtra,
+               Friction on Asian Network or Radio 3's Jazz on 3.
+             </span>
+           </div>
+         </div>
+         <div class="national-station-links">
+           <a href="http://www.bbc.co.uk/radio1">
+             <img src="http://static.bbc.co.uk/music/introducing/img/BBC_radio_1_logo.png"
+                  alt="BBC Radio 1" id="radio-1" class="network-logo" />
+           </a>
+           <a href="http://www.bbc.co.uk/programmes/b006tt0y">
+             <img src="http://static.bbc.co.uk/music/introducing/img/BBC_radio_3_logo.png"
+                  alt="BBC Radio 3" id="radio-3" class="network-logo" />
+           </a>
+           <a href="http://www.bbc.co.uk/programmes/b0089jhs">
+             <img src="http://static.bbc.co.uk/music/introducing/img/BBC_radio_6_music_logo.png"
+                  alt="BBC Radio 6 Music" id="radio-6-music" class="network-logo" />
+           </a>
+           <a href="http://www.bbc.co.uk/asiannetwork/friction">
+             <img src="http://static.bbc.co.uk/music/introducing/img/BBC_radio_asian_network_logo.png"
+                  alt="BBC Radio Asian Network" id="radio-asian-network" class="network-logo" />
+           </a>
+           <a href="http://www.bbc.co.uk/programmes/b008zckw">
+             <img src="http://static.bbc.co.uk/music/introducing/img/BBC_radio_1_xtra_logo.png"
+                  alt="BBC Radio 1 Xtra" id="radio-1xtra" class="network-logo" />
+           </a>
+           <div class="national-station-programme-info">
+             <div id="radio-1-programme-info" class="network-info">
+               Huw Stephens<br/>
+               Jen Long in Wales<br/>
+               Ally McCrae in Scotland<br/>
+               Rory McConnell in N.Ireland
+             </div>
+             <div id="radio-3-programme-info" class="network-info">
+               Jazz on 3
+             </div>
+             <div id="radio-6-music-programme-info" class="network-info">
+               Tom Robinson
+             </div>
+             <div id="radio-asian-network-programme-info" class="network-info">
+               Friction
+             </div>
+             <div id="radio-1xtra-programme-info" class="network-info">
+               100% HomeGrown with DJ Target
+             </div>
+           </div>
+         </div>
+         <div class="national-station-links-border"></div>
+         <div class="promotions">
+           <div class="promotions-info">
+             <div class="promotions-info-title">
+               <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/earn_a_slot_title.png" alt="EARN A LIVE SESSION OR A SLOT ON OUR FESTIVAL STAGE" />
+      		 <h3 class="blq-hide">EARN A LIVE SESSION OR A SLOT ON OUR FESTIVAL STAGE</h3>
+             </div>
+             <div class="promotions-info-body">
+               <p>
+                 If we love the music you're making, you might bag yourself the opportunity to perform on the BBC Introducing stage
+                 at major events and festivals, like Glastonbury, Reading & Leeds or Radio 1's Big Weekend.
+               </p>
+               <p>
+                 You could also be invited to record a live session at the BBC's legendary Maida Vale studios.
+               </p>
+             </div>
+           </div>
+           <img class="snapshot-1" src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/recording_image.png" alt="Artist in recording studio" />
+           <img class="snapshot-2" src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/introducing_stall_image.png" alt="Introducing festival marquee" />
+           <div class="promotions-image"></div>
+         </div>
+         <div class="promotions-border"></div>
+         <div class="site-functionality">
+           <div class="earn-badges">
+             <img class="site-functionality-header" src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/earn_badges_title.png" alt="BADGES FOR YOUR OWN SITE" />
+             <img class="qq-box" src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/earn_badges.png" alt="Badges Image" />
+             <p>
+               You can earn BBC Introducing badges by uploading tracks to us and getting played on the radio.
+               Embed your badge on your own website or blog.
+             </p>
+           </div>
+           <div class="see-whats-happening">
+             <img class="site-functionality-header" src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/see_whats_happening_title.png" alt="CHECK ON YOUR TRACKS" />
+             <img class="qq-box" src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/see_whats_happening.png" alt="See What's Happening" />
+             <p>
+               Sign in to your profile to manage the tracks you've uploaded to us,
+               see who's been listening to them, and check whether you've been broadcast.
+             </p>
+           </div>
+         </div>
+         <div class="site-functionality-border"></div>
+         <div class="small-print">
+           <div class="any-other-questions">
+             <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/any_other_questions.png" alt="ANY QUESTIONS?" />
+             <p>
+               If you want to know more about how our upload tool works, please check out the
+               <a href="http://www.bbc.co.uk/music/introducing/faq">Frequently Asked Questions</a> page.
+             </p>
+             <p>
+               Feedback from you will help us to continually shape this part of the BBC Introducing site,
+               so if you have any feedback or suggestions we really want to hear from you.
+               <a href="http://www.bbc.co.uk/music/introducing/contact">Send us your thoughts</a>.
+             </p>
+           </div>
+           <div class="terms-of-use">
+             <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/terms_of_use.png" alt="TERMS OF USE" />
+             <p>
+               We want you to know how we deal with all submissions to the BBC, whether it be music, video, images or just text.
+               Section 5 of the Terms of Use for BBC Online Services for Personal Use outlines
+               <a href="http://www.bbc.co.uk/terms/personal.shtml#5">how we handle any contributions you make to BBC Online Services</a>.
+             </p>
+             <p>
+               For more information, you might find this
+               <a href="http://www.bbc.co.uk/terms/help_ugc.shtml">FAQ about User Generated Content</a> helpful.
+             </p>
+             <p>
+               You should also read the BBC's <a href="http://www.bbc.co.uk/privacy">Privacy Policy</a>.
+             </p>
+           </div>
+           <div class="please-note">
+             <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/please_note.png" alt="PLEASE NOTE" />
+             <p>
+               This upload tool is restricted to residents of the UK only.
+               You will need to enter a valid UK postcode when you fill out your artist profile.
+             </p>
+             <p>
+               If you're based outside the UK and wish to submit your music to the BBC, please read
+               <a href="http://www.bbc.co.uk/music/introducing/faq/#uk">this advice</a>.
+             </p>
+           </div>
+         </div>
+         <div class="small-print-border"></div>
+      
+         <div class="summary-box">
+                <img src="http://static.bbc.co.uk/music/introducing/img/tour-footer-text.png"
+                alt="UPLOAD YOUR MUSIC TO BBC INTRODUCING AND GET THE CHANCE TO BE PLAYED ON LOCAL AND NATIONAL RADIO." />
+                <br />
+           <div class="register-sign-in-div">
+                                <a href="http://id.bbc.co.uk/users/register?ptrt=http://www.bbc.co.uk/music/introducing/uploader/" class="id-tour-button tour-register"><img src="http://static.bbc.co.uk/music/introducing/img/register.png" alt="Register now"/></a>
+                          <span class="or-span">OR</span>
+                          <a href="http://id.bbc.co.uk/users/signin?ptrt=http://www.bbc.co.uk/music/introducing/uploader/" class="id-tour-button tour-login"><img src="http://static.bbc.co.uk/music/introducing/img/sign-in.png" alt="Sign in"/></a>
+               		 
+          </div>
+          <div class="extended-line-div-bottom"></div>
+        </div>
+      
+      </div>
+         </div>   <div id="blq-mast" class="blq-rst blq-new-nav" lang="en-GB"> 
+      <div id="id-status"><div class="id-out id-gel"><h2 class="blq-hide">BBC iD</h2><a href="https://id.bbc.co.uk/users/signin?s=sb" class="blq-nogo has-ptrt idSignin">Sign in</a></div></div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+          <form method="get" action="http://search.bbc.co.uk/search" accept-charset="utf-8"> <p>  <input type="hidden" name="go" value="toolbar" />   <input type="hidden" name="uri" value="/music/introducing/uploader/" />    <label for="blq-search" class="blq-hide">Search term:</label> <input id="blq-search" type="text" name="q" value="" maxlength="128" /> <input id="blq-search-btn" type="submit" value="Search" /> </p> </form>   <h2 class="blq-hide">bbc.co.uk navigation</h2> <ul id="blq-nav-main">     <li id="blq-nav-n"><a href="http://www.bbc.co.uk/news/" hreflang="en-GB">News</a></li> <li id="blq-nav-s"><a href="http://news.bbc.co.uk/sport/" hreflang="en-GB">Sport</a></li> <li id="blq-nav-w"><a href="http://news.bbc.co.uk/weather/" hreflang="en-GB">Weather</a></li>  <li id="blq-nav-i">  <a href="/iplayer/" hreflang="en-GB">iPlayer</a>  </li>  <li id="blq-nav-t"><a href="/tv/" hreflang="en-GB">TV</a></li>  <li id="blq-nav-r"><a href="/radio/" hreflang="en-GB">Radio</a></li> <li id="blq-nav-m"><a href="#blq-nav">More</a></li>  </ul> </div>  <div id="blq-nav" class="blq-teal blq-rst"> <div id="blq-nav-links" class="blq-clearfix" lang="en-GB"> <div id="blq-nav-links-inner">  <ul class="blq-nav-sub blq-first"> <li><a href="/cbbc/">CBBC</a></li> <li><a href="/cbeebies/">CBeebies</a></li> <li><a href="/comedy/">Comedy</a></li> <li><a href="/food/">Food</a></li> <li><a href="/health/">Health</a></li> </ul> <ul class="blq-nav-sub"> <li><a href="/history/">History</a></li> <li><a href="/learning/">Learning</a></li> <li><a href="/music/">Music</a></li> <li><a href="/science/">Science</a></li> <li><a href="/nature/">Nature</a></li> </ul> <ul class="blq-nav-sub blq-last"> <li><a href="/local/">Local</a></li> <li><a href="/northernireland/">Northern Ireland</a></li> <li><a href="/scotland/">Scotland</a></li> <li><a href="/wales/">Wales</a></li> <li id="blq-az"><a href="/a-z/">Full A-Z<span class="blq-hide"> of BBC sites</span></a></li> </ul>  </div> </div> </div> <div id="blq-foot" lang="en-GB" class="blq-rst blq-clearfix blq-foot-grey">  <div id="blq-footlinks">  <h2 class="blq-hide">Site links</h2> <ul id="blq-sitelinks"> <li>     <a href="/faq">Frequently Asked Questions</a> </li>  <li>     <a href="/music">BBC Music</a> </li>   <li>     <a href="/radio1">Radio 1</a> </li>   <li>     <a href="/6music">6 Music</a> </li>  </ul>  <h2 class="blq-hide">BBC links</h2>  <ul id="blq-bbclinks"> <li>     <a href="/aboutthebbc/">About the BBC</a> </li> <li>     <a href="/help/">BBC Help</a> </li>  <li>     <a href="/feedback/">Contact Us</a> </li>  <li>     <a href="/accessibility/">Accessibility Help</a> </li> <li>     <a href="/terms/">Terms of Use</a> </li> <li>     <a href="/jobs/">Jobs</a> </li> <li>     <a href="/privacy/">Privacy &amp; Cookies</a> </li>  </ul>  </div>   <p id="blq-copy"><img src="http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/img/footer_blocks_grey.gif" width="68" height="21" alt="BBC" /> &copy; 2011</p> <p id="blq-disclaim"><a href="/help/web/links/">The BBC is not responsible for the content of external sites. Read more.</a></p> <div id="blq-obit"><p><strong>This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so.</strong></p></div> </div> </div>  </div>                <script type="text/javascript" src="http://static.bbc.co.uk/music/introducing/js/application.js?version=2"></script>
+      </body>
+      </html>
+
+    http_version: "1.1"

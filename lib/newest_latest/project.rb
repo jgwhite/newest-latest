@@ -1,3 +1,4 @@
+# --*-- encoding: utf-8 --*--
 module NewestLatest # :nodoc:
   # = Project
   #
@@ -6,6 +7,10 @@ module NewestLatest # :nodoc:
   class Project
     include Mongoid::Document
     include Mongoid::Timestamps
+
+    # Minimum length for the project's name
+    # used when cleaning up page title
+    MIN_NAME_LENGTH = 10
 
     field :name
     field :url
@@ -21,8 +26,13 @@ module NewestLatest # :nodoc:
 
     private
 
-    def cleanup_title(title) # :nodoc:
-      title.match(/^([^:\-|]+)/)[1].strip
+    def cleanup_title(title, min_length = MIN_NAME_LENGTH) # :nodoc:
+      tokens = title.split(/\s*[\-:|—–]+\s*/)
+      result = []
+      while result.join(" ").length < min_length && tokens.length > 0
+        result << tokens.shift
+      end
+      result.join(" ")
     end
 
   end
