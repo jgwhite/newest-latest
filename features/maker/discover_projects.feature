@@ -11,10 +11,11 @@ Feature: discover_projects
     When I run "discover_projects"
     Then it should return the following Projects:
       | url                          | name                                   |
-      | http://thefeed.orange.co.uk/ | The Feed                               |
+      | http://thefeed.orange.co.uk/ | The Feed Orange                        |
       | http://bit.ly/gYYoWH         | I’m looking for the new me. Is it you? |
       | http://www.pokelondon.com/   | POKE                                   |
-      | http://bit.ly/ha7w8c         | The Feed                               |
+      | http://www.pokelondon.com    | POKE                                   |
+      | http://bit.ly/ha7w8c         | The Feed Orange                        |
       | http://instaprint.me/        | Instaprint                             |
       | http://www.lovieawards.eu/   | Lovie Awards                           |
 
@@ -25,6 +26,6 @@ Feature: discover_projects
       | feeds | http://twitter.com/withassociates |
     When I run "discover_projects"
     Then it should return the following Projects:
-      | url                                  | name                  |
-      | http://bbc.in/eak1TI                 | BBC Music Introducing |
-      | http://2011.withassociates.com/april | With Associates       |
+      | url                           | name                  |
+      | http://bbc.in/eak1TI          | BBC Music Introducing |
+      | http://www.withassociates.com | With Associates       |

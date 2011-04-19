@@ -2431,3 +2431,218 @@
       </body>\n\
       </html>\n"
     http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: https://api.twitter.com:443/1/users/show.json?screen_name=withassociates
+    body: 
+    headers: 
+      accept: 
+      - application/json
+      user-agent: 
+      - Twitter Ruby Gem 1.3.0
+      accept-encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Tue, 19 Apr 2011 13:38:35 GMT
+      server: 
+      - hi
+      status: 
+      - 200 OK
+      x-ratelimit-limit: 
+      - "150"
+      x-transaction: 
+      - 1303220315-88120-5508
+      etag: 
+      - "\"9680e23b8e99278eac8e44aa802229e9\"-gzip"
+      last-modified: 
+      - Tue, 19 Apr 2011 13:38:35 GMT
+      x-ratelimit-remaining: 
+      - "122"
+      x-runtime: 
+      - "0.01053"
+      x-transaction-mask: 
+      - a6183ffa5f8ca943ff1b53b5644ef114
+      content-type: 
+      - application/json; charset=utf-8
+      pragma: 
+      - no-cache
+      x-ratelimit-class: 
+      - api
+      x-revision: 
+      - DEV
+      expires: 
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      cache-control: 
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      x-ratelimit-reset: 
+      - "1303222730"
+      set-cookie: 
+      - k=87.194.220.160.1303220315736337; path=/; expires=Tue, 26-Apr-11 13:38:35 GMT; domain=.twitter.com
+      - guest_id=130322031574162521; path=/; expires=Thu, 19 May 2011 13:38:35 GMT
+      - _twitter_sess=BAh7CDoHaWQiJWVmNWUwN2Q4MDNlMTdiYWMxOGM4YzAyNzA4NTEyOWZmIgpm%250AbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAG%250AOgpAdXNlZHsAOg9jcmVhdGVkX2F0bCsIXub7bS8B--aa9f1faedb04a123c3d449c1d7c5582d05b77bc9; domain=.twitter.com; path=/; HttpOnly
+      vary: 
+      - Accept-Encoding
+      content-encoding: 
+      - gzip
+      content-length: 
+      - "800"
+    body: !binary |
+      H4sIAAAAAAAAA31UUU/bMBD+K55fV7Vx2rRN3qDABtqkSQyxh0qWm1yKhWN3
+      ttPAEP9957ZJU2DLUxLf3ef7vrvvhW6sKaUCvhL549qaWhfc4zfNvK1h0B3L
+      SqyB11bRjD54v8mWo+VIxEPfyGo9zE21HJ2EuuVoEs/GswmL0uWoEVwbWwk1
+      XMuSDugWrCwlFDQrhXIIU4qtqa304HiOd/A0YwNagMut3HhpNKLeS/9AlNnC
+      gFTGefVMSmsq4h+AaCPdMzEahljbeeFrR7OXXdFQ8wjj4QlL09t6A5bAUx4O
+      iTfECUyvLWmMfcQ6u6Ln5wtyrb01RZ1LvSZ3G2VEQaQjSm7hE+lYWK3yodTL
+      EYhH9vOaVOEhd78kDMlX4R0xZRkwbk2JZFlo6xewDde14BsA37YdDajU3MJG
+      PXNvOBIAoLkWFSqia6XeHO965bLAN9sGbJTIu+jcYAtyVXtjXfvvANnjpV+z
+      dmCxYhvskJdQjjawoh9G9rFzY2whtUAh/3vf9nANpku1gGkFF0Ghe9TlbGMJ
+      GxMWZUmSTRLyOcKHxBFj4R4HWJrMWczYPI1macLSeBzjIY6uzsVJg/j6LvIV
+      584oZRq84O8anOcOggaHHCX0GgFA0+MaKKkfUSplAjS7SueLGZ6+WYumaYYN
+      TqtwzuQycBEWJIxmX016GtIDcbKAlbB8hVwiwy3cYnoZX17SsBelqJXnh/jj
+      hQ02vV+WC5xfEPVWGjsg34wuTOhCOu6t0E4JHyoe0lpYlLPvArs1bm3APSBL
+      QikuNVIAvIJCiiOwdEG5wwhP5jtdOWixUj0NPnCad63t9ZCB+H9nfexF0Ude
+      9DYLbYmlkySN5uPl6OJ2wWfzNBne/Piyp99D3p+a/vK8a+dkXr/jUt8ITeIp
+      YWkWT7Mx6+Y1SrH4QfOdiZ31Re8GmaVJwqa7+d2vydEL5ylSqo1Hz9wr7I6O
+      Jivgf9D6sEKnc2kl6KJLj+PZkcdggR3v0+n4nMV0vx/tBd4NWDsKB8ja5xw9
+      zcHert5OLX6oDuDi7HJxNemEBXv09yidv/4FxP7nWn8GAAA=
+
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.withassociates.com:80/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 301
+      message: Moved Permanently
+    headers: 
+      location: 
+      - http://2011.withassociates.com/
+      content-length: 
+      - "0"
+      date: 
+      - Tue, 19 Apr 2011 13:38:36 GMT
+      server: 
+      - Http With Associates
+    body: 
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://2011.withassociates.com:80/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      vary: 
+      - Accept-Encoding
+      content-type: 
+      - text/html
+      accept-ranges: 
+      - bytes
+      etag: 
+      - "\"2706288064\""
+      last-modified: 
+      - Tue, 12 Apr 2011 13:02:58 GMT
+      content-length: 
+      - "23104"
+      date: 
+      - Tue, 19 Apr 2011 13:38:36 GMT
+      server: 
+      - Http With Associates
+    body: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\
+      <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>\n  <head>\n    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />\n    <meta http-equiv=\"expires\" content=\"Thu, 28 April 2011 10:00:00 GMT\" />\n\
+      \t\t<link type=\"text/css\" rel=\"stylesheet\" href=\"stylesheets/wa-2011.css\" />\n\
+      \t\t<link type=\"text/css\" rel=\"stylesheet\" href=\"stylesheets/wa-2011-04.css\" />\n\
+      \t\t\n    <script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js\"></script>\n\n\
+      \t\t<script type=\"text/javascript\" src=\"javascripts/wa-2011-03.js\"></script>\n    <title>With Associates &mdash; A digital agency, we build and design websites and apps</title>\n    <!--[if lte IE 8]>\n\
+      \t\t\t<script src=\"/javascripts/html5.js\"></script>\n\
+      \t\t<![endif]-->\n\
+      \t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\
+      \t\t<script type=\"text/javascript\">\n\n\
+      \t\t  var _gaq = _gaq || [];\n\
+      \t\t  _gaq.push(['_setAccount', 'UA-298580-3']);\n\
+      \t\t  _gaq.push(['_trackPageview']);\n\n\
+      \t\t  (function() {\n\
+      \t\t    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n\
+      \t\t    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n\
+      \t\t    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n\
+      \t\t  })();\n\n\
+      \t\t</script>\n  </head>\n  <body>\n\
+      \t\t<nav class='global_header instapaper_ignore' class=\"white\">\n\
+      \t      <a href=\"/\" id='back'>\n\
+      \t         <img src=\"images/header/logo.gif\"/>\n\
+      \t      </a>\n\
+      \t      <div id='menu'>\n\
+      \t        <ul id='compact'>\n\
+      \t          <li class='padding'>\n\
+      \t            <p id='short_text'>\n\
+      \t              We're changing our site every month... <a href=\"#\" id=\"more\" class=\"toggle\">read more</a>\n\
+      \t            </p>\n\
+      \t            <p id='long_text'>We're changing our site every month this year with an aim to experiment, play, discuss and learn more about the ever evolving nature of the digital environment. Follow <a href=\"http://twitter.com/@withassociates\">@withassociates</a> for updates, or <a href=\"/january\">read more behind the idea</a>, or simply explore the index on the right&hellip; <a href=\"#\" id=\"less\">read less</a>\n\
+      \t            </p>\n\
+      \t          </li>\n\
+      \t          <li class='dropdown'>\n\
+      \t            <a class='toggle' href='/' id='current'>\n\
+      \t              Index\n\
+      \t            </a>\n\
+      \t            <ul id='months'>\n\
+      \t              <li><a href=\"/january\">January</a></li>\n\
+      \t              <li><a href=\"/february\">February</a></li>\n\
+      \t              <li><a href=\"/march\">March</a></li>\n\
+      \t              <li><a href=\"/\">April</a></li>\n\
+      \t              <li>May</li>\n\
+      \t              <li>June</li>\n\
+      \t              <li>July</li>\n\
+      \t              <li>August</li>\n\
+      \t              <li>September</li>\n\
+      \t              <li>October</li>\n\
+      \t              <li>November</li>\n\
+      \t              <li>December</li>\n\
+      \t            </ul>\n\
+      \t          </li>\n\
+      \t        </ul>\n\
+      \t      </div>\n\
+      \t    </nav>\n\
+      \t\t\n\
+      \t\t<div class=\"april\">\n    <div class='orange instapaper_ignore'>\n      <div class='row'>\n        <div class='column grid_12 logo bordertop'>\n          <img alt=\"\" src=\"images/april/logo.png\" />\n        </div>\n      </div>\n      <div class='row'>\n        <div class='column grid_12 borderbot intro'>\n          <h1 class='tk-etica-display'>We're a digital agency that design and build websites, apps and interfaces.</h1>\n        </div>\n      </div>\n      <div class='row'>\n        <div class='column grid_12 main'>\n          <div class='row'>\n            <div class='column grid_3 content'>\n              <h2 class='tk-etica-display'>ABOUT</h2>\n              <p>North London based, With Associates is a small but perfectly formed digital agency that prides itself on working closely with clients, and alongside colleagues with complementary skills.</p>\n            </div>\n            <div class='column grid_3 content'>\n              <h2 class='tk-etica-display'>CLIENTS</h2>\n              <p>Our collaborative practice allows us the luxury of working with a broad range of clients.</p><p>From <a href=\"http://www.lorva.co.uk\">independent artists</a> to <a href=\"http://www.vitsoe.com\">renowned furniture manufacturers</a>, from <a href=\"http://cutlasercut.com\">SMEs</a> to <a href=\"http://www.sohohouse.com\">international groups</a>, and from <a href=\"http://www.itsnicethat.com\">established blogs</a> to new and <a href=\"http://visual-editions.com\">experimental publishers</a>.</p>\n            </div>\n            <div class='column grid_3 content'>\n              <h2 class='tk-etica-display vcard'>CONTACT</h2>\n              <p>With Associates<br>\n\
+      \t\t\t\t\t\t\t\t<span class=\"street-address\">100 De Beauvoir Road</span><br><span class=\"locality\">London</span><br><span class=\"postal-code\">N1 4EN</span><br/>\n\
+      \t\t\t\t\t\t\t<a href=\"mailto:hello@withassociates.com\">hello@withassociates.com</a>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t<p>\n\
+      \t\t\t\t\t\t\t+ 44 (0)20 7923 4757<br/>\n\
+      \t\t\t\t\t\t\tWe\xE2\x80\x99re also on <a href=\"http://www.flickr.com/photos/withassociates\">flickr</a> & <a href=\"http://twitter.com/withassociates\">twitter</a>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\n            </div>\n            <div class='column grid_3 content'>\n              <h2 class='tk-etica-display'>APRIL</h2>\n              <p>As part of an <a href=\"/january\">annual project</a>, we're redesigning our website every month until December.</p>\n\
+      \t\t\t\t\t\t\t<p>This month, <a href=\"#article\">we're focusing on the state</a> of custom typography for the&nbsp;web.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class='white instapaper_body'>\n      <div class='row'>\n        <div class='column grid_6 title'>\n          <h1>Fonts & the Web</h1><a name=\"article\"></a>\n        </div>\n\
+      \t\t\t\t<div class=\"column grid_6\" style=\"text-align:center;\">\n\
+      \t\t\t\t\t<iframe border=\"0\" style=\"margin-bottom:20px;margin-top:70px;\" scrolling=\"no\" width=\"78\" height=\"17\" allowtransparency=\"true\" frameborder=\"0\"\n\
+      \t\t\t\t\t style=\"margin-bottom: -3px; z-index: 1338; border: 0px; background-color: transparent; overflow: hidden;\"\n\
+      \t\t\t\t\t src=\"http://www.instapaper.com/e2?url=http://2011.withassociates.com&amp;title=Fonts and the web \xE2\x80\x93 With Associates\"\n\
+      \t\t\t\t\t></iframe>\n\
+      \t\t\t\t\t\n\
+      \t\t\t\t</div>\n      </div>\n      <div class='row'>\n        <div class='column grid_6 body'>\n          <h2>Introduction</h2>\n          <p>You may have noticed something&#8217;s a little bit different on our site today.</p>\n          <p>These words you\xE2\x80\x99re reading right now, these nice little letters, are being broadcast to your eyes via the seductive letter-forms of a font called Merriweather.</p>\n          <p>Chances are you won\xE2\x80\x99t have heard of Merriweather, and that\xE2\x80\x99s understandable. We\xE2\x80\x99re not used to a broad variety of fonts on the web, and that&#8217;s because, well, displaying any font we want on the web is a bit of a headache.</p>\n          <p>Up until recently, we were pretty much restricted to a handful of \xE2\x80\x98web safe\xE2\x80\x99 fonts, that is fonts that are deemed safe to use on the web because the majority of computers come with them installed, meaning when we write something in Impact or Verdana, it looks the same on 99% of PCs and Macs.</p>\n          <p>This is all very well and good. These fonts have served us well, and are some of the best fonts to use because they\xE2\x80\x99re designed specifically for the screen which means they\xE2\x80\x99re easier to read than those designed to be used in print.</p>\n          <p>In 2011, we brave, bold craftsmen of the Internet shouldn\xE2\x80\x99t have to be limited to the measly palette of safe fonts. Typography adds richness, communication, clarity and expression to design, and to be so constrained is frustrating.</p>\n          <p>These constraints needn\xE2\x80\x99t be necessary, there\xE2\x80\x99s a few options for us to provide more interesting web design but it\xE2\x80\x99s a complex subject, so let\xE2\x80\x99s take a quick look at where all this crazy talk of custom fonts came from.</p>\n          <h2>Microsoft led the way&#8230; seriously.</h2>\n          <p>Way back in the cold winter of 1997, Microsoft released Internet Explorer 4 which would become infamous for embroiling the company in their legal battle with the United States government concerning IE\xE2\x80\x99s bundling with the Windows operating system and the resulting antitrust issues surrounding this.</p>\n          <p>Monopolistic aspirations aside, IE 4 quietly introduced one of the cornerstones of web typography, the Embedded OpenType format (<span class=\"caps\">EOT</span>), and was the first browser to innovate in the arena of fonts on the web outside of the rather limiting core system fonts.</p>\n          <p>Despite Internet Explorer\xE2\x80\x99s enormous popularity, <span class=\"caps\">EOT</span> never really caught on with developers, in all probability due to it\xE2\x80\x99s proprietary format and incompatibility with the rival du jour, Netscape.</p>\n          <p>Moreover, the complexity concerned in actually making an <span class=\"caps\">EOT</span> file (I know what you\xE2\x80\x99re thinking, Microsoft product, complex!?) and the lack of any real demand for interesting typography on the web at the time compounded the fate of <span class=\"caps\">EOT</span> to lie dormant for the next few years.</p>\n          <h2><span class=\"caps\">SIFR</span> and the arrival of practical fonts on the web</h2>\n          <p>By 2004, the cold, unforgiving landscape of the web had changed; Firefox (or Firebird as it was named at the time) had just been released which would reignite competition between browser developers and challenge the slow pace at which the web was evolving.</p>\n          <p>As designers began to experiment more with bigger and bolder design for the web, there was a clear gap in the usability of typography on the web. Despite Microsoft\xE2\x80\x99s best intentions of seven years previous, designers in 2004 were still no closer to using real typography in their designs.</p>\n          <p>That was, until, that same year Mike Davidson released <span class=\"caps\">SIFR</span> (Scalable Inman Flash Replacement) an open source font replacement technology embracing the ubiquity of Adobe\xE2\x80\x99s Flash plugin. <span class=\"caps\">SIFR</span> seemed like a great solution at the time. At last, designers could break free from the (probably weak) shackles of Verdana, Arial et al. Davidson said at the time;</p>\n        </div>\n        <div class='column grid_6 figures'>\n          <div class='figure' id='ie_figure'>\n            <img alt=\"\" src=\"images/april/ie4.jpg\" />\n            <div class='caption'>\n              <p>Internet Explorer 4, the first browser to support custom fonts on the web.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class='row'>\n        <div class='column grid_12'>\n          <blockquote>\n          <p>&#8220;Its been well over ten years now since the debut of the graphical web browser and we still don\xE2\x80\x99t have an easy way to deliver rich typography using <span class=\"caps\">HTML</span>/<span class=\"caps\">CSS</span> [&#8230;] we can\xE2\x80\x99t deliver something classical typesetters have delivered since at least the 15th century: custom typography&#8221; \xE2\x80\x93 Mike Davidson</p>\n          </blockquote>\n        </div>\n      </div>\n      <div class='row'>\n        <div class='column grid_6 body'>\n          <p><span class=\"caps\">SIFR</span> was a great proof of concept, but it wasn\xE2\x80\x99t without it\xE2\x80\x99s drawbacks. The dependance on JavaScript and Flash, the lag as the plugin was loaded, as well as the very high memory usage when replacing anything other than a few words on a page, meant that <span class=\"caps\">SIFR</span> wasn\xE2\x80\x99t a practical solution for typography on the web.</p>\n          <p>In 2009, a similar solution called Cufon was released. Cufon was implemented solely using JavaScript (no Flash, yay!) and using custom fonts became a more realistic reality as it provided a more natural experience for users and is still one of the most attractive options for web developers. But, again, it\xE2\x80\x99s not ideal. Cufon rendered text cannot be copied and pasted by users,  and does not support the full array of <span class=\"caps\">CSS</span> styling options such as text shadow and gradients natively.</p>\n          <p>Web developers began looking for a standard, defined by the body that control the development of <span class=\"caps\">HTML</span> and <span class=\"caps\">CSS</span>, the W3C.</p>\n          <h2>The problems facing us, and the lessons to be learnt from the music industry</h2>\n          <p>The fiery competition between browser manufacturers that started with the rise of Firefox doesn\xE2\x80\x99t seem to show any signs of growing friendlier anytime soon. In the last couple of years, the browser ecosystem has gone from a couple of key players to a whole spectrum of popular and innovative software; namely the emergence of Google Chrome, popularity of Webkit and the unprecedented increase of mobile devices.</p>\n          <p>With all of these big egos and proprietary technologies involved, various formats for delivering fonts via <span class=\"caps\">CSS</span> have been proposed and adopted to variable extents. Let\xE2\x80\x99s quickly look at this mystifying array;</p>\n          <ul>\n          \t<li><strong>Embedded OpenType</strong> \xE2\x80\x93 The first format, introduced by Microsoft with compatibility strictly restricted to IE4 and upwards</li>\n          </ul>\n          <ul>\n          \t<li><strong>TruDoc</strong> \xE2\x80\x93 Netscape\xE2\x80\x99s answer to Internet Explorer\xE2\x80\x99s <span class=\"caps\">EOT</span>, discontinued by Mozilla due to ownership issues of the code</li>\n          </ul>\n          <ul>\n          \t<li><strong>Scalable Vector Graphics</strong> \xE2\x80\x93 A format in which fonts are rendered as <span class=\"caps\">SVG</span> documents. Supported by Safari 3 initially, Webkit and Opera 8+, however, each of these support different specifications of the format.</li>\n          </ul>\n          <ul>\n          \t<li><strong>TrueType / OpenType</strong> \xE2\x80\x93 The most widely supported option but with the most licensing problems. Supported by Firefox, Safari, Chrome, Opera and Internet Explorer 9. Font Foundries want to steer clear of this format because there is no control over the distribution of the font, making it the MP3 of font formats.</li>\n          </ul>\n          <ul>\n          \t<li><strong>Web Open Font Format</strong> \xE2\x80\x93 Developed in 2009, making it the most modern format, and looking like the most desirable standard. Supported by Firefox, Chrome, Opera and Internet Explorer 9, but interestingly (or, perhaps, frustratingly) not Safari, making these fonts also inaccessible on the iPad/iPhone.</li>\n          </ul>\n          <p>These technical problems serve as a barrier to a simple solution for serving web fonts, but they\xE2\x80\x99re coupled with a larger problem that\xE2\x80\x99s the elephant in the room: licensing.</p>\n          <p>The situation facing font foundries at the moment isn\xE2\x80\x99t dissimilar to the situation the music industry found itself in a few years ago. Let\xE2\x80\x99s look at how history is repeating itself;</p>\n          <p>Once upon a time, record companies (font foundries) controlled their industry and made a tidy profit from selling music (fonts) to customers.  Customers paid for a very physical product that they could use themselves with very few restrictions.</p>\n          <p>Then, the Internet came along and ruined everything for everyone. Suddenly, it was incredibly easy to share music with friends and strangers alike and the convenience of illegal distribution (as well as the relative anonymity) meant that sales of music fell in favour of piracy.</p>\n          <p>The record industry, slow to react, didn\xE2\x80\x99t look at making a legal platform to engage customers through convenience, but instead opted to lock down further the products they sold. We\xE2\x80\x99re seeing this in relation to font foundries at the moment with defensive licenses concerning web usage, but slow evolution towards ways to make it convenient for designers and developers to legally use their fonts in their projects.</p>\n          <p>Meanwhile, whilst the record companies tried to lock down their media, young startups like Spotify, Pandora and LastFM, and more established businesses like Apple, Amazon and Nokia were clamouring to provide a better experience for consuming music by tailoring to the demands of users for convenience.</p>\n          <p>When these services started out, they had a hard time negotiating with record companies who were still nervous about losing control over a core product, but after they grew and began signing up millions of users worldwide, it was the service providers who would usurp the dominant stance.</p>\n          <h2>Where are we now?</h2>\n          <p>The web font equivalents of these services have only recently started to gain traction, and we\xE2\x80\x99re seeing a similar pattern of several startups jostling to become the market leader in the business of licensing and legally distributing fonts for the web.</p>\n          <p>As of yet, no major players have yet to fully enter this market with the exception of Google who have opted to avoid the licensing problem by only distributing fonts that are specifically open source.</p>\n          <p>At the moment, we have some very appealing services that are already well established and serving some of the most popular sites on the net. Here\xE2\x80\x99s some of what\xE2\x80\x99s available to use real fonts in a semantic, legal way on the web;</p>\n        </div>\n        <div class='column grid_6'>\n          <div class='figure'>\n            <img alt=\"\" src=\"images/april/iphone.jpg\" />\n            <div class='caption'>\n              <p><span class=\"caps\">CSS</span> @font-face fonts allow text to be selected, copied and pasted. Something that more traditional alternatives do not support.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class='row'>\n        <div class='column grid_3 service'>\n          <a href='http://typekit.com'>\n            <img alt=\"\" src=\"images/april/typekit.jpg\" />\n          </a>\n          <p><strong>Typekit</strong></p>\n          <p>Probably the first service to really take off with designers, Typekit launched in 2009 and serves big names such as the New York Times, <span class=\"caps\">IGN</span> and Twitter.</p>\n          <p><em>Licensing</em><br />\n          Free for personal usage. Subscription based from $24 / month</p>\n        </div>\n        <div class='column grid_3 service'>\n          <a href='http://fontdeck.com'>\n            <img alt=\"\" src=\"images/april/fontdeck.jpg\" />\n          </a>\n          <p><strong>Fontdeck</strong></p>\n          <p>Boasting a nice user experience, Fontdeck also launched in 2009 and its team includes some faces from UK web design agency Clearleft.</p>\n          <p><em>Licensing</em><br />\n          Subscription based per font used. $7.50 / year plus each font bought.</p>\n        </div>\n        <div class='column grid_3 service'>\n          <a href='http://google.com/webfonts'>\n            <img alt=\"\" src=\"images/april/google.jpg\" />\n          </a>\n          <p><strong>Google Web Fonts</strong></p>\n          <p>Google\xE2\x80\x99s simple free offering is very straightforward to implement (and doesn\xE2\x80\x99t rely on JavaScript).</p>\n          <p>Their font library generally consists of fonts specifically designed for screens.</p>\n          <p><em>Licensing</em><br />\n          Open source</p>\n        </div>\n        <div class='column grid_3 service'>\n          <a href='http://fontsquirrel.com'>\n            <img alt=\"\" src=\"images/april/fontsquirrel.jpg\" />\n          </a>\n          <p><strong>Font Squirrel</strong></p>\n          <p>While most free font sites have a reputation for providing shoddy knock offs, Font Squirrel curate their library well and there\xE2\x80\x99s some real gems for the zero price tag.</p>\n          <p>They provide a simple generator to make font faces from most of their fonts.</p>\n          <p><em>Licensing</em><br />\n          Free</p>\n        </div>\n      </div>\n      <div class='row'>\n        <div class='column grid_6 body'>\n          <h2>Summing up&#8230;</h2>\n          <p>Things are looking very promising for the web development scene at the moment, and the arrival of viable services to provide custom typography are only adding to this.</p>\n          <p>It\xE2\x80\x99ll be interesting to see how foundries evolve to cope with the potentially huge change to their businesses as well as how the array of services currently available compete with each other to become the most convenient solution for designers and developers.</p>\n          <p>The nature of the web means that success, influence and control can be ephemeral and the best solution is probably still to come but the offerings available to us right now are definitely a big leap forward from the darker days of image replacement and Flash based alternatives. We\xE2\x80\x99ll probably just have to wait on our twitter-feeds and see.</p>\n          <p><strong>Further reading</strong></p>\n          <ul>\n          \t<li><a href=\"http://goo.gl/CkWaw\">Developing with web standards</a> \xE2\x80\x93 John Allsopp.</li>\n          \t<li><a href=\"http://goo.gl/3eB4Y\">Introducing <span class=\"caps\">SIFR</span></a> \xE2\x80\x93 Mike Davidson.</li>\n          \t<li><a href=\"http://ampersandconf.com\">Ampersand Conference</a> (we&#8217;re going!).</li>\n          </ul>\n          <div class='credit'>\n            <div class='al'>\n              <img alt=\"\" src=\"images/april/al.jpg\" />\n            </div>\n            <div class='about'>\n              <p><a href=\"http://twitter.com/almonk\">Alasdair Monk</a> is our prince of User Experience design; he designed and wrote this month&#8217;s site.</p>\n              <p>He&#8217;s also known as the mastermind behind Skittles Porridge, and the only member of With on Wikipedia.</p>\n              <p>Our site this month is set in <a href=\"http://www.theleagueofmoveabletype.com/fonts/7-league-gothic\">League Gothic</a>, <a href=\"http://www.theleagueofmoveabletype.com/fonts/4-chunk\">Chunk Five</a> and <a href=\"http://ebensorkin.wordpress.com/\">Merriweather</a>, all of which are freely available.</p>\n            </div>\n          </div>\n\
+      \t\t\t\t\n\
+      \t\t\t\t<h2>Afterword</h2>\n\
+      \t\t\t\t<div class='credit'>\n          <div class='al'>\n            <img alt=\"\" src=\"images/april/marc.jpg\" />\n          </div>\n          <div class='about'>\n          \t<p>Our friend <a href=\"http://twitter.com/#!/mrlomo\">Marc Davies</a>, dropped us an email following up on some of our thoughts. All credit to him for the following links which look more critically at web fonts and some issues with Merriweather, the font we chose for this article.</p>\n\n\
+      \t\t\t\t\t\t<p>In particular, Marc points out that Merriweather (and other fonts that are not hinted) render pretty badly on Windows and Linux because of the way these operating systems handle type rendering.</p>\n\n\
+      \t\t\t\t\t\t<ul>\n\
+      \t\t\t\t\t\t<li><a href=\"http://www.owlfolio.org/htmletc/legibility-of-embedded-web-fonts/\">Legibility of embedded web fonts</a></li>\n\
+      \t\t\t\t\t\t<li><a href=\"http://rose-lemberg.livejournal.com/153454.html\">A forum discussion on the accessibility issues of web fonts</a></li>\n\
+      \t\t\t\t\t\t</ul>\n\
+      \t\t\t\t\t\t\n          </div>\n\
+      \t\t\t\t\t\n        </div>\t\t\t\t\n      </div>\n    </div>\n\
+      \t</div>\n  </body>\n\
+      </html>\n"
+    http_version: "1.1"
