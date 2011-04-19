@@ -1395,3 +1395,1254 @@
       </body> \n\
       </html>"
     http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: https://api.twitter.com:443/1/statuses/user_timeline.json?screen_name=withassociates
+    body: 
+    headers: 
+      accept: 
+      - application/json
+      user-agent: 
+      - Twitter Ruby Gem 1.3.0
+      accept-encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Mon, 18 Apr 2011 07:08:01 GMT
+      server: 
+      - hi
+      status: 
+      - 200 OK
+      x-transaction: 
+      - 1303110481-31974-56451
+      x-ratelimit-limit: 
+      - "150"
+      etag: 
+      - "\"beb3e99119137e923f9964e4f87834da\"-gzip"
+      last-modified: 
+      - Mon, 18 Apr 2011 07:08:01 GMT
+      x-ratelimit-remaining: 
+      - "146"
+      x-runtime: 
+      - "0.01801"
+      x-transaction-mask: 
+      - a6183ffa5f8ca943ff1b53b5644ef114
+      content-type: 
+      - application/json; charset=utf-8
+      pragma: 
+      - no-cache
+      x-ratelimit-class: 
+      - api
+      x-revision: 
+      - DEV
+      expires: 
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      cache-control: 
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      x-ratelimit-reset: 
+      - "1303113598"
+      set-cookie: 
+      - k=92.24.106.115.1303110481692950; path=/; expires=Mon, 25-Apr-11 07:08:01 GMT; domain=.twitter.com
+      - guest_id=130311048169740501; path=/; expires=Wed, 18 May 2011 07:08:01 GMT
+      - _twitter_sess=BAh7CDoPY3JlYXRlZF9hdGwrCCL3b2cvAToHaWQiJTIxNGRkNmVjMWRlZGMy%250AODdiOTY0YWVhZjllYjc4ZWQ3IgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy%250AOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--0acbb4039a91001fb54d160e6c9062237e064ed9; domain=.twitter.com; path=/; HttpOnly
+      vary: 
+      - Accept-Encoding
+      content-encoding: 
+      - gzip
+      content-length: 
+      - "2756"
+    body: !binary |
+      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
+      n/8COq/iy3JvAAA=
+
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://bbc.in:80/eak1TI
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 301
+      message: Moved
+    headers: 
+      server: 
+      - nginx
+      date: 
+      - Mon, 18 Apr 2011 07:08:02 GMT
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - keep-alive
+      set-cookie: 
+      - _bit=4dabe352-000e3-07d85-c6ac8fa8;domain=.bbc.in;expires=Sat Oct 15 03:08:02 2011;path=/; HttpOnly
+      cache-control: 
+      - private; max-age=90
+      location: 
+      - http://www.bbc.co.uk/music/introducing/uploader/
+      mime-version: 
+      - "1.0"
+      content-length: 
+      - "140"
+    body: |-
+      <html>
+      <head>
+      <title>bit.ly</title>
+      </head>
+      <body>
+      <a href="http://www.bbc.co.uk/music/introducing/uploader/">moved here</a>
+      </body>
+      </html>
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.bbc.co.uk:80/music/introducing/uploader/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Mon, 18 Apr 2011 07:08:02 GMT
+      server: 
+      - Apache
+      set-cookie: 
+      - BBC-UID=541dfa4b7ed3450243c4dba8f17fa0d3c7c40987c0e0c18414bf36ef50e4cf350Ruby; expires=Fri, 17-Apr-15 07:08:02 GMT; path=/; domain=bbc.co.uk;
+      pragma: 
+      - no-cache
+      expires: 
+      - Fri, 10 Aug 1984 12:00:00 GMT
+      cache-control: 
+      - no-cache
+      content-type: 
+      - text/html
+      transfer-encoding: 
+      - chunked
+    body: |
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+      <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
+      <head profile="http://dublincore.org/documents/dcq-html/">
+      <title>BBC - Music - Introducing - Upload Your Music - Tour</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="description" content="BBC Introducing supports unsigned, undiscovered and under the radar bands and musicians. Upload the music you're making to us and your tracks could be played on local and national BBC radio shows. You might even earn yourself a studio session or a slot on the BBC Introducing stage at major UK festivals." />
+      <meta name="keywords" content="bbc, introducing, uploader, upload, uploadr, music, musician, radio, airplay, unsigned, artist, band, new, submit, send, radio 1, radio1, 6 music, 6music" />
+      <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+      <meta name="DCTERMS.created" content="2006-09-15T12:00:00Z" />
+      <meta name="DCTERMS.modified" content="2008-09-22T10:29+0:00" />
+          <link rel="schema.dcterms" href="http://purl.org/dc/terms/" /> <link rel="index" href="http://www.bbc.co.uk/a-z/" title="A to Z" /> <link rel="help" href="http://www.bbc.co.uk/help/" title="BBC Help" /> <link rel="copyright" href="http://www.bbc.co.uk/terms/" title="Terms of Use" /> <link rel="icon" href="http://www.bbc.co.uk/favicon.ico" type="image/x-icon" />  <meta name="viewport" content="width = 974" />    <link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/style/main.css"  />     <script type="text/javascript" src="http://node1.bbcimg.co.uk/glow/gloader.0.1.3.js"> </script> <script type="text/javascript"> gloader.use("glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.5.js"}); </script>      <script type="text/javascript" src="http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/script/blq_core.js"></script>
+        <!--[if (IE 6)|(IE 7)|(IE 8)]> <style type="text/css"> html{font-size:125%} body{font-size:50%} .blq-tooltipped:hover {background-position:0 0} #blq-autosuggest ul li { zoom:normal; } #blq-mast-home { background: transparent;  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000)"; /* IE8 */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000); } .skylightTheme #blq-mast-home, .doveTheme #blq-mast-home, .tealTheme #blq-mast-home, .aquaTheme #blq-mast-home, .greenTheme #blq-mast-home, .violetTheme #blq-mast-home, .purpleTheme #blq-mast-home, .pinkTheme #blq-mast-home, .oliveTheme #blq-mast-home, .suedeTheme #blq-mast-home, .redTheme #blq-mast-home, .orangeTheme #blq-mast-home { filter: none; -ms-filter: ""; } #blq-nav-main { background-position: 96% 17px; } </style> <![endif]--> <!--[if IE 7]> <style type="text/css"> .blq-clearfix {display: inline-block} </style> <![endif]-->  <!--[if IE 6]> <link rel="stylesheet" href="http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/style/ie6.css" type="text/css" /> <style type="text/css"> .blq-js #blq-nav-links-inner {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/img/panel.png', sizingMethod='crop')} .blq-js #blq-nav-foot div {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/img/panel.png', sizingMethod='image');margin-top:-139px}  #blq-container {height: 15%} #blq-mast-home span.blq-home { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='crop', src='http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/img/blocks.png');} </style>  <script type="text/javascript"> try { document.execCommand("BackgroundImageCache",false,true); } catch(e) {} </script> <![endif]-->   <script type="text/javascript"> blq.assetPath="http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/"; blqOnDomReady(function() { if(!blq.addGoTrack.isStub) { blq.addGoTrack('blq-main', {external:true}); }  blq.suggest_short = false; blq.addAutoSuggest(); });  blq.setEnvironment('live'); if (blq.setFlagpole) { blq.setFlagpole('barlesque/nedstat', 'ON'); }   </script> 			<link type="text/css" rel="stylesheet" media="screen" href="http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/style/id-gel.css" /> <!--[if IE]> <style type="text/css" media="screen"> body .panel-identity .hd h2{ background-image: url(http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/panel/logo-bbcid.gif); /* Even 8bit alpha transparent PNGs are no good here */ } .panel-id-hint .panel-bd, .panel-id-hint .panel-hd, .panel-id-hint .panel-ft{ background-image: url(http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/panel/bg-hint.gif); } </style> <![endif]--> <!--[if lte IE 6]> <style type="text/css" media="screen"> /* Secure Glow fixes */ div.panel-identity .infoPanel-pointerT { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.bbc.co.uk/glow/1.0.2/widgets/images/darkpanel/at.png', sizingMethod='crop'); } div.panel-identity .infoPanel-pointerR { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.bbc.co.uk/glow/1.0.2/widgets/images/darkpanel/ar.png', sizingMethod='crop'); } div.panel-identity .infoPanel-pointerB { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.bbc.co.uk/glow/1.0.2/widgets/images/darkpanel/ab.png', sizingMethod='crop'); } div.panel-identity .infoPanel-pointerL { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.bbc.co.uk/glow/1.0.2/widgets/images/darkpanel/al.png', sizingMethod='crop'); } /* min-height fixes */ body .panel-identity .hd h2{ height: 26px; } #blq-main a.id-cta-button{ height: 22px; } #blq-main a.id-cta-button span{ height: 12px; } /* other */ div.panel-identity .c{ zoom: 1; } /* Transparent PNG replacements */ .blq-toolbar-transp #id-status .idUsername{ background-image: url(http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/palettes/transp/status-id-logo-noprofile.gif); } .blq-toolbar-transp #id-status .idSignin, .blq-toolbar-transp #id-status .idUsernameWithProfile{ background-image: url(http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/palettes/dark/status-id-logo.gif); } </style> <![endif]--> <!--[if lte IE 7]> <style type="text/css" media="screen"> .panel-identity form .text, .panel-identity form .password { zoom: 1; } .panel-identity form .text p { margin: 0; } .panel-identity form .password p { margin: 0 0 18px 0; } .panel-identity p.id-registerlink a.id-register { zoom: 1; padding-top: 3px; padding-bottom: 3px; top: 3px; } </style> <![endif]--> <!--[if lte IE 8]> <style type="text/css" media="screen"> /* Custom PNG corners for lightbox */ div.panel-identity .pc .tr { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/panel/ctr.png', sizingMethod='crop'); } div.panel-identity .pc .tl { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/panel/ctl.png', sizingMethod='crop'); } div.panel-identity .pc .bl { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/panel/cbl.png', sizingMethod='crop'); } div.panel-identity .pc .br { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/img/panel/cbr.png', sizingMethod='crop'); } </style> <![endif]--> <script type="text/javascript"> if(typeof identity == 'undefined'){ identity = {}; } idProperties = { 'env': 'live', 'staticServer': 'http://', 'dynamicServer': 'http://id.bbc.co.uk', 'secureServer': 'https://id.bbc.co.uk', 'assetVersion': '3.19.2', 'assetPath': 'http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/' }; </script> <script type="text/javascript" src="http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/script/id-core.js"></script> <script type="text/javascript" src="http://static.bbc.co.uk/modules/identity/statusbar/3.19.2/script/id.js"></script> 	
+                      <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/style/layout.css" />
+      <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/style/decoration.css" />
+      <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/style/hacks.css" />
+          <!-- <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/style/global.css" /> -->
+          <!-- <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/style/hacks.css" /> -->
+          <!-- <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/style/upload.css" /> -->
+          <!-- <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/signon/sso_includes/singlesignon.css" /> -->
+          <!-- <link rel="stylesheet" type="text/css" href="http://www.bbc.co.uk/music/introducing/uploader/sso_resources/includes/service_statbar.css" />-->
+      
+          <link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/music/introducing/css/introducing.css?version=2" />
+          <!--[if IE 6]>
+              <link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/music/introducing/css/introducing_ie6.css" />
+          <![endif]-->
+          <!--[if IE 6]>
+              <link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/music/introducing/css/introducing_ie7.css" />
+          <![endif]-->
+      <script type="text/javascript" src="http://www.bbc.co.uk/emp/swfobject.js"></script>
+      <script type="text/javascript" src="http://www.bbc.co.uk/emp/embed.js"></script>
+      <script type="text/javascript" src="http://static.bbc.co.uk/music/introducing/js/jquery-1.4.4.js"></script>
+      <!--[if IE 6]>
+      <script src="http://static.bbc.co.uk/music/introducing/js/pngfix.js"></script>
+      <script>
+        DD_belatedPNG.fix('img, div');
+      </script>
+      <![endif]--> 
+          </head>
+      <body class="noscript">
+         <!-- NEDSTAT -->
+      <!-- Begin iStats 20100118 (UX-CMC 1.1009.3) -->
+      <script type="text/javascript">
+      // <![CDATA[
+      function sitestat(n){var j=document,f=j.location,b="";if(j.cookie.indexOf("st_ux=")!=-1){var k=j.cookie.split(";");var e="st_ux",h=document.domain,a="/";if(typeof ns_!="undefined"&&typeof ns_.ux!="undefined"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var g=0,f=k.length;g<f;g++){var m=k[g].indexOf("st_ux=");if(m!=-1){b="&"+unescape(k[g].substring(m+6))}}document.cookie=e+"=; expires="+new Date(new Date().getTime()-60).toGMTString()+"; path="+a+"; domain="+h}ns_pixelUrl=n;n=ns_pixelUrl+"&ns__t="+(new Date().getTime())+"&ns_c="+((j.characterSet)?j.characterSet:j.defaultCharset)+"&ns_ti="+escape(j.title)+b+"&ns_jspageurl="+escape(f&&f.href?f.href:j.URL)+"&ns_referrer="+escape(j.referrer);if(n.length>2000&&n.lastIndexOf("&")){n=n.substring(0,n.lastIndexOf("&")+1)+"ns_cut="+n.substring(n.lastIndexOf("&")+1,n.lastIndexOf("=")).substring(0,40)}(j.images)?new Image().src=n:j.write('<p><i'+'mg src="'+n+'" height="1" width="1" alt="" /></p>')};
+      if (document.cookie.indexOf('NO-SA=') == -1) {sitestat("//sa.bbc.co.uk/bbc/bbc/s?name=music.introducing.uploader.page&ml_name=barlesque&app_type=web&language=en-GB&ml_version=0.1.28&prod_name=music&app_name=music");}
+      // ]]>
+      </script>
+      <noscript><p><img src="//sa.bbc.co.uk/bbc/bbc/s?name=music.introducing.uploader.page&amp;ml_name=barlesque&amp;app_type=web&amp;language=en-GB&amp;ml_version=0.1.28&amp;prod_name=music&amp;app_name=music" height="1" width="1" alt="" /></p></noscript>
+      <!-- End iStats (UX-CMC) -->
+      <!-- END NEDSTAT -->
+        <div id="blq-container" class="blq-lang-en-GB blq-gvl-2-7"> <div id="blq-pre-mast" lang="en-GB"> <!-- Pre mast -->  </div> <div id="blq-container-inner" lang="en-GB">  <div id="blq-acc" class="blq-rst">  <p id="blq-mast-home" class="blq-no-images"><a href="/" hreflang="en-GB"> <span class="blq-home">British Broadcasting Corporation</span><img src="http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/img/blocks.png" alt="BBC" id="blq-blocks" width="84" height="24" /><span class="blq-span">Home</span></a></p>  <p class="blq-hide"><strong><a id="page-top">Accessibility links</a></strong></p> <ul id="blq-acc-links">   <li class="blq-hide"><a href="#blq-content">Skip to content</a></li>  <li class="blq-hide"><a href="#blq-nav-main">Skip to bbc.co.uk navigation</a></li> <li class="blq-hide"><a href="#blq-search">Skip to bbc.co.uk search</a></li>   <li id="blq-acc-help" class="blq-hide"> <a href="/help/">Help</a> </li>   <li class="blq-hide"><a href="/accessibility/">Accessibility Help</a></li>   </ul>  </div>   <div id="blq-main" class="blq-clearfix">    <div id="masthead">
+      <h1>
+      	<a href="/music/introducing" title="BBC Introducing - Home"><span>&nbsp;</span><strong>BBC Introducing - How to Upload Your Music</strong></a>
+      </h1>
+      </div>
+      
+      <div id="navigation" class="clearme">
+        <ul>
+      <li class="home"><a href="/music/introducing" title="Home"><span>Home</span></a></li>
+      <li class="advice"><a href="/music/introducing/advice" title="Advice"><span>Advice</span></a></li>
+      <li class="upload-selected"><a href="/music/introducing/uploader" title="Upload your Music"><span>Upload your Music</span></a></li>
+      <li class="artists"><a href="/music/introducing/artists" title="Artists"><span>Artists</span></a></li>
+      <li class="shows"><a href="/music/introducing/shows" title="Shows"><span>Shows</span></a></li>
+      <li class="festivals"><a href="/music/introducing/festivals" title="Festivals"><span>Festivals</span></a></li>
+      <li class="sessions"><a href="/music/introducing/sessions" title="Sessions"><span>Sessions</span></a></li>
+      <li class="links"><a href="/music/introducing/links" title="Links"><span>Links</span></a></li>
+      <li class="blog"><a href="/blogs/introducing/" title="Blog"><span>Blog</span></a></li>
+      <li class="about"><a href="/music/introducing/about" title="About Us"><span>About Us</span></a></li>
+        </ul>
+      </div>
+      
+      
+      <script type="text/javascript" src="http://static.bbc.co.uk/music/introducing/js/tour-tabs-javascript.js?version=2"></script>
+      <script type="text/javascript">
+        var pal_host = "http://static.bbc.co.uk"
+      </script>
+      
+      <div id="tour-main-div">
+        <div class="summary-box">
+          <img src="http://static.bbc.co.uk/music/introducing/img/tour-header-text.png"
+               alt="UPLOAD YOUR MUSIC TO BBC INTRODUCING AND GET THE CHANCE TO BE PLAYED ON LOCAL AND NATIONAL RADIO." />
+          <h2 class="blq-hide">UPLOAD YOUR MUSIC TO BBC INTRODUCING AND GET AIRPLAY ON LOCAL AND NATIONAL RADIO.</h2>
+          <br />
+          <div class="register-sign-in-div">
+                      <a href="http://id.bbc.co.uk/users/register?ptrt=http://www.bbc.co.uk/music/introducing/uploader/" class="tour-register id-tour-button"><img src="http://static.bbc.co.uk/music/introducing/img/register.png" alt="Register now"/></a>
+                <span class="or-span">OR</span>
+                <a href="http://id.bbc.co.uk/users/signin?ptrt=http://www.bbc.co.uk/music/introducing/uploader/" class="tour-login id-tour-button"><img src="http://static.bbc.co.uk/music/introducing/img/sign-in.png" alt="Sign in"/></a>
+                 </div>
+           <div class="extended-line-div"></div>
+         </div>
+      
+         <div id="tour-tabs-container">
+           <a id="left-arrow" class="tab-arrow">
+             <img id="left-arrow-image" src="http://static.bbc.co.uk/music/introducing/img/tour-tabs/left-arrow-disabled.png" alt=""/>
+           </a>
+           <a id="right-arrow" class="tab-arrow">
+             <img id="right-arrow-image" src="http://static.bbc.co.uk/music/introducing/img/tour-tabs/right-arrow.png" alt=""/>
+           </a>
+           <div id="tour-tabs">
+             <div id="tour-tab-headers">
+               <div id="create-tour-header" class="tab-header selected">
+                 <img id="img-create-tour-header" src="http://static.bbc.co.uk/music/introducing/img/tab-numbers/1-selected.png" alt="CREATE AN ACCOUNT"/>
+               </div>
+               <div id="upload-tour-header" class="tab-header">
+                 <img id="img-upload-tour-header" src="http://static.bbc.co.uk/music/introducing/img/tab-numbers/2-deselected.png" alt="UPLOAD YOUR MUSIC"/>
+               </div>
+               <div id="played-tour-header" class="tab-header">
+                 <img id="img-played-tour-header" src="http://static.bbc.co.uk/music/introducing/img/tab-numbers/3-deselected.png" alt="GET PLAYED!"/>
+               </div>
+             </div>
+             <div class="tour-tab" id="create-tour-tab">
+               <div class="tour-tab-content" id="create-tour-content">
+                 <div class="scroll-div">
+                   <h3>To upload tracks to us, you'll need a BBC iD membership.</h3>
+                   <p>If you've already got a BBC iD, just click Sign in and enter your email address or username and password.
+                     <br /><br />
+                     If you've never signed into bbc.co.uk before, you'll need to create a BBC iD membership.
+                     It only takes a minute. Just click Register now to set up your account.</p>
+                   <div class="register-sign-in-div">
+                                      <a href="http://id.bbc.co.uk/users/register?ptrt=http://www.bbc.co.uk/music/introducing/uploader/" class="id-tour-button tour-register"><img src="http://static.bbc.co.uk/music/introducing/img/register.png" alt="Register now"/></a>
+                        <span class="or-span">OR</span>
+                        <a href="http://id.bbc.co.uk/users/signin?ptrt=http://www.bbc.co.uk/music/introducing/uploader/" class="id-tour-button tour-login"><img src="http://static.bbc.co.uk/music/introducing/img/sign-in.png" alt="Sign in"/></a>
+                                    </div>
+                 </div>
+               </div>
+             </div>
+             <div class="tour-tab qq-box" id="upload-tour-tab">
+               <div class="tour-tab-content" id="upload-tour-content">
+                 <div class="scroll-div">
+                   <h3>Create your artist profile, then upload some songs.</h3>
+                   <p>Once you're signed in, click Go To Your Profile to get started.
+                     <br/>
+                     The first time you visit, you'll need to fill out an artist profile to tell us about you or your band.
+                   </p>
+                   <p>
+                     When you've done that, you're ready to upload your songs. Just select an MP3 file from your computer to submit to us.
+                   </p>
+                   <p>
+                     You can sign back in to update your profile and upload more tracks whenever you like (maximum three songs per month).
+                   </p>
+                 </div>
+               </div>
+             </div>
+             <div class="tour-tab" id="played-tour-tab">
+               <div class="tour-tab-content" id="played-tour-content">
+                 <div class="scroll-div">
+                   <h3>Your songs could be broadcast on BBC Radio.</h3>
+                   <p>
+                     Based on your postcode (UK only), the tracks you upload go straight to the presenters and producers of your nearest BBC Introducing radio show.
+                     You can also choose to target a show on one of our national stations with your tunes.</p>
+                   <p>
+                     We'll email you as soon as your music is listened to by someone at the BBC,
+                     and if your songs are strong enough, you could be hearing them on the radio!
+                   </p>
+               </div>
+               </div>
+             </div>
+           </div>
+         </div>
+      
+           <div class="broadcasts-map-border"></div>
+         <div class="map-div">
+           <div class="get-heard">
+             <div class="scroll-div">
+               <div class="get-heard-title">
+                 <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/get_heard_title.png" alt="BBC INTRODUCING RADIO SHOWS ACROSS THE UK" />
+                         <h3 class="blq-hide">GET PLAYED ON OUR NATIONAL STATIONS</h3>
+               </div>
+               <div class="get-heard-body">
+                 <p>
+                   We have more than 30 shows on BBC Local Radio waiting to hear your music.
+                   Every week, they broadcast tracks by unsigned and under the radar artists throughout the UK.
+                 </p>
+                 <p>
+                   Tune in to <a href="http://www.bbc.co.uk/music/introducing/shows/#regional_shows">your local show</a>
+                   to hear which bands and musicians are getting themselves played in your neck of the woods.
+                 </p>
+                 <p>
+                   Reckon you deserve some airplay? <br/>Upload the music you're making and show us what you've got to offer.
+                 </p>
+               </div>
+               <div class="live-statistics">
+                 <div class="live-statistics-title">
+                   <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/live_statistics.png" alt="LIVE STATISTICS" />
+                 </div>
+                 <div class="last-updated">Updated 7 mins ago</div>
+                            <div class="total-artists">
+                   <div class="count-label">TOTAL ARTISTS REGISTERED</div>
+                   <div class="count">44,290</div>
+                 </div>
+                            <div class="tracks-added-this-week">
+                                                   <div class="count-label">TRACKS UPLOADED IN THE LAST 7 DAYS</div>
+                       <div class="count">1880</div>
+                                </div>
+               </div>
+             </div>
+           </div>
+           <div class="broadcasts-map">
+                           <div class="recently-played" id="recently-played-1">
+               <div class="band-name">
+                               Natalie Lungley         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-2">
+               <div class="band-name">
+                               Tom Williams &amp; The Boat         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-3">
+               <div class="band-name">
+                               SPOOKASONIC         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-4">
+               <div class="band-name">
+                               Fish Tank         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-5">
+               <div class="band-name">
+                               Little Signals         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-6">
+               <div class="band-name">
+                               Do Re Mi         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-7">
+               <div class="band-name">
+                               Coopzz         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-8">
+               <div class="band-name">
+                               PHARAOHS         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-9">
+               <div class="band-name">
+                               The Taints         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Kent         </div>
+             </div>
+                    <div class="recently-played" id="recently-played-10">
+               <div class="band-name">
+                               David Leighton - Songwriter...         </div>
+               <div class="show-played-on">
+                 <span class="on">on</span> BBC Introducing in Cambridgeshire         </div>
+             </div>
+                  </div>
+         </div><br />
+         <div class="get-played-on-our-national-stations">
+           <div class="get-played-title-block">
+             <div class="get-played-title">
+               <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/get_played_title.png" alt="GET PLAYED ON OUR NATIONAL STATIONS" />
+      		 <h3 class="blq-hide">GET PLAYED ON OUR NATIONAL STATIONS</h3>
+             </div>
+           </div>
+           <div class="get-played-body">
+             <span id="get-played-left-paragraph">
+               Our local show teams pass on the very best tracks from their region to DJs at Radio 1 and 6 Music, 
+               so your music could get played nationwide and reach a massive audience.
+             </span>
+             <span id="get-played-right-paragraph">
+               On your artist profile,
+               you can also choose to send your songs directly to 100% HomeGrown on Radio 1Xtra,
+               Friction on Asian Network or Radio 3's Jazz on 3.
+             </span>
+           </div>
+         </div>
+         <div class="national-station-links">
+           <a href="http://www.bbc.co.uk/radio1">
+             <img src="http://static.bbc.co.uk/music/introducing/img/BBC_radio_1_logo.png"
+                  alt="BBC Radio 1" id="radio-1" class="network-logo" />
+           </a>
+           <a href="http://www.bbc.co.uk/programmes/b006tt0y">
+             <img src="http://static.bbc.co.uk/music/introducing/img/BBC_radio_3_logo.png"
+                  alt="BBC Radio 3" id="radio-3" class="network-logo" />
+           </a>
+           <a href="http://www.bbc.co.uk/programmes/b0089jhs">
+             <img src="http://static.bbc.co.uk/music/introducing/img/BBC_radio_6_music_logo.png"
+                  alt="BBC Radio 6 Music" id="radio-6-music" class="network-logo" />
+           </a>
+           <a href="http://www.bbc.co.uk/asiannetwork/friction">
+             <img src="http://static.bbc.co.uk/music/introducing/img/BBC_radio_asian_network_logo.png"
+                  alt="BBC Radio Asian Network" id="radio-asian-network" class="network-logo" />
+           </a>
+           <a href="http://www.bbc.co.uk/programmes/b008zckw">
+             <img src="http://static.bbc.co.uk/music/introducing/img/BBC_radio_1_xtra_logo.png"
+                  alt="BBC Radio 1 Xtra" id="radio-1xtra" class="network-logo" />
+           </a>
+           <div class="national-station-programme-info">
+             <div id="radio-1-programme-info" class="network-info">
+               Huw Stephens<br/>
+               Jen Long in Wales<br/>
+               Ally McCrae in Scotland<br/>
+               Rory McConnell in N.Ireland
+             </div>
+             <div id="radio-3-programme-info" class="network-info">
+               Jazz on 3
+             </div>
+             <div id="radio-6-music-programme-info" class="network-info">
+               Tom Robinson
+             </div>
+             <div id="radio-asian-network-programme-info" class="network-info">
+               Friction
+             </div>
+             <div id="radio-1xtra-programme-info" class="network-info">
+               100% HomeGrown with DJ Target
+             </div>
+           </div>
+         </div>
+         <div class="national-station-links-border"></div>
+         <div class="promotions">
+           <div class="promotions-info">
+             <div class="promotions-info-title">
+               <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/earn_a_slot_title.png" alt="EARN A LIVE SESSION OR A SLOT ON OUR FESTIVAL STAGE" />
+      		 <h3 class="blq-hide">EARN A LIVE SESSION OR A SLOT ON OUR FESTIVAL STAGE</h3>
+             </div>
+             <div class="promotions-info-body">
+               <p>
+                 If we love the music you're making, you might bag yourself the opportunity to perform on the BBC Introducing stage
+                 at major events and festivals, like Glastonbury, Reading & Leeds or Radio 1's Big Weekend.
+               </p>
+               <p>
+                 You could also be invited to record a live session at the BBC's legendary Maida Vale studios.
+               </p>
+             </div>
+           </div>
+           <img class="snapshot-1" src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/recording_image.png" alt="Artist in recording studio" />
+           <img class="snapshot-2" src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/introducing_stall_image.png" alt="Introducing festival marquee" />
+           <div class="promotions-image"></div>
+         </div>
+         <div class="promotions-border"></div>
+         <div class="site-functionality">
+           <div class="earn-badges">
+             <img class="site-functionality-header" src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/earn_badges_title.png" alt="BADGES FOR YOUR OWN SITE" />
+             <img class="qq-box" src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/earn_badges.png" alt="Badges Image" />
+             <p>
+               You can earn BBC Introducing badges by uploading tracks to us and getting played on the radio.
+               Embed your badge on your own website or blog.
+             </p>
+           </div>
+           <div class="see-whats-happening">
+             <img class="site-functionality-header" src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/see_whats_happening_title.png" alt="CHECK ON YOUR TRACKS" />
+             <img class="qq-box" src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/see_whats_happening.png" alt="See What's Happening" />
+             <p>
+               Sign in to your profile to manage the tracks you've uploaded to us,
+               see who's been listening to them, and check whether you've been broadcast.
+             </p>
+           </div>
+         </div>
+         <div class="site-functionality-border"></div>
+         <div class="small-print">
+           <div class="any-other-questions">
+             <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/any_other_questions.png" alt="ANY QUESTIONS?" />
+             <p>
+               If you want to know more about how our upload tool works, please check out the
+               <a href="http://www.bbc.co.uk/music/introducing/faq">Frequently Asked Questions</a> page.
+             </p>
+             <p>
+               Feedback from you will help us to continually shape this part of the BBC Introducing site,
+               so if you have any feedback or suggestions we really want to hear from you.
+               <a href="http://www.bbc.co.uk/music/introducing/contact">Send us your thoughts</a>.
+             </p>
+           </div>
+           <div class="terms-of-use">
+             <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/terms_of_use.png" alt="TERMS OF USE" />
+             <p>
+               We want you to know how we deal with all submissions to the BBC, whether it be music, video, images or just text.
+               Section 5 of the Terms of Use for BBC Online Services for Personal Use outlines
+               <a href="http://www.bbc.co.uk/terms/personal.shtml#5">how we handle any contributions you make to BBC Online Services</a>.
+             </p>
+             <p>
+               For more information, you might find this
+               <a href="http://www.bbc.co.uk/terms/help_ugc.shtml">FAQ about User Generated Content</a> helpful.
+             </p>
+             <p>
+               You should also read the BBC's <a href="http://www.bbc.co.uk/privacy">Privacy Policy</a>.
+             </p>
+           </div>
+           <div class="please-note">
+             <img src="http://static.bbc.co.uk/music/introducing/img/Landing_Tour/please_note.png" alt="PLEASE NOTE" />
+             <p>
+               This upload tool is restricted to residents of the UK only.
+               You will need to enter a valid UK postcode when you fill out your artist profile.
+             </p>
+             <p>
+               If you're based outside the UK and wish to submit your music to the BBC, please read
+               <a href="http://www.bbc.co.uk/music/introducing/faq/#uk">this advice</a>.
+             </p>
+           </div>
+         </div>
+         <div class="small-print-border"></div>
+      
+         <div class="summary-box">
+                <img src="http://static.bbc.co.uk/music/introducing/img/tour-footer-text.png"
+                alt="UPLOAD YOUR MUSIC TO BBC INTRODUCING AND GET THE CHANCE TO BE PLAYED ON LOCAL AND NATIONAL RADIO." />
+                <br />
+           <div class="register-sign-in-div">
+                                <a href="http://id.bbc.co.uk/users/register?ptrt=http://www.bbc.co.uk/music/introducing/uploader/" class="id-tour-button tour-register"><img src="http://static.bbc.co.uk/music/introducing/img/register.png" alt="Register now"/></a>
+                          <span class="or-span">OR</span>
+                          <a href="http://id.bbc.co.uk/users/signin?ptrt=http://www.bbc.co.uk/music/introducing/uploader/" class="id-tour-button tour-login"><img src="http://static.bbc.co.uk/music/introducing/img/sign-in.png" alt="Sign in"/></a>
+               		 
+          </div>
+          <div class="extended-line-div-bottom"></div>
+        </div>
+      
+      </div>
+         </div>   <div id="blq-mast" class="blq-rst blq-new-nav" lang="en-GB"> 
+      <div id="id-status"><div class="id-out id-gel"><h2 class="blq-hide">BBC iD</h2><a href="https://id.bbc.co.uk/users/signin?s=sb" class="blq-nogo has-ptrt idSignin">Sign in</a></div></div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+          <form method="get" action="http://search.bbc.co.uk/search" accept-charset="utf-8"> <p>  <input type="hidden" name="go" value="toolbar" />   <input type="hidden" name="uri" value="/music/introducing/uploader/" />    <label for="blq-search" class="blq-hide">Search term:</label> <input id="blq-search" type="text" name="q" value="" maxlength="128" /> <input id="blq-search-btn" type="submit" value="Search" /> </p> </form>   <h2 class="blq-hide">bbc.co.uk navigation</h2> <ul id="blq-nav-main">     <li id="blq-nav-n"><a href="http://www.bbc.co.uk/news/" hreflang="en-GB">News</a></li> <li id="blq-nav-s"><a href="http://news.bbc.co.uk/sport/" hreflang="en-GB">Sport</a></li> <li id="blq-nav-w"><a href="http://news.bbc.co.uk/weather/" hreflang="en-GB">Weather</a></li>  <li id="blq-nav-i">  <a href="/iplayer/" hreflang="en-GB">iPlayer</a>  </li>  <li id="blq-nav-t"><a href="/tv/" hreflang="en-GB">TV</a></li>  <li id="blq-nav-r"><a href="/radio/" hreflang="en-GB">Radio</a></li> <li id="blq-nav-m"><a href="#blq-nav">More</a></li>  </ul> </div>  <div id="blq-nav" class="blq-teal blq-rst"> <div id="blq-nav-links" class="blq-clearfix" lang="en-GB"> <div id="blq-nav-links-inner">  <ul class="blq-nav-sub blq-first"> <li><a href="/cbbc/">CBBC</a></li> <li><a href="/cbeebies/">CBeebies</a></li> <li><a href="/comedy/">Comedy</a></li> <li><a href="/food/">Food</a></li> <li><a href="/health/">Health</a></li> </ul> <ul class="blq-nav-sub"> <li><a href="/history/">History</a></li> <li><a href="/learning/">Learning</a></li> <li><a href="/music/">Music</a></li> <li><a href="/science/">Science</a></li> <li><a href="/nature/">Nature</a></li> </ul> <ul class="blq-nav-sub blq-last"> <li><a href="/local/">Local</a></li> <li><a href="/northernireland/">Northern Ireland</a></li> <li><a href="/scotland/">Scotland</a></li> <li><a href="/wales/">Wales</a></li> <li id="blq-az"><a href="/a-z/">Full A-Z<span class="blq-hide"> of BBC sites</span></a></li> </ul>  </div> </div> </div> <div id="blq-foot" lang="en-GB" class="blq-rst blq-clearfix blq-foot-grey">  <div id="blq-footlinks">  <h2 class="blq-hide">Site links</h2> <ul id="blq-sitelinks"> <li>     <a href="/faq">Frequently Asked Questions</a> </li>  <li>     <a href="/music">BBC Music</a> </li>   <li>     <a href="/radio1">Radio 1</a> </li>   <li>     <a href="/6music">6 Music</a> </li>  </ul>  <h2 class="blq-hide">BBC links</h2>  <ul id="blq-bbclinks"> <li>     <a href="/aboutthebbc/">About the BBC</a> </li> <li>     <a href="/help/">BBC Help</a> </li>  <li>     <a href="/feedback/">Contact Us</a> </li>  <li>     <a href="/accessibility/">Accessibility Help</a> </li> <li>     <a href="/terms/">Terms of Use</a> </li> <li>     <a href="/jobs/">Jobs</a> </li> <li>     <a href="/privacy/">Privacy &amp; Cookies</a> </li>  </ul>  </div>   <p id="blq-copy"><img src="http://static.bbc.co.uk/frameworks/barlesque/1.8.15//desktop/2.7/img/footer_blocks_grey.gif" width="68" height="21" alt="BBC" /> &copy; 2011</p> <p id="blq-disclaim"><a href="/help/web/links/">The BBC is not responsible for the content of external sites. Read more.</a></p> <div id="blq-obit"><p><strong>This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so.</strong></p></div> </div> </div>  </div>                <script type="text/javascript" src="http://static.bbc.co.uk/music/introducing/js/application.js?version=2"></script>
+      </body>
+      </html>
+
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: https://api.twitter.com:443/1/users/show.json?screen_name=nikroope
+    body: 
+    headers: 
+      accept: 
+      - application/json
+      user-agent: 
+      - Twitter Ruby Gem 1.3.0
+      accept-encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Tue, 19 Apr 2011 13:18:50 GMT
+      server: 
+      - hi
+      status: 
+      - 200 OK
+      x-ratelimit-limit: 
+      - "150"
+      x-transaction: 
+      - 1303219130-47683-39445
+      etag: 
+      - "\"ebbfa26ee92ecfe24954b4ef23e0836f\"-gzip"
+      last-modified: 
+      - Tue, 19 Apr 2011 13:18:50 GMT
+      x-ratelimit-remaining: 
+      - "149"
+      x-runtime: 
+      - "0.01110"
+      x-transaction-mask: 
+      - a6183ffa5f8ca943ff1b53b5644ef114
+      content-type: 
+      - application/json; charset=utf-8
+      pragma: 
+      - no-cache
+      x-ratelimit-class: 
+      - api
+      x-revision: 
+      - DEV
+      expires: 
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      cache-control: 
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      x-ratelimit-reset: 
+      - "1303222730"
+      set-cookie: 
+      - k=87.194.220.160.1303219130493438; path=/; expires=Tue, 26-Apr-11 13:18:50 GMT; domain=.twitter.com
+      - guest_id=130321913049950317; path=/; expires=Thu, 19 May 2011 13:18:50 GMT
+      - _twitter_sess=BAh7CDoHaWQiJTkyZDRmNzkzNDZlNjczMDQ4NzZmMTU2ZjdlMjY1NjBmIgpm%250AbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAG%250AOgpAdXNlZHsAOg9jcmVhdGVkX2F0bCsIhdDpbS8B--a15335241438078c9c586fd47375821a0fc232d9; domain=.twitter.com; path=/; HttpOnly
+      vary: 
+      - Accept-Encoding
+      content-encoding: 
+      - gzip
+      content-length: 
+      - "839"
+    body: !binary |
+      H4sIAAAAAAAAA31VTW/bOBD9KwQPvWxiU5Zt2QYWaGDHp3S7KAr0IoCgpZHF
+      miJVkrK3W+S/dyhFsuJkV75YnK83b+ZRv2gOhWiU57U1hVTAZSWOQDeFUA7u
+      qDZeFjITXhrthtObmOG8z6GkPvHMKGPphjL2+Ljf0xDlMivrkAqP96bROVjy
+      gTxud+SeXC6XSW1OoIzOjZ5kpiLptP+Rq/fWAqI5A9lJC5k39iW2bNQRbBv3
+      oUummgreJNoakpVCWvJRag9Wg78AnKAhV4/OrMxZgrgImzvE7rzwDRLwi0rN
+      LdTqJ/eGYz8AmmtRIQe6UeqOevjHY3d/yQzIWeaA5cwZLHJKTEF8CeTvFhe5
+      SE2MJrtv998+f3kKDJTe15sAAZHrSQXptPi8tWWJ5V8VbaFwmeM/25fNjPZW
+      Hhrkw/Vntu3NQz7M5900vfvY2DiwNxVqJTL4H9/e5ExjgyNNG8birSClheLP
+      lA7dhdm0wHLITmE8KSUWFLpoUxilzCXtYh+/Bq8denWp0qnozpEQbxuNWznu
+      7QUtXazX8XqeRMtlHK2i1WxOAz3G5lJjwMBOIc7GytcZ6OZN8B09grlhFFe7
+      0ThlhonDNkLORRj6J5znQ21JtCJRtJmxzWJF/mD4kBmLIvp8R5XQR3QEPawU
+      uD5blCTxVUIOd+cgLD8gcOT3KiYWsZhe/Vq58sYqNA4UC4YMy+rYsjt95erS
+      6WqxWM+XLF6mUy1P1pgauDa2EmpSIzykpp0CTvhHA85zBwHeC0njReOgxUGN
+      GOwrYVv8ILLT0QbZ9lcKzgx9bqC+lX2gZqwr2oMcdT1K3jOzjR52D8ugFce9
+      Fdop4YPhBtotrDfUxe9RdxuFLM4W63g1T5DDn5k4TL7XLXNWgs6Hka5nOHLT
+      3Z5Y5KntEd2UdGFp+sHPVz3nMqzHFbHHC+69FU8WSbROggxkBfxfo2GcvQcd
+      rqKBnngWJWyH1oFUtAhHembxjsKL/p1Z9ouIL2rItm+fYVXADi3P1ox1UupA
+      4jBL3CWBwVLjdwF4BbkUQxlU13+u0Yh1335mXjbIZ9wUhYNOgkHITVDyVUk3
+      uvxaNmQPB8JaXcbRhi0GXbKEPv8G0QVKpgUHAAA=
+
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: https://api.twitter.com:443/1/users/show.json?screen_name=almonk
+    body: 
+    headers: 
+      accept: 
+      - application/json
+      user-agent: 
+      - Twitter Ruby Gem 1.3.0
+      accept-encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Tue, 19 Apr 2011 13:18:52 GMT
+      server: 
+      - hi
+      status: 
+      - 200 OK
+      x-ratelimit-limit: 
+      - "150"
+      x-transaction: 
+      - 1303219132-4865-8306
+      etag: 
+      - "\"120e81b8460b4f18795e00da1207d012\"-gzip"
+      last-modified: 
+      - Tue, 19 Apr 2011 13:18:52 GMT
+      x-ratelimit-remaining: 
+      - "148"
+      x-runtime: 
+      - "0.00864"
+      x-transaction-mask: 
+      - a6183ffa5f8ca943ff1b53b5644ef114
+      content-type: 
+      - application/json; charset=utf-8
+      pragma: 
+      - no-cache
+      x-ratelimit-class: 
+      - api
+      x-revision: 
+      - DEV
+      expires: 
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      cache-control: 
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      x-ratelimit-reset: 
+      - "1303222730"
+      set-cookie: 
+      - k=87.194.220.160.1303219132100551; path=/; expires=Tue, 26-Apr-11 13:18:52 GMT; domain=.twitter.com
+      - guest_id=130321913210447075; path=/; expires=Thu, 19 May 2011 13:18:52 GMT
+      - _twitter_sess=BAh7CDoHaWQiJWY1OWY3NDdkMzllZDcyNzkyY2JhOTY5MDdjZWRkNTEzIgpm%250AbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAG%250AOgpAdXNlZHsAOg9jcmVhdGVkX2F0bCsIydbpbS8B--70d1b5e30785544043faa79f2e3060f230b562a4; domain=.twitter.com; path=/; HttpOnly
+      vary: 
+      - Accept-Encoding
+      content-encoding: 
+      - gzip
+      transfer-encoding: 
+      - chunked
+    body: !binary |
+      H4sIAAAAAAAAAwIAAAD//31VbW/bNhD+KwS/zrVFWbItAwMWtM6nFhjQDhhQ
+      DwQtnWQ2FKmSVNMsyH/f0bRkxXUmBIjJe7/nueMzlRV33tIt3SQFK7KUzmht
+      lDKP3ML3HpznDrSn21ooBzPaWVNLBfwgyofGml5X3ON5lPdWoa+j9912v9gv
+      hBKuEtK2Rj/MS9Oid1daAM21aNGKChVE4doL3ztwvESnGG+VbfIZrQDVZeel
+      0aj819/kAzjZaLBkvyC7nx49iSae3htleou/TU2k9mA1eDc6pttnKjXW1Kkn
+      7g3HUJaPtaeMpcsNK1B9vMuL9TJnyyTNlmmyZqsNCj38xNToHx+hPUjviVCP
+      4skRbwxxBlOcUeyV9BJO8bAX+P/rP9iVEK0NMqPD1fNVF87+puGnKelKlsHl
+      12S2QW+DkcByNdm1Uj2RT0JWoN3JA90Oxi+ofRTu6EVzyuQFAVSiRGvdKzWj
+      pTG2klr44D1eedvrEi+qEVKHbQ0mdN8nyfK9IEcL9e/7C8j+EXMHG/DFIyUW
+      FIq1iTzaR7vdl6hFamOJ/PNoNER/SJKogLk3YIY8boB1qeu1OCJ8UkDQ0hV+
+      LM/yNMnXa2Sz+GGsnBaErQ8FchGw/NxrctdZwtYkZdtsgy7Ibwl+JE0Yw5ws
+      +EcAP/AyuYr9Fo638rsw63WSZ9R+YVwASHsrD703dkTonNBYEIKqhG7QMQQG
+      DhOqpH7ApJUJIZPTh1JlENw4TR+Nrk6clY57K7RTwgfloUuT0BzH7KAmLayt
+      BF2Nw5rlq0tgh0w8CMsPyC3EbUhht9uNuwXsaJrnyzijcWZc7zr0PAl1QL1S
+      6oZDK6Qaryvwojwiiq+vg/GvyhoAk4W2U+YJIAp531UYddJE6QIrznml6aUi
+      5N904ckWdw7d4qSg6x9gZS3fYteXY0/u+oYkBUmX22y5zZORXcma3tynQ8Pq
+      0zf2TAaIh3qMx6ARSfd/u/mUKr9eyss5jmzbxIF9y8rtF0jBVVEwlgQt3Klu
+      /q2DhsaZ6sNQjTBu2Cm+h3I6aRXUoleeDzHOnRuqiENzd34jyKf4ElwZXfbQ
+      ER8loRSXGrkNuE8rKUYpro4LSyM0XrbA/8VFMyX7kEpY5dPxmIhuN43datrY
+      KbbK8iJLWLFffI4rAdP1HHdI8o4x/EM+8KSYZ2yeZFwb2wo173RzHv3z44sv
+      hS+5qWsHcdVczxQe1Jj1/f09ffkPdz9xVMIHAAA=
+
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://alasdairmonk.com:80/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 301
+      message: Moved Permanently
+    headers: 
+      date: 
+      - Tue, 19 Apr 2011 13:18:52 GMT
+      server: 
+      - Apache
+      location: 
+      - http://www.alasdairmonk.com/
+      vary: 
+      - Accept-Encoding
+      content-length: 
+      - "236"
+      content-type: 
+      - text/html; charset=iso-8859-1
+    body: |
+      <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+      <html><head>
+      <title>301 Moved Permanently</title>
+      </head><body>
+      <h1>Moved Permanently</h1>
+      <p>The document has moved <a href="http://www.alasdairmonk.com/">here</a>.</p>
+      </body></html>
+
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.alasdairmonk.com:80/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Tue, 19 Apr 2011 13:18:53 GMT
+      server: 
+      - Apache
+      x-powered-by: 
+      - PHP/5.2.15
+      expires: 
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      pragma: 
+      - no-cache
+      set-cookie: 
+      - exp_last_visit=987884333; expires=Wed, 18-Apr-2012 13:18:53 GMT; path=/
+      - exp_last_activity=1303244333; expires=Wed, 18-Apr-2012 13:18:53 GMT; path=/
+      - exp_tracker=a%3A1%3A%7Bi%3A0%3Bs%3A5%3A%22index%22%3B%7D; path=/
+      x-mod-pagespeed: 
+      - 0.9.15.3-404
+      cache-control: 
+      - max-age=0, no-cache, no-store
+      vary: 
+      - Accept-Encoding
+      content-length: 
+      - "8204"
+      content-type: 
+      - text/html
+    body: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n\
+      <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n\
+      <head>\n\
+      <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n\
+      <title>Alasdair Monk - interactive &amp; web design</title>\n\
+      <link rel=\"stylesheet\" href=\"http://www.alasdairmonk.com/css/reset.css\" type=\"text/css\" media=\"screen\" title=\"no title\" charset=\"utf-8\"/>\n\
+      <link rel=\"stylesheet\" href=\"http://www.alasdairmonk.com/css/grid.css\" type=\"text/css\" media=\"screen\" title=\"no title\" charset=\"utf-8\"/>\n\
+      <link rel=\"stylesheet\" href=\"http://www.alasdairmonk.com/css/v4.css\" type=\"text/css\" media=\"screen\" title=\"no title\" charset=\"utf-8\"/>\n\
+      <script src=\"http://www.alasdairmonk.com/js/jquery-1.3.2.min.js\" type=\"text/javascript\" charset=\"utf-8\"></script>\n\
+      <script src=\"http://platform.twitter.com/anywhere.js?id=aHNHGuelzIYeLkqskLNLg&v=1\"></script>\n\
+      <script type=\"text/javascript\">\n     twttr.anywhere(function(twitter) {twitter.hovercards();});\n  </script>\n\
+      </head>\n\
+      <body>\n\
+      <div class=\"row\">\n\
+      <div class=\"column grid_3\">\n\
+      <a href=\"http://www.alasdairmonk.com/\" id=\"gohome\">\n\
+      <div id=\"mainnav\">\n\
+      <span class=\"bold\">Alasdair Monk</span>&nbsp;<span id=\"second_header\">&mdash; interactive &amp; web design</span>\n\
+      </div>\n\
+      </a>\n\
+      </div>\n\
+      </div><br clear=\"all\"/>\n\
+      <div class=\"row maincontent column\">\n\
+      <div class=\"thumb\" title=\"Slices CMS\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/slices_cms/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/Slices_CMS_\xE2\x80\x93_A_WithAssociates_Project_(20110301)-225x475.png\" width=\"225\" height=\"475\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Food is Fun\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/food_is_fun/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/Food-is-Fun-(20110105)-225x583.jpg\" width=\"225\" height=\"583\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Lorva\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/lorva/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/lorva-1-225x168.jpg\" width=\"225\" height=\"167\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Newsies\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/newsies/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/2Newsies-(20100508)-225x903.jpg\" width=\"225\" height=\"903\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Boxt\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/boxt/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/boxt-001-225x191.jpg\" width=\"225\" height=\"191\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"KT Equal\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/kt_equal/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/KT_Equal_|_Home_(20100119)-225x185.png\" width=\"225\" height=\"184\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Present Joys\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/present_joys/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/Present_Joys_|_About_(20091001)-225x162.png\" width=\"225\" height=\"162\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Craigslist\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/craigslist/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/craigslist-2-225x202.png\" width=\"225\" height=\"202\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Anorak Magazine\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/anorak_magazine/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/Anorak_-_Home_(20090708)-225x229.png\" width=\"225\" height=\"228\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Gym Class Magazine\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/gym_class_magazine/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/GYM_CLASS_MAGAZINE_(20090701)-225x324.png\" width=\"225\" height=\"323\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Amanda Sue Rope\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/amanda_sue_rope/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/Amanda_Sue_Rope_(20090629)-225x185.jpg\" width=\"225\" height=\"185\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" style=\"background-image:none!important\" title=\"FFFFound App\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/ffffound_app/\">\n\
+      <img src=\"/images/sized/images/uploads/1-225x125.jpg\" width=\"225\" height=\"125\" alt=\"\"/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Celebrity Ping Pong\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/celebrity_ping_pong/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/Celebrity_2Ping_Pong_(20090610)-225x276.png\" width=\"225\" height=\"275\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Forward Slash Films\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/forwardslashfilms/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/Untitled-1-225x185.png\" width=\"225\" height=\"185\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Emerge\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/emerge/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/emerge_(20090610)-225x188.png\" width=\"225\" height=\"187\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"PizzaExpress\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/pizzaexpress/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/PizzaExpress_(20090610)-225x380.png\" width=\"225\" height=\"380\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Anthony Burrill\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/anthony_burrill/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/ANTHONY_BURRILL_(20090612)-225x185.png\" width=\"225\" height=\"185\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      <div class=\"thumb\" title=\"Work Club\">\n\
+      <a href=\"http://www.alasdairmonk.com/index.php/work/work_club/\">\n\
+      <div style=\"width:225px;overflow:hidden;padding-top:14px;padding-left:4px;height:170px;\">\n\
+      <img src=\"/images/sized/images/uploads/Welcome_|_Work_Club_(20090610)-225x237.png\" width=\"225\" height=\"236\" alt=\"\"/>\n\
+      </div><br/>\n\
+      </a>\n\
+      </div>\n\
+      </div>\n\
+      <br clear=\"all\"/>\n\
+      <iframe src=\"http://www.facebook.com/widgets/like.php?href=http://alasdairmonk.com\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; width:450px; height:80px\"></iframe>\n\
+      <br clear=\"all\"/>\n\
+      <a style=\"position:absolute;left:355px;top:50px\" href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#108;&#97;&#115;&#100;&#97;&#105;&#114;&#46;&#109;&#111;&#110;&#107;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;\">&#97;&#108;&#97;&#115;&#100;&#97;&#105;&#114;&#46;&#109;&#111;&#110;&#107;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109; </a>\n\
+      <div style=\"position:absolute;left:610px;top:50px\">Follow @almonk</div>\n\
+      <br/><br/>\n\
+      <script src=\"http://static.getclicky.com/js\" type=\"text/javascript\"></script>\n\
+      <script type=\"text/javascript\">try{clicky.init(66380500);}catch(err){}</script>\n\
+      <noscript><p><img alt=\"Clicky\" width=\"1\" height=\"1\" src=\"http://in.getclicky.com/66380500ns.gif\"/></p></noscript>\n\
+      </body>\n\
+      </html>\n"
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: https://api.twitter.com:443/1/users/show.json?screen_name=withassociates
+    body: 
+    headers: 
+      accept: 
+      - application/json
+      user-agent: 
+      - Twitter Ruby Gem 1.3.0
+      accept-encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Tue, 19 Apr 2011 13:38:35 GMT
+      server: 
+      - hi
+      status: 
+      - 200 OK
+      x-ratelimit-limit: 
+      - "150"
+      x-transaction: 
+      - 1303220315-88120-5508
+      etag: 
+      - "\"9680e23b8e99278eac8e44aa802229e9\"-gzip"
+      last-modified: 
+      - Tue, 19 Apr 2011 13:38:35 GMT
+      x-ratelimit-remaining: 
+      - "122"
+      x-runtime: 
+      - "0.01053"
+      x-transaction-mask: 
+      - a6183ffa5f8ca943ff1b53b5644ef114
+      content-type: 
+      - application/json; charset=utf-8
+      pragma: 
+      - no-cache
+      x-ratelimit-class: 
+      - api
+      x-revision: 
+      - DEV
+      expires: 
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      cache-control: 
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      x-ratelimit-reset: 
+      - "1303222730"
+      set-cookie: 
+      - k=87.194.220.160.1303220315736337; path=/; expires=Tue, 26-Apr-11 13:38:35 GMT; domain=.twitter.com
+      - guest_id=130322031574162521; path=/; expires=Thu, 19 May 2011 13:38:35 GMT
+      - _twitter_sess=BAh7CDoHaWQiJWVmNWUwN2Q4MDNlMTdiYWMxOGM4YzAyNzA4NTEyOWZmIgpm%250AbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAG%250AOgpAdXNlZHsAOg9jcmVhdGVkX2F0bCsIXub7bS8B--aa9f1faedb04a123c3d449c1d7c5582d05b77bc9; domain=.twitter.com; path=/; HttpOnly
+      vary: 
+      - Accept-Encoding
+      content-encoding: 
+      - gzip
+      content-length: 
+      - "800"
+    body: !binary |
+      H4sIAAAAAAAAA31UUU/bMBD+K55fV7Vx2rRN3qDABtqkSQyxh0qWm1yKhWN3
+      ttPAEP9957ZJU2DLUxLf3ef7vrvvhW6sKaUCvhL549qaWhfc4zfNvK1h0B3L
+      SqyB11bRjD54v8mWo+VIxEPfyGo9zE21HJ2EuuVoEs/GswmL0uWoEVwbWwk1
+      XMuSDugWrCwlFDQrhXIIU4qtqa304HiOd/A0YwNagMut3HhpNKLeS/9AlNnC
+      gFTGefVMSmsq4h+AaCPdMzEahljbeeFrR7OXXdFQ8wjj4QlL09t6A5bAUx4O
+      iTfECUyvLWmMfcQ6u6Ln5wtyrb01RZ1LvSZ3G2VEQaQjSm7hE+lYWK3yodTL
+      EYhH9vOaVOEhd78kDMlX4R0xZRkwbk2JZFlo6xewDde14BsA37YdDajU3MJG
+      PXNvOBIAoLkWFSqia6XeHO965bLAN9sGbJTIu+jcYAtyVXtjXfvvANnjpV+z
+      dmCxYhvskJdQjjawoh9G9rFzY2whtUAh/3vf9nANpku1gGkFF0Ghe9TlbGMJ
+      GxMWZUmSTRLyOcKHxBFj4R4HWJrMWczYPI1macLSeBzjIY6uzsVJg/j6LvIV
+      584oZRq84O8anOcOggaHHCX0GgFA0+MaKKkfUSplAjS7SueLGZ6+WYumaYYN
+      TqtwzuQycBEWJIxmX016GtIDcbKAlbB8hVwiwy3cYnoZX17SsBelqJXnh/jj
+      hQ02vV+WC5xfEPVWGjsg34wuTOhCOu6t0E4JHyoe0lpYlLPvArs1bm3APSBL
+      QikuNVIAvIJCiiOwdEG5wwhP5jtdOWixUj0NPnCad63t9ZCB+H9nfexF0Ude
+      9DYLbYmlkySN5uPl6OJ2wWfzNBne/Piyp99D3p+a/vK8a+dkXr/jUt8ITeIp
+      YWkWT7Mx6+Y1SrH4QfOdiZ31Re8GmaVJwqa7+d2vydEL5ylSqo1Hz9wr7I6O
+      Jivgf9D6sEKnc2kl6KJLj+PZkcdggR3v0+n4nMV0vx/tBd4NWDsKB8ja5xw9
+      zcHert5OLX6oDuDi7HJxNemEBXv09yidv/4FxP7nWn8GAAA=
+
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.withassociates.com:80/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 301
+      message: Moved Permanently
+    headers: 
+      location: 
+      - http://2011.withassociates.com/
+      content-length: 
+      - "0"
+      date: 
+      - Tue, 19 Apr 2011 13:38:36 GMT
+      server: 
+      - Http With Associates
+    body: 
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://2011.withassociates.com:80/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      vary: 
+      - Accept-Encoding
+      content-type: 
+      - text/html
+      accept-ranges: 
+      - bytes
+      etag: 
+      - "\"2706288064\""
+      last-modified: 
+      - Tue, 12 Apr 2011 13:02:58 GMT
+      content-length: 
+      - "23104"
+      date: 
+      - Tue, 19 Apr 2011 13:38:36 GMT
+      server: 
+      - Http With Associates
+    body: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\
+      <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>\n  <head>\n    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />\n    <meta http-equiv=\"expires\" content=\"Thu, 28 April 2011 10:00:00 GMT\" />\n\
+      \t\t<link type=\"text/css\" rel=\"stylesheet\" href=\"stylesheets/wa-2011.css\" />\n\
+      \t\t<link type=\"text/css\" rel=\"stylesheet\" href=\"stylesheets/wa-2011-04.css\" />\n\
+      \t\t\n    <script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js\"></script>\n\n\
+      \t\t<script type=\"text/javascript\" src=\"javascripts/wa-2011-03.js\"></script>\n    <title>With Associates &mdash; A digital agency, we build and design websites and apps</title>\n    <!--[if lte IE 8]>\n\
+      \t\t\t<script src=\"/javascripts/html5.js\"></script>\n\
+      \t\t<![endif]-->\n\
+      \t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\
+      \t\t<script type=\"text/javascript\">\n\n\
+      \t\t  var _gaq = _gaq || [];\n\
+      \t\t  _gaq.push(['_setAccount', 'UA-298580-3']);\n\
+      \t\t  _gaq.push(['_trackPageview']);\n\n\
+      \t\t  (function() {\n\
+      \t\t    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n\
+      \t\t    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n\
+      \t\t    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n\
+      \t\t  })();\n\n\
+      \t\t</script>\n  </head>\n  <body>\n\
+      \t\t<nav class='global_header instapaper_ignore' class=\"white\">\n\
+      \t      <a href=\"/\" id='back'>\n\
+      \t         <img src=\"images/header/logo.gif\"/>\n\
+      \t      </a>\n\
+      \t      <div id='menu'>\n\
+      \t        <ul id='compact'>\n\
+      \t          <li class='padding'>\n\
+      \t            <p id='short_text'>\n\
+      \t              We're changing our site every month... <a href=\"#\" id=\"more\" class=\"toggle\">read more</a>\n\
+      \t            </p>\n\
+      \t            <p id='long_text'>We're changing our site every month this year with an aim to experiment, play, discuss and learn more about the ever evolving nature of the digital environment. Follow <a href=\"http://twitter.com/@withassociates\">@withassociates</a> for updates, or <a href=\"/january\">read more behind the idea</a>, or simply explore the index on the right&hellip; <a href=\"#\" id=\"less\">read less</a>\n\
+      \t            </p>\n\
+      \t          </li>\n\
+      \t          <li class='dropdown'>\n\
+      \t            <a class='toggle' href='/' id='current'>\n\
+      \t              Index\n\
+      \t            </a>\n\
+      \t            <ul id='months'>\n\
+      \t              <li><a href=\"/january\">January</a></li>\n\
+      \t              <li><a href=\"/february\">February</a></li>\n\
+      \t              <li><a href=\"/march\">March</a></li>\n\
+      \t              <li><a href=\"/\">April</a></li>\n\
+      \t              <li>May</li>\n\
+      \t              <li>June</li>\n\
+      \t              <li>July</li>\n\
+      \t              <li>August</li>\n\
+      \t              <li>September</li>\n\
+      \t              <li>October</li>\n\
+      \t              <li>November</li>\n\
+      \t              <li>December</li>\n\
+      \t            </ul>\n\
+      \t          </li>\n\
+      \t        </ul>\n\
+      \t      </div>\n\
+      \t    </nav>\n\
+      \t\t\n\
+      \t\t<div class=\"april\">\n    <div class='orange instapaper_ignore'>\n      <div class='row'>\n        <div class='column grid_12 logo bordertop'>\n          <img alt=\"\" src=\"images/april/logo.png\" />\n        </div>\n      </div>\n      <div class='row'>\n        <div class='column grid_12 borderbot intro'>\n          <h1 class='tk-etica-display'>We're a digital agency that design and build websites, apps and interfaces.</h1>\n        </div>\n      </div>\n      <div class='row'>\n        <div class='column grid_12 main'>\n          <div class='row'>\n            <div class='column grid_3 content'>\n              <h2 class='tk-etica-display'>ABOUT</h2>\n              <p>North London based, With Associates is a small but perfectly formed digital agency that prides itself on working closely with clients, and alongside colleagues with complementary skills.</p>\n            </div>\n            <div class='column grid_3 content'>\n              <h2 class='tk-etica-display'>CLIENTS</h2>\n              <p>Our collaborative practice allows us the luxury of working with a broad range of clients.</p><p>From <a href=\"http://www.lorva.co.uk\">independent artists</a> to <a href=\"http://www.vitsoe.com\">renowned furniture manufacturers</a>, from <a href=\"http://cutlasercut.com\">SMEs</a> to <a href=\"http://www.sohohouse.com\">international groups</a>, and from <a href=\"http://www.itsnicethat.com\">established blogs</a> to new and <a href=\"http://visual-editions.com\">experimental publishers</a>.</p>\n            </div>\n            <div class='column grid_3 content'>\n              <h2 class='tk-etica-display vcard'>CONTACT</h2>\n              <p>With Associates<br>\n\
+      \t\t\t\t\t\t\t\t<span class=\"street-address\">100 De Beauvoir Road</span><br><span class=\"locality\">London</span><br><span class=\"postal-code\">N1 4EN</span><br/>\n\
+      \t\t\t\t\t\t\t<a href=\"mailto:hello@withassociates.com\">hello@withassociates.com</a>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t<p>\n\
+      \t\t\t\t\t\t\t+ 44 (0)20 7923 4757<br/>\n\
+      \t\t\t\t\t\t\tWe\xE2\x80\x99re also on <a href=\"http://www.flickr.com/photos/withassociates\">flickr</a> & <a href=\"http://twitter.com/withassociates\">twitter</a>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\n            </div>\n            <div class='column grid_3 content'>\n              <h2 class='tk-etica-display'>APRIL</h2>\n              <p>As part of an <a href=\"/january\">annual project</a>, we're redesigning our website every month until December.</p>\n\
+      \t\t\t\t\t\t\t<p>This month, <a href=\"#article\">we're focusing on the state</a> of custom typography for the&nbsp;web.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class='white instapaper_body'>\n      <div class='row'>\n        <div class='column grid_6 title'>\n          <h1>Fonts & the Web</h1><a name=\"article\"></a>\n        </div>\n\
+      \t\t\t\t<div class=\"column grid_6\" style=\"text-align:center;\">\n\
+      \t\t\t\t\t<iframe border=\"0\" style=\"margin-bottom:20px;margin-top:70px;\" scrolling=\"no\" width=\"78\" height=\"17\" allowtransparency=\"true\" frameborder=\"0\"\n\
+      \t\t\t\t\t style=\"margin-bottom: -3px; z-index: 1338; border: 0px; background-color: transparent; overflow: hidden;\"\n\
+      \t\t\t\t\t src=\"http://www.instapaper.com/e2?url=http://2011.withassociates.com&amp;title=Fonts and the web \xE2\x80\x93 With Associates\"\n\
+      \t\t\t\t\t></iframe>\n\
+      \t\t\t\t\t\n\
+      \t\t\t\t</div>\n      </div>\n      <div class='row'>\n        <div class='column grid_6 body'>\n          <h2>Introduction</h2>\n          <p>You may have noticed something&#8217;s a little bit different on our site today.</p>\n          <p>These words you\xE2\x80\x99re reading right now, these nice little letters, are being broadcast to your eyes via the seductive letter-forms of a font called Merriweather.</p>\n          <p>Chances are you won\xE2\x80\x99t have heard of Merriweather, and that\xE2\x80\x99s understandable. We\xE2\x80\x99re not used to a broad variety of fonts on the web, and that&#8217;s because, well, displaying any font we want on the web is a bit of a headache.</p>\n          <p>Up until recently, we were pretty much restricted to a handful of \xE2\x80\x98web safe\xE2\x80\x99 fonts, that is fonts that are deemed safe to use on the web because the majority of computers come with them installed, meaning when we write something in Impact or Verdana, it looks the same on 99% of PCs and Macs.</p>\n          <p>This is all very well and good. These fonts have served us well, and are some of the best fonts to use because they\xE2\x80\x99re designed specifically for the screen which means they\xE2\x80\x99re easier to read than those designed to be used in print.</p>\n          <p>In 2011, we brave, bold craftsmen of the Internet shouldn\xE2\x80\x99t have to be limited to the measly palette of safe fonts. Typography adds richness, communication, clarity and expression to design, and to be so constrained is frustrating.</p>\n          <p>These constraints needn\xE2\x80\x99t be necessary, there\xE2\x80\x99s a few options for us to provide more interesting web design but it\xE2\x80\x99s a complex subject, so let\xE2\x80\x99s take a quick look at where all this crazy talk of custom fonts came from.</p>\n          <h2>Microsoft led the way&#8230; seriously.</h2>\n          <p>Way back in the cold winter of 1997, Microsoft released Internet Explorer 4 which would become infamous for embroiling the company in their legal battle with the United States government concerning IE\xE2\x80\x99s bundling with the Windows operating system and the resulting antitrust issues surrounding this.</p>\n          <p>Monopolistic aspirations aside, IE 4 quietly introduced one of the cornerstones of web typography, the Embedded OpenType format (<span class=\"caps\">EOT</span>), and was the first browser to innovate in the arena of fonts on the web outside of the rather limiting core system fonts.</p>\n          <p>Despite Internet Explorer\xE2\x80\x99s enormous popularity, <span class=\"caps\">EOT</span> never really caught on with developers, in all probability due to it\xE2\x80\x99s proprietary format and incompatibility with the rival du jour, Netscape.</p>\n          <p>Moreover, the complexity concerned in actually making an <span class=\"caps\">EOT</span> file (I know what you\xE2\x80\x99re thinking, Microsoft product, complex!?) and the lack of any real demand for interesting typography on the web at the time compounded the fate of <span class=\"caps\">EOT</span> to lie dormant for the next few years.</p>\n          <h2><span class=\"caps\">SIFR</span> and the arrival of practical fonts on the web</h2>\n          <p>By 2004, the cold, unforgiving landscape of the web had changed; Firefox (or Firebird as it was named at the time) had just been released which would reignite competition between browser developers and challenge the slow pace at which the web was evolving.</p>\n          <p>As designers began to experiment more with bigger and bolder design for the web, there was a clear gap in the usability of typography on the web. Despite Microsoft\xE2\x80\x99s best intentions of seven years previous, designers in 2004 were still no closer to using real typography in their designs.</p>\n          <p>That was, until, that same year Mike Davidson released <span class=\"caps\">SIFR</span> (Scalable Inman Flash Replacement) an open source font replacement technology embracing the ubiquity of Adobe\xE2\x80\x99s Flash plugin. <span class=\"caps\">SIFR</span> seemed like a great solution at the time. At last, designers could break free from the (probably weak) shackles of Verdana, Arial et al. Davidson said at the time;</p>\n        </div>\n        <div class='column grid_6 figures'>\n          <div class='figure' id='ie_figure'>\n            <img alt=\"\" src=\"images/april/ie4.jpg\" />\n            <div class='caption'>\n              <p>Internet Explorer 4, the first browser to support custom fonts on the web.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class='row'>\n        <div class='column grid_12'>\n          <blockquote>\n          <p>&#8220;Its been well over ten years now since the debut of the graphical web browser and we still don\xE2\x80\x99t have an easy way to deliver rich typography using <span class=\"caps\">HTML</span>/<span class=\"caps\">CSS</span> [&#8230;] we can\xE2\x80\x99t deliver something classical typesetters have delivered since at least the 15th century: custom typography&#8221; \xE2\x80\x93 Mike Davidson</p>\n          </blockquote>\n        </div>\n      </div>\n      <div class='row'>\n        <div class='column grid_6 body'>\n          <p><span class=\"caps\">SIFR</span> was a great proof of concept, but it wasn\xE2\x80\x99t without it\xE2\x80\x99s drawbacks. The dependance on JavaScript and Flash, the lag as the plugin was loaded, as well as the very high memory usage when replacing anything other than a few words on a page, meant that <span class=\"caps\">SIFR</span> wasn\xE2\x80\x99t a practical solution for typography on the web.</p>\n          <p>In 2009, a similar solution called Cufon was released. Cufon was implemented solely using JavaScript (no Flash, yay!) and using custom fonts became a more realistic reality as it provided a more natural experience for users and is still one of the most attractive options for web developers. But, again, it\xE2\x80\x99s not ideal. Cufon rendered text cannot be copied and pasted by users,  and does not support the full array of <span class=\"caps\">CSS</span> styling options such as text shadow and gradients natively.</p>\n          <p>Web developers began looking for a standard, defined by the body that control the development of <span class=\"caps\">HTML</span> and <span class=\"caps\">CSS</span>, the W3C.</p>\n          <h2>The problems facing us, and the lessons to be learnt from the music industry</h2>\n          <p>The fiery competition between browser manufacturers that started with the rise of Firefox doesn\xE2\x80\x99t seem to show any signs of growing friendlier anytime soon. In the last couple of years, the browser ecosystem has gone from a couple of key players to a whole spectrum of popular and innovative software; namely the emergence of Google Chrome, popularity of Webkit and the unprecedented increase of mobile devices.</p>\n          <p>With all of these big egos and proprietary technologies involved, various formats for delivering fonts via <span class=\"caps\">CSS</span> have been proposed and adopted to variable extents. Let\xE2\x80\x99s quickly look at this mystifying array;</p>\n          <ul>\n          \t<li><strong>Embedded OpenType</strong> \xE2\x80\x93 The first format, introduced by Microsoft with compatibility strictly restricted to IE4 and upwards</li>\n          </ul>\n          <ul>\n          \t<li><strong>TruDoc</strong> \xE2\x80\x93 Netscape\xE2\x80\x99s answer to Internet Explorer\xE2\x80\x99s <span class=\"caps\">EOT</span>, discontinued by Mozilla due to ownership issues of the code</li>\n          </ul>\n          <ul>\n          \t<li><strong>Scalable Vector Graphics</strong> \xE2\x80\x93 A format in which fonts are rendered as <span class=\"caps\">SVG</span> documents. Supported by Safari 3 initially, Webkit and Opera 8+, however, each of these support different specifications of the format.</li>\n          </ul>\n          <ul>\n          \t<li><strong>TrueType / OpenType</strong> \xE2\x80\x93 The most widely supported option but with the most licensing problems. Supported by Firefox, Safari, Chrome, Opera and Internet Explorer 9. Font Foundries want to steer clear of this format because there is no control over the distribution of the font, making it the MP3 of font formats.</li>\n          </ul>\n          <ul>\n          \t<li><strong>Web Open Font Format</strong> \xE2\x80\x93 Developed in 2009, making it the most modern format, and looking like the most desirable standard. Supported by Firefox, Chrome, Opera and Internet Explorer 9, but interestingly (or, perhaps, frustratingly) not Safari, making these fonts also inaccessible on the iPad/iPhone.</li>\n          </ul>\n          <p>These technical problems serve as a barrier to a simple solution for serving web fonts, but they\xE2\x80\x99re coupled with a larger problem that\xE2\x80\x99s the elephant in the room: licensing.</p>\n          <p>The situation facing font foundries at the moment isn\xE2\x80\x99t dissimilar to the situation the music industry found itself in a few years ago. Let\xE2\x80\x99s look at how history is repeating itself;</p>\n          <p>Once upon a time, record companies (font foundries) controlled their industry and made a tidy profit from selling music (fonts) to customers.  Customers paid for a very physical product that they could use themselves with very few restrictions.</p>\n          <p>Then, the Internet came along and ruined everything for everyone. Suddenly, it was incredibly easy to share music with friends and strangers alike and the convenience of illegal distribution (as well as the relative anonymity) meant that sales of music fell in favour of piracy.</p>\n          <p>The record industry, slow to react, didn\xE2\x80\x99t look at making a legal platform to engage customers through convenience, but instead opted to lock down further the products they sold. We\xE2\x80\x99re seeing this in relation to font foundries at the moment with defensive licenses concerning web usage, but slow evolution towards ways to make it convenient for designers and developers to legally use their fonts in their projects.</p>\n          <p>Meanwhile, whilst the record companies tried to lock down their media, young startups like Spotify, Pandora and LastFM, and more established businesses like Apple, Amazon and Nokia were clamouring to provide a better experience for consuming music by tailoring to the demands of users for convenience.</p>\n          <p>When these services started out, they had a hard time negotiating with record companies who were still nervous about losing control over a core product, but after they grew and began signing up millions of users worldwide, it was the service providers who would usurp the dominant stance.</p>\n          <h2>Where are we now?</h2>\n          <p>The web font equivalents of these services have only recently started to gain traction, and we\xE2\x80\x99re seeing a similar pattern of several startups jostling to become the market leader in the business of licensing and legally distributing fonts for the web.</p>\n          <p>As of yet, no major players have yet to fully enter this market with the exception of Google who have opted to avoid the licensing problem by only distributing fonts that are specifically open source.</p>\n          <p>At the moment, we have some very appealing services that are already well established and serving some of the most popular sites on the net. Here\xE2\x80\x99s some of what\xE2\x80\x99s available to use real fonts in a semantic, legal way on the web;</p>\n        </div>\n        <div class='column grid_6'>\n          <div class='figure'>\n            <img alt=\"\" src=\"images/april/iphone.jpg\" />\n            <div class='caption'>\n              <p><span class=\"caps\">CSS</span> @font-face fonts allow text to be selected, copied and pasted. Something that more traditional alternatives do not support.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class='row'>\n        <div class='column grid_3 service'>\n          <a href='http://typekit.com'>\n            <img alt=\"\" src=\"images/april/typekit.jpg\" />\n          </a>\n          <p><strong>Typekit</strong></p>\n          <p>Probably the first service to really take off with designers, Typekit launched in 2009 and serves big names such as the New York Times, <span class=\"caps\">IGN</span> and Twitter.</p>\n          <p><em>Licensing</em><br />\n          Free for personal usage. Subscription based from $24 / month</p>\n        </div>\n        <div class='column grid_3 service'>\n          <a href='http://fontdeck.com'>\n            <img alt=\"\" src=\"images/april/fontdeck.jpg\" />\n          </a>\n          <p><strong>Fontdeck</strong></p>\n          <p>Boasting a nice user experience, Fontdeck also launched in 2009 and its team includes some faces from UK web design agency Clearleft.</p>\n          <p><em>Licensing</em><br />\n          Subscription based per font used. $7.50 / year plus each font bought.</p>\n        </div>\n        <div class='column grid_3 service'>\n          <a href='http://google.com/webfonts'>\n            <img alt=\"\" src=\"images/april/google.jpg\" />\n          </a>\n          <p><strong>Google Web Fonts</strong></p>\n          <p>Google\xE2\x80\x99s simple free offering is very straightforward to implement (and doesn\xE2\x80\x99t rely on JavaScript).</p>\n          <p>Their font library generally consists of fonts specifically designed for screens.</p>\n          <p><em>Licensing</em><br />\n          Open source</p>\n        </div>\n        <div class='column grid_3 service'>\n          <a href='http://fontsquirrel.com'>\n            <img alt=\"\" src=\"images/april/fontsquirrel.jpg\" />\n          </a>\n          <p><strong>Font Squirrel</strong></p>\n          <p>While most free font sites have a reputation for providing shoddy knock offs, Font Squirrel curate their library well and there\xE2\x80\x99s some real gems for the zero price tag.</p>\n          <p>They provide a simple generator to make font faces from most of their fonts.</p>\n          <p><em>Licensing</em><br />\n          Free</p>\n        </div>\n      </div>\n      <div class='row'>\n        <div class='column grid_6 body'>\n          <h2>Summing up&#8230;</h2>\n          <p>Things are looking very promising for the web development scene at the moment, and the arrival of viable services to provide custom typography are only adding to this.</p>\n          <p>It\xE2\x80\x99ll be interesting to see how foundries evolve to cope with the potentially huge change to their businesses as well as how the array of services currently available compete with each other to become the most convenient solution for designers and developers.</p>\n          <p>The nature of the web means that success, influence and control can be ephemeral and the best solution is probably still to come but the offerings available to us right now are definitely a big leap forward from the darker days of image replacement and Flash based alternatives. We\xE2\x80\x99ll probably just have to wait on our twitter-feeds and see.</p>\n          <p><strong>Further reading</strong></p>\n          <ul>\n          \t<li><a href=\"http://goo.gl/CkWaw\">Developing with web standards</a> \xE2\x80\x93 John Allsopp.</li>\n          \t<li><a href=\"http://goo.gl/3eB4Y\">Introducing <span class=\"caps\">SIFR</span></a> \xE2\x80\x93 Mike Davidson.</li>\n          \t<li><a href=\"http://ampersandconf.com\">Ampersand Conference</a> (we&#8217;re going!).</li>\n          </ul>\n          <div class='credit'>\n            <div class='al'>\n              <img alt=\"\" src=\"images/april/al.jpg\" />\n            </div>\n            <div class='about'>\n              <p><a href=\"http://twitter.com/almonk\">Alasdair Monk</a> is our prince of User Experience design; he designed and wrote this month&#8217;s site.</p>\n              <p>He&#8217;s also known as the mastermind behind Skittles Porridge, and the only member of With on Wikipedia.</p>\n              <p>Our site this month is set in <a href=\"http://www.theleagueofmoveabletype.com/fonts/7-league-gothic\">League Gothic</a>, <a href=\"http://www.theleagueofmoveabletype.com/fonts/4-chunk\">Chunk Five</a> and <a href=\"http://ebensorkin.wordpress.com/\">Merriweather</a>, all of which are freely available.</p>\n            </div>\n          </div>\n\
+      \t\t\t\t\n\
+      \t\t\t\t<h2>Afterword</h2>\n\
+      \t\t\t\t<div class='credit'>\n          <div class='al'>\n            <img alt=\"\" src=\"images/april/marc.jpg\" />\n          </div>\n          <div class='about'>\n          \t<p>Our friend <a href=\"http://twitter.com/#!/mrlomo\">Marc Davies</a>, dropped us an email following up on some of our thoughts. All credit to him for the following links which look more critically at web fonts and some issues with Merriweather, the font we chose for this article.</p>\n\n\
+      \t\t\t\t\t\t<p>In particular, Marc points out that Merriweather (and other fonts that are not hinted) render pretty badly on Windows and Linux because of the way these operating systems handle type rendering.</p>\n\n\
+      \t\t\t\t\t\t<ul>\n\
+      \t\t\t\t\t\t<li><a href=\"http://www.owlfolio.org/htmletc/legibility-of-embedded-web-fonts/\">Legibility of embedded web fonts</a></li>\n\
+      \t\t\t\t\t\t<li><a href=\"http://rose-lemberg.livejournal.com/153454.html\">A forum discussion on the accessibility issues of web fonts</a></li>\n\
+      \t\t\t\t\t\t</ul>\n\
+      \t\t\t\t\t\t\n          </div>\n\
+      \t\t\t\t\t\n        </div>\t\t\t\t\n      </div>\n    </div>\n\
+      \t</div>\n  </body>\n\
+      </html>\n"
+    http_version: "1.1"

@@ -12,9 +12,17 @@ describe NewestLatest::Feed, "#discover_projects" do
       feed.discover_projects
     end
 
-    it { should have(6).projects }
-    its("first") { should be_a NewestLatest::Project }
-    its("first.url") { should == "http://thefeed.orange.co.uk/" }
+    it "returns 7 projects" do
+      should have(7).projects
+    end
+
+    it "returns objects of type NewestLatest::Project" do
+      subject.first.should be_a NewestLatest::Project
+    end
+
+    it "returns http://thefeed.orange.co.uk" do
+      subject.first.url.should == "http://thefeed.orange.co.uk/"
+    end
   end
 
 end

@@ -19,7 +19,7 @@ module NewestLatest # :nodoc:
     def discover_project_urls
       case self.url
       when /twitter\.com/
-        find_project_urls_in_twitter_timeline
+        scan_twitter_timeline
       else
         raise UnsupportedSourceError, "Cannot discover from #{self.url}"
       end
@@ -37,13 +37,17 @@ module NewestLatest # :nodoc:
 
     private
 
-
-    def find_project_urls_in_twitter_timeline # :nodoc:
+    def scan_twitter_timeline # :nodoc:
       user = self.url.match(/twitter\.com\/(.+)$/)[1]
       Twitter.user_timeline(user).inject([]) { |result, tweet|
-        if tweet.text =~ /(launch|live|new|project)/i &&
-           tweet.text =~ /(http:\/\/[^ ]+)/i
-          result << $1
+        if keywords = tweet.text.match(/(launch|live|new|project)/i)
+          if !(urls = tweet.text.scan(/http:\/\/[^ ]+/i)).empty?
+            result << urls.first
+          elsif !(twits = tweet.text.scan(/@[a-z0-9_]+/i)).empty?
+            if url = Twitter.user(twits.last.delete("@")).url
+              result << url
+            end
+          end
         end
         result
       }.uniq

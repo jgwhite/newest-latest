@@ -8,26 +8,41 @@ describe NewestLatest::Maker, "#discover_projects" do
     let :maker do
       NewestLatest::Maker.new :feeds => %w[http://twitter.com/pokelondon]
     end
+
     let :discoveries do
       maker.discover_projects
     end
-    it "should have discovered The Feed" do
-      discoveries[0].name.should == "The Feed"
+
+    it "discovers 6 projects" do
+      discoveries.should have(7).projects
     end
-    it "should have discovered I’m looking for the new me. Is it you?" do
+
+    it "discovers The Feed Orange" do
+      discoveries[0].name.should == "The Feed Orange"
+    end
+
+    it "discovers I’m looking for the new me. Is it you?" do
       discoveries[1].name.should == "I’m looking for the new me. Is it you?"
     end
-    it "should have discovered POKE" do
+
+    it "discovers POKE" do
       discoveries[2].name.should == "POKE"
     end
-    it "should have discovered The Feed (again)" do
-      discoveries[3].name.should == "The Feed"
+
+    it "discovers POKE (again)" do
+      discoveries[3].name.should == "POKE"
     end
-    it "should have discovered Instaprint" do
-      discoveries[4].name.should == "Instaprint"
+
+    it "discovers The Feed Orange (again)" do
+      discoveries[4].name.should == "The Feed Orange"
     end
-    it "should have discovered Lovie Awards" do
-      discoveries[5].name.should == "Lovie Awards"
+
+    it "discovers Instaprint" do
+      discoveries[5].name.should == "Instaprint"
+    end
+
+    it "discovers Lovie Awards" do
+      discoveries[6].name.should == "Lovie Awards"
     end
   end
 
