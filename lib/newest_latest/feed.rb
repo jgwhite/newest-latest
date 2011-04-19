@@ -41,10 +41,10 @@ module NewestLatest # :nodoc:
       user = self.url.match(/twitter\.com\/(.+)$/)[1]
       Twitter.user_timeline(user).inject([]) { |result, tweet|
         if keywords = tweet.text.match(/(launch|live|new|project)/i)
-          if url = tweet.text.match(/(http:\/\/[^ ]+)/i)
-            result << $1
-          elsif url = tweet.text.match(/(@[a-z0-9_]+)/i)
-            if url = Twitter.user(url[1].delete("@")).url
+          if !(urls = tweet.text.scan(/http:\/\/[^ ]+/i)).empty?
+            result << urls.first
+          elsif !(twits = tweet.text.scan(/@[a-z0-9_]+/i)).empty?
+            if url = Twitter.user(twits.last.delete("@")).url
               result << url
             end
           end

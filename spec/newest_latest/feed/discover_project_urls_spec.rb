@@ -32,7 +32,7 @@ describe NewestLatest::Feed, "#discover_project_urls" do
 
     it { should have(2).urls }
     it { should include "http://bbc.in/eak1TI" }
-    it { should include "http://www.withassociates.com/" }
+    it { should include "http://www.withassociates.com" }
   end
 
   context "when pointed at an unsupported url" do
