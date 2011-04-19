@@ -1,10 +1,3 @@
-Given /^a maker named "([^"]*)" with the following feeds:$/ do |name, table|
-  @maker = NewestLatest::Maker.new(:name => name)
-  table.hashes.each do |hash|
-    @maker.feeds << NewestLatest::Feed.new(hash)
-  end
-end
-
 Given /^a ([^ ]+) with the following attributes:$/ do |klass, attributes|
   klass = "NewestLatest::#{klass}".constantize
   @subject = klass.new do |object|
