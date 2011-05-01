@@ -13,13 +13,13 @@ When /^I run "([^"]+)"$/ do |method|
   end
 end
 
-Then /^it should have the following attributes:$/ do |attributes|
+Then /^it has the following attributes:$/ do |attributes|
   attributes.hashes.each do |attr|
     @subject.send(attr[:key].to_sym).should == attr[:value]
   end
 end
 
-Then /^it should return the following ([^ ]+)s:$/ do |klass, attributes|
+Then /^it returns the following ([^ ]+)s:$/ do |klass, attributes|
 	klass = "NewestLatest::#{klass}".constantize
 	attributes.hashes.each_with_index do |hash, index|
 		@returned[index].should be_an_instance_of klass

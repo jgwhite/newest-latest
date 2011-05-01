@@ -7,6 +7,6 @@ Feature: profile
       | key | value                       |
       | url | http://www.cutlasercut.com/ |
     When I run "profile!"
-    Then it should have the following attributes:
+    Then it has the following attributes:
       | key  | value         |
       | name | Cut laser cut |

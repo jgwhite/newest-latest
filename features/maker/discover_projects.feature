@@ -1,5 +1,5 @@
-Feature: discover_projects
-  In order to discover projects
+Feature: discover projects
+  In order to discover new projects
   As a curator
   I want to trawl a Maker's feed for launch annoncements and links
 
@@ -9,7 +9,7 @@ Feature: discover_projects
       | name  | Poke                          |
       | feeds | http://twitter.com/pokelondon |
     When I run "discover_projects"
-    Then it should return the following Projects:
+    Then it returns the following Projects:
       | url                          | name                                   |
       | http://thefeed.orange.co.uk/ | The Feed Orange                        |
       | http://bit.ly/gYYoWH         | I’m looking for the new me. Is it you? |
@@ -25,7 +25,7 @@ Feature: discover_projects
       | name  | With Associates                   |
       | feeds | http://twitter.com/withassociates |
     When I run "discover_projects"
-    Then it should return the following Projects:
+    Then it returns the following Projects:
       | url                           | name                  |
       | http://bbc.in/eak1TI          | BBC Music Introducing |
       | http://www.withassociates.com | With Associates       |
