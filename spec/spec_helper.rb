@@ -16,6 +16,6 @@ require "newest_latest"
 
 Dir[File.expand_path("../support/**/*.rb", __FILE__)].each { |f| require f }
 
-Rspec.configure do |config|
+RSpec.configure do |config|
   config.extend VCR::RSpec::Macros
 end

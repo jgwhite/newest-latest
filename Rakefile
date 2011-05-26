@@ -3,19 +3,15 @@ require "bundler/setup"
 Bundler::GemHelper.install_tasks
 
 require "rake"
-require "rake/rdoctask"
+require "rdoc/task"
 require "rspec"
 require "rspec/core/rake_task"
 
 $:.unshift File.expand_path("../lib", __FILE__)
 require "newest_latest/version"
 
-Rspec::Core::RakeTask.new(:spec) do |spec|
+RSpec::Core::RakeTask.new(:spec) do |spec|
   spec.pattern = "spec/**/*_spec.rb"
 end
 
-require "cucumber/rake/task"
-Cucumber::Rake::Task.new
-
-task :default => [:spec, :cucumber]
-
+task :default => :spec
