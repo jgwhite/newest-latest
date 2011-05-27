@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 require "spec_helper"
 
 describe NewestLatest::Server, "get /" do
@@ -19,6 +20,10 @@ describe NewestLatest::Server, "get /" do
       )
     end
 
+    let :description do
+      "Feed of brand new work from the web’s favourite makers."
+    end
+
     before :each do
       get "/"
     end
@@ -29,6 +34,28 @@ describe NewestLatest::Server, "get /" do
 
     it "responds ok" do
       should be_ok
+    end
+
+    context "the response body" do
+      subject do
+        last_response.body
+      end
+
+      it "has a title tag" do
+        should include "<title>The Newest Latest</title>"
+      end
+
+      it "has a meta description" do
+        should include %{<meta name="description" value="#{description}" />}
+      end
+
+      it "has a heading" do
+        should include "<h1>The Newest Latest</h1>"
+      end
+
+      it "has a sub-heading" do
+        should include "<h2>#{description}</h2>"
+      end
     end
   end
 
