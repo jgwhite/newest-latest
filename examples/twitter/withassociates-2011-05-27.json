@@ -241,7 +241,7 @@
     "geo": null,
     "retweeted": false
   },
-  {
+  { // DISCOVER! based on "new" and a url
     "id_str": "65378070038720513",
     "in_reply_to_status_id": null,
     "user": {
