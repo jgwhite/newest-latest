@@ -44,6 +44,8 @@ module NewestLatest # :nodoc:
         if url && discoveries.all? { |d| d.url != url }
           project = NewestLatest::Project.new(:url => url)
           project.created_at ||= tweet.created_at
+          project.sources ||= []
+          project.sources << "http://twitter.com/#{user}/status/#{tweet.id}"
           project.profile! if project.name.nil?
           discoveries << project
         end

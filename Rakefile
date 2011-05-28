@@ -53,6 +53,26 @@ namespace :db do
       :url   => "http://withassociates.com/",
       :feeds => %w[http://twitter.com/withassociates]
     )
+    NewestLatest::Maker.create!(
+      :name  => "Rik Lomas",
+      :url   => "http://lomalogue.com/",
+      :feeds => %w[http://twitter.com/riklomas]
+    )
+    NewestLatest::Maker.create!(
+      :name  => "Metalab",
+      :url   => "http://metalabdesign.com/",
+      :feeds => %w[http://twitter.com/metalab]
+    )
+    NewestLatest::Maker.create!(
+      :name  => "Graham Ashton",
+      :url   => "http://grahamashton.net/",
+      :feeds => %w[http://twitter.com/grahamashton]
+    )
+    NewestLatest::Maker.create!(
+      :name  => "Enrique Pardo",
+      :url   => "http://enriquepardo.com/",
+      :feeds => %w[http://twitter.com/risingelephant]
+    )
     NewestLatest::Maker.all.each do |maker|
       maker.discover_projects.each(&:save!)
     end

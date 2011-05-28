@@ -4,6 +4,28 @@
     <title>The Newest Latest</title>
     <meta charset="utf-8" />
     <meta name="description" value="A feed of brand new work from the web’s favourite makers." />
+    <style type="text/css">
+      body {
+        font: 13px/1.2 Monaco, monospace;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        margin: 1em 0;
+        padding: 1em;
+        border: 1px solid #ccc;
+        list-style: none outside;
+      }
+      h1 {
+        font-weight: normal;
+      }
+      h2 {
+        font-size: 1em;
+        font-weight: normal;
+      }
+    </style>
   </head>
   <body>
     <h1>The Newest Latest</h1>
@@ -12,8 +34,15 @@
       <% @projects.each do |project| %>
         <li class="project" id="<%= project.name.to_url %>">
           <a href="<%= project.url %>"><%= project.name %></a>
-          by <% project.makers.each do |maker| %>
+          <br />
+          by
+          <% project.makers.each do |maker| %>
             <a href="<%= maker.url %>"><%= maker.name %></a>
+          <% end %>
+          <br />
+          from
+          <% project.sources && project.sources.each do |source| %>
+            <a href="<%= source %>"><%= source %></a>
           <% end %>
         </li>
       <% end %>

@@ -14,6 +14,7 @@ module NewestLatest # :nodoc:
 
     field :name
     field :url
+    field :sources, :type => Array
 
     has_and_belongs_to_many :makers,
                             :class_name => "NewestLatest::Maker"

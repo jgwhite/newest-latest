@@ -28,6 +28,11 @@ describe NewestLatest::Feed, "#discover_projects" do
       subject.first.created_at.
         should == Time.parse("Thu Apr 14 14:03:32 +0000 2011")
     end
+
+    it "set source to the tweet url" do
+      subject.first.sources.
+        should include "http://twitter.com/pokelondon/status/58530831295201280"
+    end
   end
 
 end
