@@ -44,6 +44,32 @@ describe NewestLatest::Maker, "#discover_projects" do
     it "discovers Lovie Awards" do
       discoveries[6].name.should == "Lovie Awards"
     end
+
+    it "adds the maker to the projects" do
+      discoveries.each do |project|
+        project.makers.should == [maker]
+      end
+    end
+
+    it "adds the project to the maker's projects" do
+      maker.projects.should == discoveries
+    end
+
+    context "with a bang!" do
+      before do
+        maker.save!
+      end
+
+      let :discoveries do
+        maker.discover_projects!
+      end
+
+      it "persists the projects" do
+        discoveries.each do |project|
+          project.persisted?.should be_true
+        end
+      end
+    end
   end
 
 end

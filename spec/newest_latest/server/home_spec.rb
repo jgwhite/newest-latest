@@ -21,7 +21,7 @@ describe NewestLatest::Server, "get /" do
     end
 
     let :description do
-      "Feed of brand new work from the web’s favourite makers."
+      "A feed of brand new work from the web’s favourite makers."
     end
 
     before :each do

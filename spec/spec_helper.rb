@@ -10,6 +10,7 @@ require "vcr"
 require "rspec"
 require "rack/test"
 require "capybara/rspec"
+require "database_cleaner"
 
 $:.unshift(File.dirname(__FILE__))
 $:.unshift(File.join(File.dirname(__FILE__), "..", "lib"))
@@ -23,4 +24,9 @@ RSpec.configure do |config|
   config.extend VCR::RSpec::Macros
   config.include Rack::Test::Methods
   config.include NewestLatest::Spec::Helpers
+  config.before do
+    DatabaseCleaner.orm = "mongoid"
+    DatabaseCleaner.strategy = :truncation
+    DatabaseCleaner.clean
+  end
 end

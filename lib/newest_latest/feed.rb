@@ -42,7 +42,7 @@ module NewestLatest # :nodoc:
         end
 
         if url && discoveries.all? { |d| d.url != url }
-          project = NewestLatest::Project.find_or_initialize_by(:url => url)
+          project = NewestLatest::Project.new(:url => url)
           project.created_at ||= tweet.created_at
           project.profile! if project.name.nil?
           discoveries << project

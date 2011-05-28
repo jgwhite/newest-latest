@@ -15,6 +15,9 @@ module NewestLatest # :nodoc:
     field :name
     field :url
 
+    has_and_belongs_to_many :makers,
+                            :class_name => "NewestLatest::Maker"
+
     # Populates project details by fetching its url
     def profile!
       html = open(self.url)

@@ -14,9 +14,19 @@ module NewestLatest # :nodoc:
                 :class_name => "NewestLatest::Feed",
                 :inverse_of => :maker
 
+    has_and_belongs_to_many :projects,
+                            :class_name => "NewestLatest::Project"
+
     # Returns projects discovered in feeds
     def discover_projects
-      self.feeds.map(&:discover_projects).flatten.uniq
+      self.feeds.map(&:discover_projects).flatten.uniq.each do |project|
+        project.makers << self
+      end
+    end
+
+    # Returns persisted projects discovered in feeds
+    def discover_projects!
+      self.discover_projects.each(&:save!)
     end
 
     # Interpolates argument from strings to NewestLatest::Feeds

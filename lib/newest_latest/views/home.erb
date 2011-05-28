@@ -3,10 +3,20 @@
   <head>
     <title>The Newest Latest</title>
     <meta charset="utf-8" />
-    <meta name="description" value="Feed of brand new work from the web’s favourite makers." />
+    <meta name="description" value="A feed of brand new work from the web’s favourite makers." />
   </head>
   <body>
     <h1>The Newest Latest</h1>
-    <h2>Feed of brand new work from the web’s favourite makers.</h2>
+    <h2>A feed of brand new work from the web’s favourite makers.</h2>
+    <ul class="projects">
+      <% @projects.each do |project| %>
+        <li class="project" id="<%= project.name.to_url %>">
+          <a href="<%= project.url %>"><%= project.name %></a>
+          by <% project.makers.each do |maker| %>
+            <a href="<%= maker.url %>"><%= maker.name %></a>
+          <% end %>
+        </li>
+      <% end %>
+    </ul>
   </body>
 </html>
