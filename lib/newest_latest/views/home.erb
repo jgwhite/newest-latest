@@ -44,6 +44,9 @@
           <% project.sources && project.sources.each do |source| %>
             <a href="<%= source %>"><%= source %></a>
           <% end %>
+          <br />
+          on
+          <%= project.created_at.strftime "%A %d %B %Y at %H:%M" %>
         </li>
       <% end %>
     </ul>
