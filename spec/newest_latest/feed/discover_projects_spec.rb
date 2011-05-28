@@ -23,6 +23,11 @@ describe NewestLatest::Feed, "#discover_projects" do
     it "returns http://thefeed.orange.co.uk" do
       subject.first.url.should == "http://thefeed.orange.co.uk/"
     end
+
+    it "sets created_at to match the tweet" do
+      subject.first.created_at.
+        should == Time.parse("Thu Apr 14 14:03:32 +0000 2011")
+    end
   end
 
 end

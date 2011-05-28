@@ -13,10 +13,8 @@ module NewestLatest # :nodoc:
 
     class UnsupportedSourceError < StandardError; end
 
-    # Returns an array of likely project urls
-    #
-    # Raises UnsupportedSourceError if there's no handler for given feed
-    def discover_project_urls
+    # Returns an array of Projects
+    def discover_projects
       case self.url
       when /twitter\.com/
         scan_twitter_timeline
@@ -25,32 +23,33 @@ module NewestLatest # :nodoc:
       end
     end
 
-    # Returns an array of Projects
-    def discover_projects
-      discover_project_urls.map do |url|
-        NewestLatest::Project.new(:url => url).tap do |project|
-          project.profile!
-        end
-      end
-    end
-
 
     private
 
     def scan_twitter_timeline # :nodoc:
       user = self.url.match(/twitter\.com\/(.+)$/)[1]
-      Twitter.user_timeline(user).inject([]) { |result, tweet|
+      discoveries = []
+
+      Twitter.user_timeline(user).each do |tweet|
+        url = nil
+
         if keywords = tweet.text.match(/(launch|live|new|project)/i)
           if !(urls = tweet.text.scan(/http:\/\/[^ ]+/i)).empty?
-            result << urls.first
+            url = urls.first
           elsif !(twits = tweet.text.scan(/@[a-z0-9_]+/i)).empty?
-            if url = Twitter.user(twits.last.delete("@")).url
-              result << url
-            end
+            url = Twitter.user(twits.last.delete("@")).url
           end
         end
-        result
-      }.uniq
+
+        if url && discoveries.all? { |d| d.url != url }
+          project = NewestLatest::Project.find_or_initialize_by(:url => url)
+          project.created_at ||= tweet.created_at
+          project.profile! if project.name.nil?
+          discoveries << project
+        end
+      end
+
+      discoveries
     end
 
   end

@@ -36,6 +36,10 @@ describe "The home page" do
       page.should have_css "h2",
         :text => "Feed of brand new work from the web’s favourite makers."
     end
+
+    it "has an item for " do
+
+    end
   end
 
 end

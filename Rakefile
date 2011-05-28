@@ -13,6 +13,7 @@ RSpec::Core::RakeTask.new(:spec) do |spec|
   spec.pattern = "spec/**/*_spec.rb"
 end
 
+desc "Fetch example feeds"
 task :fetch_examples do
   require "open-uri"
   require "json"
