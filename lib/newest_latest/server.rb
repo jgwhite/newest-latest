@@ -4,7 +4,7 @@ require "erb"
 module NewestLatest
   class Server < Sinatra::Application
     get "/" do
-      @projects = Project.order_by(:created_at).desc.all
+      @projects = Project.all.desc(:created_at)
       erb :home, :format => :html
     end
   end

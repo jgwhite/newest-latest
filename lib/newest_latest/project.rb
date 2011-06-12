@@ -25,6 +25,8 @@ module NewestLatest # :nodoc:
       homepage = Nokogiri::HTML(html.read)
       homepage.encoding = "utf-8"
       self.name = cleanup_title homepage.css("title").first.content
+    rescue
+      self.name = self.url
     end
 
 
